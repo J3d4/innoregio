@@ -21,4 +21,5 @@ for i in range(len(ins)):
     ins[i].Ter_est = float(ins[i].Tbr) * float(ins[i].Tn_Tbr)
     ins[i].deltaEe = float(ins[i].Ee) - float(ins[i].Ee_cs)
     #ins[i].Ee = float(ins[i].E0) * float(ins[i].a)
+
 #endregion
