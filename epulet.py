@@ -1,15 +1,13 @@
 import csv
 
 class Epulet:
-    def __init__(self, row, header, the_id):
+    def __init__(self, row, header):
        self.__dict__ = dict(zip(header, row)) 
-       self.the_id = the_id
-    def __repr__(self):
-       return self.the_id
 
-    dataframe = list(csv.reader(open('/home/jeda/Work/bastyainno/epulet.csv', encoding='utf-8'), delimiter=','))
+    data = list(csv.reader(open('/home/jeda/Work/bastyainno/epulet.csv', 'r', encoding='utf-8'), delimiter=','))
+    writer = csv.writer(open('/home/jeda/Work/bastyainno/output-epulet.csv', 'w', encoding='utf-8'), delimiter=',')
 
-ins = [Epulet(a, Epulet.dataframe[0], "epulet_{}".format(i+1)) for i, a in enumerate(Epulet.dataframe[1:])]
+ins = [Epulet(i, Epulet.data[0]) for i in Epulet.data[1:]]
 
 #region Calculations
 
@@ -85,3 +83,5 @@ for i in range(len(ins)):
 >>>>>>> 8ea0717ec8ebf2c02b230fca46626871d2db0f11
 
 #endregion
+
+Epulet.writer.writerows(map(lambda x: [x], ins))
