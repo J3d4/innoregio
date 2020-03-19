@@ -1,13 +1,12 @@
 import csv
 
-class Epulet:
+class Building:
     def __init__(self, row, header):
-       self.__dict__ = dict(zip(header, row)) 
+       self.__dict__ = dict(zip(header, row))
 
-    data = list(csv.reader(open('/home/jeda/Work/bastyainno/epulet.csv', 'r', encoding='utf-8'), delimiter=','))
-    writer = csv.writer(open('/home/jeda/Work/bastyainno/output-epulet.csv', 'w', encoding='utf-8'), delimiter=',')
+    dataframe = list(csv.reader(open('/home/jeda/Work/inno/epulet.csv', 'r', encoding='utf-8'), delimiter=','))
 
-ins = [Epulet(i, Epulet.data[0]) for i in Epulet.data[1:]]
+ins = [Building(i, Building.dataframe[0]) for i in Building.dataframe[1:]]
 
 #region Calculations
 
@@ -80,4 +79,21 @@ for i in range(len(ins)):
 
 #endregion
 
-Epulet.writer.writerows(map(lambda x: [x], ins))
+class Write:
+    def header(self):
+        value = list()
+        for i in ins[1].__dict__:
+            value.append(i)
+        return value
+    
+    def writer(self, file, header):
+        write = csv.DictWriter(open(file, 'w', encoding='utf-8'), delimiter=',', fieldnames = header)
+        write.writeheader()
+        for i in range(len(ins)):
+            write.writerow(ins[i].__dict__)
+
+if __name__ == '__main__':
+    file = '/home/jeda/Work/inno/output-epulet.csv'
+    w = Write()
+    header = w.header()
+    w.writer(file, header)
