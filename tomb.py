@@ -1,14 +1,16 @@
-import csv
-class Tomb:
-    def __init__(self, row, header, the_id):
-       self.__dict__ = dict(zip(header, row)) 
-       self.the_id = the_id
-    def __repr__(self):
-       return self.the_id
+import csvhandler
 
-    dataframe = list(csv.reader(open('tomb.csv', encoding='utf-8'), delimiter=','))
+read = csvhandler.Read()
+inp = read.dataframe('/home/jeda/Work/innoregio/input/tomb.csv')
+ins = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
 
-ins = [Tomb(a, Tomb.dataframe[0], "epulet_{}".format(i+1)) for i, a in enumerate(Tomb.dataframe[1:])]
+def calculations():
+    for i in range(len(ins)):
+       ins[i].Ee
 
-for i in range(len(ins)):
-    print(ins[i].Telepules, ins[i].Tombazonosito, ins[i].QT_vil_cs, ins[i].QT_vil_real_cs)
+if __name__ == '__main__':
+    calculations()
+    write = csvhandler.Write()
+    out = '/home/jeda/Work/innoregio/output/tomb-out.csv'
+    head = write.header(ins)
+    write.writer(out, head, ins)

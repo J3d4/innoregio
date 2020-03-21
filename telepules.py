@@ -1,13 +1,16 @@
-import csv
-class Telepules:
-    def __init__(self, row, header, the_id):
-        self.__dict__ = dict(zip(header, row)) 
-        self.the_id = the_id
-    def __repr__(self):
-        return self.the_id
-    dataframe = list(csv.reader(open('telepules.csv', encoding='utf-8'), delimiter=','))
+import csvhandler
 
-ins = [Telepules(a, Telepules.dataframe[0], "telepules_{}".format(i+1)) for i, a in enumerate(Telepules.dataframe[1:])]
+read = csvhandler.Read()
+inp = read.dataframe('/home/jeda/Work/innoregio/input/telepules.csv')
+ins = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
 
-for i in range(len(ins)):
-    print(ins[i].id, ins[i].Telepules, ins[i].QK_vil_cs)
+def calculations():
+    for i in range(len(ins)):
+        ins[i].Ee
+
+if __name__ == '__main__':
+    calculations()
+    write = csvhandler.Write()
+    out = '/home/jeda/Work/innoregio/output/telepules-out.csv'
+    head = write.header(ins)
+    write.writer(out, head, ins)
