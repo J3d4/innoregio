@@ -1,11 +1,16 @@
 import csvhandler
+import time
+from tqdm import tqdm
 
 read = csvhandler.Read()
 inp = read.dataframe('/home/jeda/Work/innoregio/input/epulet.csv')
 ins = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
 
 def calculations():
-    for i in range(len(ins)):
+    print("Calculations with data in Epuletek:")
+    for i in tqdm(range(len(ins))):
+        time.sleep(0.0000000001) 
+
         ins[i].Ee = float(ins[i].E0) * float(ins[i].a)
         if ins[i].Sz == '':
             ins[i].Sz = 0.0
@@ -200,12 +205,10 @@ def calculations():
             (float(ins[i].Qth_real_cs) * float(ins[i].fCO2_th)))
         
         ins[i].deltaTFCO2_e = ins[i].TFCO2_e - ins[i].TFCO2_e_cs
-            
-
+    
+    print("Epulet done.")
+               
 # for debugging purposes:
 if __name__ == '__main__':
     calculations()
-    write = csvhandler.Write()
-    out = '/home/jeda/Work/innoregio/output/epulet-out.csv'
-    head = write.header(ins)
-    write.writer(out, head, ins)
+    print(" ")

@@ -4,20 +4,10 @@ import telek
 import tomb
 import telepules
 
-print("Initializing dataframe.")
-
-print("Calculate Epuletek CSV.")
 epulet.calculations()
-print("Done.")
-print("Calculate Telek CSV.")
 telek.calculations()
-print("Done.")
-print("Calculate Tomb CSV.")
 tomb.calculations()
-print("Done.")
-print("Calculate Telepules CSV.")
 telepules.calculations()
-print("Done.")
 
 write = csvhandler.Write()
 
@@ -32,15 +22,15 @@ tombhead = write.header(tomb.ins)
 telepuleshead = write.header(telepules.ins)
 
 print("Writing...")
-print("Epulet-out.")
+print("Epulet-out")
 write.writer(epuletout, epulethead, epulet.ins)
 print("Done.")
-print("Telek-out.")
+print("Telek-out")
 write.writer(telekout, telekhead, telek.ins)
 print("Done.")
-print("Tomb-out.")
+print("Tomb-out")
 write.writer(tombout, tombhead, tomb.ins)
 print("Done.")
-print("Telepules-out.")
+print("Telepules-out")
 write.writer(telepulesout, telepuleshead, telepules.ins)
 print("Done.")
