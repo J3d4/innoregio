@@ -1,4 +1,5 @@
 import csv
+from tqdm import tqdm
 
 class Dict:
     def __init__(self, row, header):
@@ -18,5 +19,5 @@ class Write:
     def writer(self, file, header, data):
         write = csv.DictWriter(open(file, 'w', encoding='utf-8'), delimiter=',', fieldnames = header)
         write.writeheader()
-        for i in range(len(data)):
+        for i in tqdm(range(len(data))):
             write.writerow(data[i].__dict__)
