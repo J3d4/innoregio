@@ -4,9 +4,9 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/Work/innoregio/input/epulet.csv')
+inp = read.dataframe('/home/jeda/work/innoregio/input/epulet.csv')
 epulet = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-out = '/home/jeda/Work/innoregio/output/epulet-out.csv'
+out = '/home/jeda/work/innoregio/output/epulet-out.csv'
 head = write.header(epulet)
 ##############################################################
 
