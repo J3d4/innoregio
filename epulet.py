@@ -3,11 +3,11 @@ from tqdm import tqdm
 
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
-read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/input/epulet.csv')
-epulet = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-out = '/home/jeda/work/innoregio/output/epulet-out.csv'
-head = write.header(epulet)
+# read = csvhandler.Read()
+# inp = read.dataframe('/home/jeda/work/innoregio/input/epulet.csv')
+# epulet = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
+# out = '/home/jeda/work/innoregio/output/epulet-out.csv'
+# head = write.header(epulet)
 ##############################################################
 
 def calculate(epulet):
@@ -217,6 +217,6 @@ def writer(output, head, data):
     print("Done.")           
 
 # for debugging purposes:
-if __name__ == '__main__':
-    calculate(epulet)
-    print(" ")
+# if __name__ == '__main__':
+#     calculate(epulet)
+#     print(" ")

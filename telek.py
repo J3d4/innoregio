@@ -3,11 +3,11 @@ from tqdm import tqdm
 
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
-read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/input/telek.csv')
-telek = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-inpep = read.dataframe('/home/jeda/work/innoregio/output/epulet-out.csv')
-epulet = [csvhandler.Dict(i, inpep[0]) for i in inpep[1:]]
+# read = csvhandler.Read()
+# inp = read.dataframe('/home/jeda/work/innoregio/input/telek.csv')
+# telek = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
+# inpep = read.dataframe('/home/jeda/work/innoregio/output/epulet-out.csv')
+# epulet = [csvhandler.Dict(i, inpep[0]) for i in inpep[1:]]
 ##############################################################
 
 def calculate(telek, epulet):
@@ -70,13 +70,18 @@ def calculate(telek, epulet):
                 if telek[j].TFCO2_t == '':
                     telek[j].TFCO2_t = 0.0
                 telek[j].TFCO2_t = float(telek[j].TFCO2_t) + float(epulet[i].TFCO2_e)
+                
                 if telek[j].Tt_e == '':
                     telek[j].Tt_e = 0.0
-                telek[j].Tt_e = float(telek[j].Tt_e) + float(epulet[i].Ter_est)
-                
-                telek[j].adat_t = 0
-                if epulet[i].Tipusszam == 'p':
+                if epulet[i].Ter == '' or epulet[i].Ter == 0:
+                    telek[j].Tt_e = float(telek[j].Tt_e) + float(epulet[i].Ter_est)
+                else:
+                    telek[j].Tt_e = float(telek[j].Tt_e) + float(epulet[i].Ter)
+                                
+                if epulet[i].Tipusszam != 'p':
                     telek[j].adat_t = 1
+                elif telek[j].adat_t == 1:
+                    telek[j].adat_t = 0
     
     print("Calculations with data in Telek:")
     for i in tqdm(range(len(telek))):
@@ -138,6 +143,6 @@ def writer(output, head, data):
     print("Done.")  
 
 # for debugging purposes:
-if __name__ == '__main__':
-    calculate(telek, epulet)
-    print(" ")
+# if __name__ == '__main__':
+#     calculate(telek, epulet)
+#     print(" ")
