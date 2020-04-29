@@ -1,0 +1,1 @@
+bastya szamolasok
