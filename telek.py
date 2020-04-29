@@ -78,7 +78,7 @@ def calculate(telek, epulet):
                 else:
                     telek[j].Tt_e = float(telek[j].Tt_e) + float(epulet[i].Ter)
                                 
-                if epulet[i].Tipusszam != 'p':
+                if epulet[i].Tipusszam != 'p': # 
                     telek[j].adat_t = 1
                 elif telek[j].adat_t == 1:
                     telek[j].adat_t = 0
