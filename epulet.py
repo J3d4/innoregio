@@ -19,6 +19,32 @@ def calculate(epulet):
             epulet[i].Sz = 0.0
         epulet[i].Tbr = float(epulet[i].Sz) * float(epulet[i].te)
         epulet[i].Ter_est = float(epulet[i].Tbr) * float(epulet[i].Tn_Tbr)
+        # -1 epulet tipus declaration sequence
+        if "L" in epulet[i].Tipusszam_est:
+            epulet[i].Epulet_funkcio_est = "Lakoepulet" 
+        elif "K" in epulet[i].Tipusszam_est:
+            epulet[i].Epulet_funkcio_est = "Kozepulet" 
+        elif "I" in epulet[i].Tipusszam_est:
+            epulet[i].Epulet_funkcio_est = "Ipari-uzemi epulet" 
+        elif "0" in epulet[i].Tipusszam_est:
+            epulet[i].Epulet_funkcio_est = "Egyeb futetlen epulet" 
+        elif "X" in epulet[i].Tipusszam_est:
+            epulet[i].Epulet_funkcio_est = "Nincs adat" 
+        elif epulet[i].Tipusszam_est == '':
+            epulet[i].Epulet_funkcio_est = ""
+
+        if "L" in epulet[i].Tipusszam:
+            epulet[i].Epulet_funkcio = "Lakoepulet" 
+        elif "K" in epulet[i].Tipusszam:
+            epulet[i].Epulet_funkcio = "Kozepulet" 
+        elif "I" in epulet[i].Tipusszam:
+            epulet[i].Epulet_funkcio = "Ipari-uzemi epulet" 
+        elif "0" in epulet[i].Tipusszam:
+            epulet[i].Epulet_funkcio = "Egyeb futetlen epulet" 
+        elif "X" in epulet[i].Tipusszam:
+            epulet[i].Epulet_funkcio = "Nincs adat"
+        elif epulet[i].Tipusszam == '':
+            epulet[i].Epulet_funkcio = ""
         # 0
         epulet[i].Ee_est = float(epulet[i].E0) * float(epulet[i].a)
 
@@ -31,7 +57,7 @@ def calculate(epulet):
         Ee_cs = float(epulet[i].Ee_cs_est) if epulet[i].Ee_cs == '' else float(epulet[i].Ee_cs)
         Evil = float(epulet[i].Evil_est) if epulet[i].Evil == '' else float(epulet[i].Evil)
         Evil_cs = float(epulet[i].Evil_cs_est) if epulet[i].Evil_cs == '' else float(epulet[i].Evil_cs)
-        # d(n)
+        # d(n)lak
         d_el_lak = float(epulet[i].delest_lak) if epulet[i].d_el_lak == '' else float(epulet[i].d_el_lak)
         delcs_lak = float(epulet[i].delcsest_lak) if epulet[i].delcs_lak == '' else float(epulet[i].delcs_lak)
         dga_lak = float(epulet[i].dgaest_lak) if epulet[i].dga_lak == '' else float(epulet[i].dga_lak)
@@ -39,6 +65,31 @@ def calculate(epulet):
         dsz_lak = float(epulet[i].dszest_lak) if epulet[i].dsz_lak == '' else float(epulet[i].dsz_lak)
         dbm_lak = float(epulet[i].dbmest_lak) if epulet[i].dbm_lak == '' else float(epulet[i].dbm_lak)
         dth_lak = float(epulet[i].dthest_lak) if epulet[i].dth_lak == '' else float(epulet[i].dth_lak)
+        # 1
+        if Epulet_funkcio == 'Lakoepulet':
+            epulet[i].delest = d_el_lak
+            epulet[i].delcsest = delcs_lak
+            epulet[i].dgaest = dga_lak
+            epulet[i].dolest = dol_lak
+            epulet[i].dszest = dsz_lak
+            epulet[i].dbmest = dbm_lak
+            epulet[i].dthest = dth_lak
+        else:
+            epulet[i].delest = 0
+            epulet[i].delcsest = 0
+            epulet[i].dgaest = 0
+            epulet[i].dolest = 0
+            epulet[i].dszest = 0
+            epulet[i].dbmest = 0
+            epulet[i].dthest = 0
+        # d(n)
+        d_el = float(epulet[i].delest) if epulet[i].d_el == '' else float(epulet[i].d_el)
+        delcs = float(epulet[i].delcsest) if epulet[i].delcs == '' else float(epulet[i].delcs)
+        dga = float(epulet[i].dgaest) if epulet[i].dga == '' else float(epulet[i].dga)
+        dol = float(epulet[i].dolest) if epulet[i].dol == '' else float(epulet[i].dol)
+        dsz = float(epulet[i].dszest) if epulet[i].dsz == '' else float(epulet[i].dsz)
+        dbm = float(epulet[i].dbmest) if epulet[i].dbm == '' else float(epulet[i].dbm)
+        dth = float(epulet[i].dthest) if epulet[i].dth == '' else float(epulet[i].dth)
         # alpha(n) and alpha(n)*
         Ael = float(epulet[i].Ael_est) if epulet[i].Ael == '' else float(epulet[i].Ael)
         Aelcs = float(epulet[i].Aelcs_est) if epulet[i].Aelcs == '' else float(epulet[i].Aelcs)
@@ -64,78 +115,10 @@ def calculate(epulet):
         fCO2_bm = float(epulet[i].fCO2_bm_est) if epulet[i].fCO2_bm == '' else float(epulet[i].fCO2_bm)
         fCO2_th = float(epulet[i].fCO2_th_est) if epulet[i].fCO2_th == '' else float(epulet[i].fCO2_th)
         # endregion
-
-        # lakoepulet or not:
+        
         epulet[i].Ee_vil_cs = Ee_cs if Epulet_funkcio == 'Lakoepulet' else Ee_cs - Evil_cs
         epulet[i].Ee_vil = Ee if Epulet_funkcio == 'Lakoepulet' else Ee_cs - Evil
-        if Epulet_funkcio == 'Lakoepulet':
-            # 1
-            if epulet[i].d_el == '':
-                epulet[i].delest = d_el_lak
-                epulet[i].d_el = 0
-            else:
-                epulet[i].d_el = d_el_lak
-                epulet[i].delest = 0
-            if epulet[i].delcs == '':
-                epulet[i].delcsest = delcs_lak
-                epulet[i].delcs = 0
-            else:
-                epulet[i].delcs = delcs_lak
-                epulet[i].delcsest = 0
-            if epulet[i].dga == '':
-                epulet[i].dgaest = dga_lak
-                epulet[i].dga = 0
-            else:
-                epulet[i].dga = dga_lak
-                epulet[i].dgaest = 0
-            if epulet[i].dol == '':
-                epulet[i].dolest = dol_lak
-                epulet[i].dol = 0
-            else:
-                epulet[i].dol = dol_lak
-                epulet[i].dolest = 0
-            if epulet[i].dsz == '':
-                epulet[i].dszest = dsz_lak
-                epulet[i].dsz = 0
-            else:
-                epulet[i].dsz = dsz_lak
-                epulet[i].dszest = 0
-            if epulet[i].dbm == '':
-                epulet[i].dbmest = dbm_lak
-                epulet[i].dbm = 0
-            else:
-                epulet[i].dbm = dbm_lak
-                epulet[i].dbmest = 0
-            if epulet[i].dth == '':
-                epulet[i].dthest = dth_lak
-                epulet[i].dth = 0
-            else:
-                epulet[i].dth = dth_lak
-                epulet[i].dthest = 0
-        else:
-            # 1
-            epulet[i].d_el = 0
-            epulet[i].delest = 0
-            epulet[i].delcs = 0
-            epulet[i].delcsest = 0
-            epulet[i].dga = 0
-            epulet[i].dgaest = 0
-            epulet[i].dol = 0
-            epulet[i].dolest = 0
-            epulet[i].dsz = 0
-            epulet[i].dszest = 0
-            epulet[i].dbm = 0
-            epulet[i].dbmest = 0
-            epulet[i].dth = 0
-            epulet[i].dthest = 0
-        # d(n) est or not est validation check
-        d_el = float(epulet[i].delest) if epulet[i].d_el == 0 else float(epulet[i].d_el)
-        delcs = float(epulet[i].delcsest) if epulet[i].delcs == 0 else float(epulet[i].delcs)
-        dga = float(epulet[i].dgaest) if epulet[i].dga == 0 else float(epulet[i].dga)
-        dol = float(epulet[i].dolest) if epulet[i].dol == 0 else float(epulet[i].dol)
-        dsz = float(epulet[i].dszest) if epulet[i].dsz == 0 else float(epulet[i].dsz)
-        dbm = float(epulet[i].dbmest) if epulet[i].dbm == 0 else float(epulet[i].dbm)
-        dth = float(epulet[i].dthest) if epulet[i].dth == 0 else float(epulet[i].dth)
+        
         # alpha(n) validation check:
         if float(Ael + Aelcs + Aga + Aol + Asz + Abm + Ath) > 0.9:
             epulet[i].Szum_A = True
@@ -151,20 +134,20 @@ def calculate(epulet):
         epulet[i].deltaQe = float(epulet[i].deltaEe) * Ter
         # 6
         epulet[i].Eel_cs = float(epulet[i].Ee_vil_cs) * Ael_cs + (Evil_cs + Etech)
-        epulet[i].Eel_cs_cs = float(epulet[i].Ee_vil_cs) * Aelcs_cs + (Evil_cs + Etech)
-        epulet[i].Ega_cs = float(epulet[i].Ee_vil_cs) * Aga_cs + (Evil_cs + Etech)
-        epulet[i].Eol_cs = float(epulet[i].Ee_vil_cs) * Aol_cs + (Evil_cs + Etech)
-        epulet[i].Esz_cs = float(epulet[i].Ee_vil_cs) * Asz_cs + (Evil_cs + Etech)
-        epulet[i].Ebm_cs = float(epulet[i].Ee_vil_cs) * Abm_cs + (Evil_cs + Etech)
-        epulet[i].Eth_cs = float(epulet[i].Ee_vil_cs) * Ath_cs + (Evil_cs + Etech)
+        epulet[i].Eel_cs_cs = float(epulet[i].Ee_vil_cs) * Aelcs_cs
+        epulet[i].Ega_cs = float(epulet[i].Ee_vil_cs) * Aga_cs
+        epulet[i].Eol_cs = float(epulet[i].Ee_vil_cs) * Aol_cs
+        epulet[i].Esz_cs = float(epulet[i].Ee_vil_cs) * Asz_cs
+        epulet[i].Ebm_cs = float(epulet[i].Ee_vil_cs) * Abm_cs
+        epulet[i].Eth_cs = float(epulet[i].Ee_vil_cs) * Ath_cs
         # 7
         epulet[i].nEel = float(epulet[i].Ee_vil) * Ael + (Evil + Etech)
-        epulet[i].nEel_csil = float(epulet[i].Ee_vil) * Aelcs + (Evil + Etech)
-        epulet[i].nEga = float(epulet[i].Ee_vil) * Aga + (Evil + Etech)
-        epulet[i].nEol = float(epulet[i].Ee_vil) * Aol + (Evil + Etech)
-        epulet[i].nEsz = float(epulet[i].Ee_vil) * Asz + (Evil + Etech)
-        epulet[i].nEbm = float(epulet[i].Ee_vil) * Abm + (Evil + Etech)
-        epulet[i].nEth = float(epulet[i].Ee_vil) * Ath + (Evil + Etech)
+        epulet[i].nEel_csil = float(epulet[i].Ee_vil) * Aelcs
+        epulet[i].nEga = float(epulet[i].Ee_vil) * Aga
+        epulet[i].nEol = float(epulet[i].Ee_vil) * Aol
+        epulet[i].nEsz = float(epulet[i].Ee_vil) * Asz
+        epulet[i].nEbm = float(epulet[i].Ee_vil) * Abm
+        epulet[i].nEth = float(epulet[i].Ee_vil) * Ath
         # 8
         if epulet[i].Ee_vil != 0.0:
             epulet[i].pote = 1.0 - (float(epulet[i].Ee_vil_cs) / float(epulet[i].Ee_vil))
@@ -197,57 +180,76 @@ def calculate(epulet):
         epulet[i].Qbm_cs = float(epulet[i].Ebm_cs) * Ter
         epulet[i].Qth_cs = float(epulet[i].Eth_cs) * Ter
         # 16
-        epulet[i].Qel_real = float(epulet[i].Qel) / float(epulet[i].eel) * k
-        epulet[i].Qel_cs_real = float(epulet[i].Qel_cs) / float(epulet[i].eelcs) * k
-        epulet[i].Qga_real = float(epulet[i].Qga) / float(epulet[i].ega) * k
-        epulet[i].Qol_real = float(epulet[i].Qol) / float(epulet[i].eol) * k
-        epulet[i].Qsz_real = float(epulet[i].Qsz) / float(epulet[i].esz) * k
-        epulet[i].Qbm_real = float(epulet[i].Qbm) / float(epulet[i].ebm) * k
-        epulet[i].Qth_real = float(epulet[i].Qth) / float(epulet[i].eth) * k
+        epulet[i].Qel_real_est = float(epulet[i].Qel) / float(epulet[i].eel) * k
+        epulet[i].Qel_cs_real_est = float(epulet[i].Qel_cs) / float(epulet[i].eelcs) * k
+        epulet[i].Qga_real_est = float(epulet[i].Qga) / float(epulet[i].ega) * k
+        epulet[i].Qol_real_est = float(epulet[i].Qol) / float(epulet[i].eol) * k
+        epulet[i].Qsz_real_est = float(epulet[i].Qsz) / float(epulet[i].esz) * k
+        epulet[i].Qbm_real_est = float(epulet[i].Qbm) / float(epulet[i].ebm) * k
+        epulet[i].Qth_real_est = float(epulet[i].Qth) / float(epulet[i].eth) * k
         # 17
-        epulet[i].Qel_real_cs = float(epulet[i].Qel_cs) / float(epulet[i].eel) * k
-        epulet[i].Qel_cs_real_cs = float(epulet[i].Qel_cs_cs) / float(epulet[i].eelcs) * k
-        epulet[i].Qga_real_cs = float(epulet[i].Qga_cs) / float(epulet[i].ega) * k
-        epulet[i].Qol_real_cs = float(epulet[i].Qol_cs) / float(epulet[i].eol) * k
-        epulet[i].Qsz_real_cs = float(epulet[i].Qsz_cs) / float(epulet[i].esz) * k
-        epulet[i].Qbm_real_cs = float(epulet[i].Qbm_cs) / float(epulet[i].ebm) * k
-        epulet[i].Qth_real_cs = float(epulet[i].Qth_cs) / float(epulet[i].eth) * k        
+        epulet[i].Qel_real_cs_est = float(epulet[i].Qel_csil) / float(epulet[i].eel) * k
+        epulet[i].Qel_cs_real_cs_est = float(epulet[i].Qel_cs_cs) / float(epulet[i].eelcs) * k
+        epulet[i].Qga_real_cs_est = float(epulet[i].Qga_cs) / float(epulet[i].ega) * k
+        epulet[i].Qol_real_cs_est = float(epulet[i].Qol_cs) / float(epulet[i].eol) * k
+        epulet[i].Qsz_real_cs_est = float(epulet[i].Qsz_cs) / float(epulet[i].esz) * k
+        epulet[i].Qbm_real_cs_est = float(epulet[i].Qbm_cs) / float(epulet[i].ebm) * k
+        epulet[i].Qth_real_cs_est = float(epulet[i].Qth_cs) / float(epulet[i].eth) * k    
+        # it must be done in order to calc De and De_cs correctly
+        Qel_real = epulet[i].Qel_real_est if epulet[i].Qel_real == '' else float(epulet[i].Qel_real_est)
+        Qel_cs_real = epulet[i].Qel_cs_real_est if epulet[i].Qel_cs_real == '' else float(epulet[i].Qel_cs_real_est)
+        Qga_real = epulet[i].Qga_real_est if epulet[i].Qga_real == '' else float(epulet[i].Qga_real_est)
+        Qol_real = epulet[i].Qol_real_est if epulet[i].Qol_real == '' else float(epulet[i].Qol_real_est)
+        Qsz_real = epulet[i].Qsz_real_est if epulet[i].Qsz_real == '' else float(epulet[i].Qsz_real_est)
+        Qbm_real = epulet[i].Qbm_real_est if epulet[i].Qbm_real == '' else float(epulet[i].Qbm_real_est)
+        Qth_real = epulet[i].Qth_real_est if epulet[i].Qth_real == '' else float(epulet[i].Qth_real_est)
+
+        Qel_real_cs = epulet[i].Qel_real_cs_est if epulet[i].Qel_real_cs == '' else float(epulet[i].Qel_real_cs_est)
+        Qel_cs_real_cs = epulet[i].Qel_cs_real_cs_est if epulet[i].Qel_cs_real_cs == '' else float(epulet[i].Qel_cs_real_cs_est)
+        Qga_real_cs = epulet[i].Qga_real_cs_est if epulet[i].Qga_real_cs == '' else float(epulet[i].Qga_real_cs_est)
+        Qol_real_cs = epulet[i].Qol_real_cs_est if epulet[i].Qol_real_cs == '' else float(epulet[i].Qol_real_cs_est)
+        Qsz_real_cs = epulet[i].Qsz_real_cs_est if epulet[i].Qsz_real_cs == '' else float(epulet[i].Qsz_real_cs_est)
+        Qbm_real_cs = epulet[i].Qbm_real_cs_est if epulet[i].Qbm_real_cs == '' else float(epulet[i].Qbm_real_cs_est)
+        Qth_real_cs = epulet[i].Qth_real_cs_est if epulet[i].Qth_real_cs == '' else float(epulet[i].Qth_real_cs_est)
+        # De calculations:
+        
         # 18
         epulet[i].De_cs = (
-            (float(epulet[i].Qel_real_cs) * d_el) + 
-            (float(epulet[i].Qel_cs_real_cs) * delcs) +
-            (float(epulet[i].Qga_real_cs) * dga) +
-            (float(epulet[i].Qol_real_cs) * dol) +
-            (float(epulet[i].Qsz_real_cs) * dsz) +
-            (float(epulet[i].Qbm_real_cs) * dbm) +
-            (float(epulet[i].Qth_real_cs) * dth))
+            (Qel_real_cs * d_el) + 
+            (Qel_cs_real_cs * delcs) +
+            (Qga_real_cs * dga) +
+            (Qol_real_cs * dol) +
+            (Qsz_real_cs * dsz) +
+            (Qbm_real_cs * dbm) +
+            (Qth_real_cs * dth))
         # 19   
         epulet[i].De = (
-            (float(epulet[i].Qel_real) * d_el) + 
-            (float(epulet[i].Qel_cs_real) * delcs) +
-            (float(epulet[i].Qga_real) * dga) +
-            (float(epulet[i].Qol_real) * dol) +
-            (float(epulet[i].Qsz_real) * dsz) +
-            (float(epulet[i].Qbm_real) * dbm) +
-            (float(epulet[i].Qth_real) * dth))
+            (Qel_real * d_el) + 
+            (Qel_cs_real * delcs) +
+            (Qga_real * dga) +
+            (Qol_real * dol) +
+            (Qsz_real * dsz) +
+            (Qbm_real * dbm) +
+            (Qth_real * dth))
+        
         # 20
         epulet[i].TFCO2_e = (
-            (float(epulet[i].Qel_real) * fCO2_el) + 
-            (float(epulet[i].Qel_cs_real) * fCO2_el_cs) +
-            (float(epulet[i].Qga_real) * fCO2_ga) +
-            (float(epulet[i].Qol_real) * fCO2_ol) +
-            (float(epulet[i].Qsz_real) * fCO2_sz) +
-            (float(epulet[i].Qbm_real) * fCO2_bm) +
-            (float(epulet[i].Qth_real) * fCO2_th))
+            (Qel_real * fCO2_el) + 
+            (Qel_cs_real * fCO2_el_cs) +
+            (Qga_real * fCO2_ga) +
+            (Qol_real * fCO2_ol) +
+            (Qsz_real * fCO2_sz) +
+            (Qbm_real * fCO2_bm) +
+            (Qth_real * fCO2_th))
         
         epulet[i].TFCO2_e_cs = (
-            (float(epulet[i].Qel_real_cs) * fCO2_el) + 
-            (float(epulet[i].Qel_cs_real_cs) * fCO2_el_cs) +
-            (float(epulet[i].Qga_real_cs) * fCO2_ga) +
-            (float(epulet[i].Qol_real_cs) * fCO2_ol) +
-            (float(epulet[i].Qsz_real_cs) * fCO2_sz) +
-            (float(epulet[i].Qbm_real_cs) * fCO2_bm) +
-            (float(epulet[i].Qth_real_cs) * fCO2_th))
+            (Qel_real_cs * fCO2_el) + 
+            (Qel_cs_real_cs * fCO2_el_cs) +
+            (Qga_real_cs * fCO2_ga) +
+            (Qol_real_cs * fCO2_ol) +
+            (Qsz_real_cs * fCO2_sz) +
+            (Qbm_real_cs * fCO2_bm) +
+            (Qth_real_cs * fCO2_th))
         
         epulet[i].deltaTFCO2_e = epulet[i].TFCO2_e - epulet[i].TFCO2_e_cs
     
