@@ -116,16 +116,18 @@ def calculate(epulet):
         fCO2_th = float(epulet[i].fCO2_th_est) if epulet[i].fCO2_th == '' else float(epulet[i].fCO2_th)
         # endregion
         
-        epulet[i].Ee_vil_cs = Ee_cs if Epulet_funkcio == 'Lakoepulet' else Ee_cs - Evil_cs
-        epulet[i].Ee_vil = Ee if Epulet_funkcio == 'Lakoepulet' else Ee_cs - Evil
+        epulet[i].Ee_vil_cs = Ee_cs if Epulet_funkcio.strip() == 'Lakoepulet' else Ee_cs - Evil_cs
+        epulet[i].Ee_vil = Ee if Epulet_funkcio.strip() == 'Lakoepulet' else Ee - Evil
         
         # alpha(n) validation check:
         if float(Ael + Aelcs + Aga + Aol + Asz + Abm + Ath) > 0.9:
             epulet[i].Szum_A = True
-        epulet[i].Szum_A = False
+        else:
+            epulet[i].Szum_A = False
         if float(Ael_cs + Aelcs_cs + Aga_cs + Aol_cs + Asz_cs + Abm_cs + Ath_cs) > 0.9:
             epulet[i].Szum_A_cs = True
-        epulet[i].Szum_A_cs = False
+        else:
+            epulet[i].Szum_A_cs = False
         # 5
         epulet[i].Ee_vil_real_cs = float(epulet[i].Ee_vil_cs) * k
         # 3
@@ -196,21 +198,21 @@ def calculate(epulet):
         epulet[i].Qbm_real_cs_est = float(epulet[i].Qbm_cs) / float(epulet[i].ebm) * k
         epulet[i].Qth_real_cs_est = float(epulet[i].Qth_cs) / float(epulet[i].eth) * k    
         # it must be done in order to calc De and De_cs correctly
-        Qel_real = epulet[i].Qel_real_est if epulet[i].Qel_real == '' else float(epulet[i].Qel_real_est)
-        Qel_cs_real = epulet[i].Qel_cs_real_est if epulet[i].Qel_cs_real == '' else float(epulet[i].Qel_cs_real_est)
-        Qga_real = epulet[i].Qga_real_est if epulet[i].Qga_real == '' else float(epulet[i].Qga_real_est)
-        Qol_real = epulet[i].Qol_real_est if epulet[i].Qol_real == '' else float(epulet[i].Qol_real_est)
-        Qsz_real = epulet[i].Qsz_real_est if epulet[i].Qsz_real == '' else float(epulet[i].Qsz_real_est)
-        Qbm_real = epulet[i].Qbm_real_est if epulet[i].Qbm_real == '' else float(epulet[i].Qbm_real_est)
-        Qth_real = epulet[i].Qth_real_est if epulet[i].Qth_real == '' else float(epulet[i].Qth_real_est)
+        Qel_real = float(epulet[i].Qel_real_est) if epulet[i].Qel_real == '' else float(epulet[i].Qel_real_est)
+        Qel_cs_real = float(epulet[i].Qel_cs_real_est) if epulet[i].Qel_cs_real == '' else float(epulet[i].Qel_cs_real_est)
+        Qga_real = float(epulet[i].Qga_real_est) if epulet[i].Qga_real == '' else float(epulet[i].Qga_real_est)
+        Qol_real = float(epulet[i].Qol_real_est) if epulet[i].Qol_real == '' else float(epulet[i].Qol_real_est)
+        Qsz_real = float(epulet[i].Qsz_real_est) if epulet[i].Qsz_real == '' else float(epulet[i].Qsz_real_est)
+        Qbm_real = float(epulet[i].Qbm_real_est) if epulet[i].Qbm_real == '' else float(epulet[i].Qbm_real_est)
+        Qth_real = float(epulet[i].Qth_real_est) if epulet[i].Qth_real == '' else float(epulet[i].Qth_real_est)
 
-        Qel_real_cs = epulet[i].Qel_real_cs_est if epulet[i].Qel_real_cs == '' else float(epulet[i].Qel_real_cs_est)
-        Qel_cs_real_cs = epulet[i].Qel_cs_real_cs_est if epulet[i].Qel_cs_real_cs == '' else float(epulet[i].Qel_cs_real_cs_est)
-        Qga_real_cs = epulet[i].Qga_real_cs_est if epulet[i].Qga_real_cs == '' else float(epulet[i].Qga_real_cs_est)
-        Qol_real_cs = epulet[i].Qol_real_cs_est if epulet[i].Qol_real_cs == '' else float(epulet[i].Qol_real_cs_est)
-        Qsz_real_cs = epulet[i].Qsz_real_cs_est if epulet[i].Qsz_real_cs == '' else float(epulet[i].Qsz_real_cs_est)
-        Qbm_real_cs = epulet[i].Qbm_real_cs_est if epulet[i].Qbm_real_cs == '' else float(epulet[i].Qbm_real_cs_est)
-        Qth_real_cs = epulet[i].Qth_real_cs_est if epulet[i].Qth_real_cs == '' else float(epulet[i].Qth_real_cs_est)
+        Qel_real_cs = float(epulet[i].Qel_real_cs_est) if epulet[i].Qel_real_cs == '' else float(epulet[i].Qel_real_cs_est)
+        Qel_cs_real_cs = float(epulet[i].Qel_cs_real_cs_est) if epulet[i].Qel_cs_real_cs == '' else float(epulet[i].Qel_cs_real_cs_est)
+        Qga_real_cs = float(epulet[i].Qga_real_cs_est) if epulet[i].Qga_real_cs == '' else float(epulet[i].Qga_real_cs_est)
+        Qol_real_cs = float(epulet[i].Qol_real_cs_est) if epulet[i].Qol_real_cs == '' else float(epulet[i].Qol_real_cs_est)
+        Qsz_real_cs = float(epulet[i].Qsz_real_cs_est) if epulet[i].Qsz_real_cs == '' else float(epulet[i].Qsz_real_cs_est)
+        Qbm_real_cs = float(epulet[i].Qbm_real_cs_est) if epulet[i].Qbm_real_cs == '' else float(epulet[i].Qbm_real_cs_est)
+        Qth_real_cs = float(epulet[i].Qth_real_cs_est) if epulet[i].Qth_real_cs == '' else float(epulet[i].Qth_real_cs_est)
         # De calculations:
         
         # 18

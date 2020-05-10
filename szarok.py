@@ -53,3 +53,5 @@
             epulet[i].dbmest = 0
             epulet[i].dth = 0
             epulet[i].dthest = 0
+            # nem tudom ez kell e a tomb TTTTT szamitasahoz:
+            if float(telek[i].adat_t) == 1.0:
