@@ -9,11 +9,473 @@ epulet = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
 out = '/home/jeda/work/innoregio/output/epulet-test-out.csv'
 head = write.header(epulet)
 ##############################################################
-
+# epulet szinten a evil* e0 stb szamolasok tipus alapjan, implementalni!!! Epulettipusokhoz rendelt adatok.xlsK
 def calculate(epulet):
     print("Calculations with epulet in Epuletek:")
     for i in tqdm(range(len(epulet))):
         # must be first for declaring the Ee variable correctly
+        # setting static data in (like "k" and "a" values)
+        epulet[i].a = 1
+        epulet[i].k = 1
+        epulet[i].Aga_est = 1
+        epulet[i].Aga_est_cs = 1
+        epulet[i].Abm_est = 0
+        epulet[i].Abm_est_cs = 0
+        epulet[i].Ael_est = 0
+        epulet[i].Ael_est_cs = 0
+        epulet[i].Aelcs_est = 0
+        epulet[i].Aelcs_est_cs = 0
+        epulet[i].Aol_est = 0
+        epulet[i].Aol_est_cs = 0
+        epulet[i].Asz_est = 0
+        epulet[i].Asz_est_cs = 0
+        epulet[i].Ath_est = 0
+        epulet[i].Ath_est_cs = 0
+        if "Szarvas" in epulet[i].Telepules:
+            epulet[i].Aga_est = 0.5
+            epulet[i].Abm_est = 0.5
+
+        # just some data cleaning to do.
+        if "e" in epulet[i].Tipusszam_est:
+            epulet[i].Tipusszam_est = "X"
+        if "p" in epulet[i].Tipusszam_est:
+            epulet[i].Tipusszam_est = "X"
+        if "e" in epulet[i].Tipusszam:
+            epulet[i].Tipusszam = "X"
+        if "p" in epulet[i].Tipusszam:
+            epulet[i].Tipusszam = "X"
+        # region tipushozzarendeles
+        Tipusszam = epulet[i].Tipusszam_est.strip() if epulet[i].Tipusszam == '' else epulet[i].Tipusszam.strip()
+        if Tipusszam == "L1":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 450
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L1/M":
+            epulet[i].Tn_Tbr = 0.65
+            epulet[i].E0 = 450
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 315
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L2":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 400
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L2/M":
+            epulet[i].Tn_Tbr = 0.65
+            epulet[i].E0 = 400
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 280
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L3":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 330
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L3/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 330
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L4":
+            if "Szarvas" in epulet[i].Telepules:
+                epulet[i].a = 1.2
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 220
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L4/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 220
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L5":
+            if "Szarvas" in epulet[i].Telepules:
+                epulet[i].a = 1.2
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L5/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L6":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 320
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L6/M":
+            epulet[i].Tn_Tbr = 0.65
+            epulet[i].E0 = 320
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 225
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L7":
+            if "Szarvas" in epulet[i].Telepules:
+                epulet[i].a = 1.3
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 120
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L8":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 340
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L8/M":
+            epulet[i].Tn_Tbr = 0.65
+            epulet[i].E0 = 340
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 240
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L9":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 300
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L10/A":
+            epulet[i].Tn_Tbr = 0.65
+            epulet[i].E0 = 240
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L10/B":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 240
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L11/A":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 240
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L11/B":
+            epulet[i].Tn_Tbr = 0.85
+            epulet[i].E0 = 240
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L12/A":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L12/B":
+            epulet[i].Tn_Tbr = 0.85
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L12/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L13":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 210
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+        elif Tipusszam == "L13/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 210
+            epulet[i].Evil_est = 10
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 8
+
+        elif Tipusszam == "K1":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 310
+            epulet[i].Evil_est = 14.6
+            epulet[i].Ee_cs_est = 150
+            epulet[i].Evil_cs_est = 11.7
+        elif Tipusszam == "K1/M":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 310
+            epulet[i].Evil_est = 14.6
+            epulet[i].Ee_cs_est = 200
+            epulet[i].Evil_cs_est = 11.7
+        elif Tipusszam == "K2":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 200
+            epulet[i].Evil_est = 14.6
+            epulet[i].Ee_cs_est = 110
+            epulet[i].Evil_cs_est = 11.7
+        elif Tipusszam == "K2/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 200
+            epulet[i].Evil_est = 14.6
+            epulet[i].Ee_cs_est = 110
+            epulet[i].Evil_cs_est = 11.7   
+        elif Tipusszam == "K3":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 250
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 110
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K3/M":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 250
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 160
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K4":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 80
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K4/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 80
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K5":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 150
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 80
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K5/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 150
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 80
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K6":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 260
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 100
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K6/M":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 260
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 160
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K7":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 230
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 150
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K7/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 230
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 150
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "K8":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 160
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 60
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K8/M":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 160
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 100
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K9":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 230
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 60
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K10":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 160
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 50
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K10/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 160
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 50
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K11":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 130
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 50
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K11/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 130
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 50
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K12":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 240
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 90
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K12/M":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 240
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 150
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K13":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 60
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K13/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 170
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 60
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K14":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 140
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 60
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "K14/F":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 140
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 60
+            epulet[i].Evil_cs_est = 7.2
+
+        elif Tipusszam == "I1A":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 460
+            epulet[i].Evil_est = 17.5
+            epulet[i].Ee_cs_est = 160
+            epulet[i].Evil_cs_est = 14
+        elif Tipusszam == "I1B":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 100
+            epulet[i].Evil_est = 8.75
+            epulet[i].Ee_cs_est = 100
+            epulet[i].Evil_cs_est = 8.75
+        elif Tipusszam == "I2A":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 350
+            epulet[i].Evil_est = 17.5
+            epulet[i].Ee_cs_est = 160
+            epulet[i].Evil_cs_est = 14
+        elif Tipusszam == "I2B":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 60
+            epulet[i].Evil_est = 8.75
+            epulet[i].Ee_cs_est = 60
+            epulet[i].Evil_cs_est = 8.75
+        elif Tipusszam == "I3A":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 210
+            epulet[i].Evil_est = 25
+            epulet[i].Ee_cs_est = 160
+            epulet[i].Evil_cs_est = 20
+        elif Tipusszam == "I3B":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 35
+            epulet[i].Evil_est = 12.5
+            epulet[i].Ee_cs_est = 35
+            epulet[i].Evil_cs_est = 12.5
+        
+        elif Tipusszam == "E/I1":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 35
+            epulet[i].Evil_est = 12.5
+            epulet[i].Ee_cs_est = 35
+            epulet[i].Evil_cs_est = 12.5
+        elif Tipusszam == "E/I2":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 210
+            epulet[i].Evil_est = 25
+            epulet[i].Ee_cs_est = 160
+            epulet[i].Evil_cs_est = 20
+        elif Tipusszam == "E/I3":
+            epulet[i].Tn_Tbr = 0.95
+            epulet[i].E0 = 210
+            epulet[i].Evil_est = 25
+            epulet[i].Ee_cs_est = 160
+            epulet[i].Evil_cs_est = 20
+        elif Tipusszam == "E/K1":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 250
+            epulet[i].Evil_est = 15.8
+            epulet[i].Ee_cs_est = 100
+            epulet[i].Evil_cs_est = 11.1
+        elif Tipusszam == "E/K1/M":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 250
+            epulet[i].Evil_est = 15.8
+            epulet[i].Ee_cs_est = 100
+            epulet[i].Evil_cs_est = 11.1
+        elif Tipusszam == "E/K2/M":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 130
+            epulet[i].Evil_est = 9
+            epulet[i].Ee_cs_est = 100
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "E/K3":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 500
+            epulet[i].Evil_est = 31.5
+            epulet[i].Ee_cs_est = 110
+            epulet[i].Evil_cs_est = 22
+        elif Tipusszam == "E/K4":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 120
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 80
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "E/K5/M":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 120
+            epulet[i].Evil_est = 7.2
+            epulet[i].Ee_cs_est = 120
+            epulet[i].Evil_cs_est = 7.2
+        elif Tipusszam == "E/K6":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 330
+            epulet[i].Evil_est = 31.5
+            epulet[i].Ee_cs_est = 110
+            epulet[i].Evil_cs_est = 22
+        elif Tipusszam == "E/K7":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 150
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 100
+            epulet[i].Evil_cs_est = 15.4
+        elif Tipusszam == "E/K8":
+            epulet[i].Tn_Tbr = 0.75
+            epulet[i].E0 = 210
+            epulet[i].Evil_est = 19.25
+            epulet[i].Ee_cs_est = 150
+            epulet[i].Evil_cs_est = 15.4
+        # endregion
         # x
         if epulet[i].Sz == '':
             epulet[i].Sz = 0.0
@@ -28,8 +490,9 @@ def calculate(epulet):
             epulet[i].Epulet_funkcio_est = "Ipari-uzemi epulet" 
         elif "0" in epulet[i].Tipusszam_est:
             epulet[i].Epulet_funkcio_est = "Egyeb futetlen epulet" 
+        # ez majd "p" "e" lesz a kataszteriben
         elif "X" in epulet[i].Tipusszam_est:
-            epulet[i].Epulet_funkcio_est = "Nincs adat" 
+            epulet[i].Epulet_funkcio_est = "Nincs adat"
         elif epulet[i].Tipusszam_est == '':
             epulet[i].Epulet_funkcio_est = ""
 
@@ -120,11 +583,11 @@ def calculate(epulet):
         epulet[i].Ee_vil = Ee if Epulet_funkcio.strip() == 'Lakoepulet' else Ee - Evil
         
         # alpha(n) validation check:
-        if float(Ael + Aelcs + Aga + Aol + Asz + Abm + Ath) > 0.9:
+        if float(Ael + Aelcs + Aga + Aol + Asz + Abm + Ath) > 0.99:
             epulet[i].Szum_A = True
         else:
             epulet[i].Szum_A = False
-        if float(Ael_cs + Aelcs_cs + Aga_cs + Aol_cs + Asz_cs + Abm_cs + Ath_cs) > 0.9:
+        if float(Ael_cs + Aelcs_cs + Aga_cs + Aol_cs + Asz_cs + Abm_cs + Ath_cs) > 0.99:
             epulet[i].Szum_A_cs = True
         else:
             epulet[i].Szum_A_cs = False
@@ -197,7 +660,7 @@ def calculate(epulet):
         epulet[i].Qsz_real_cs_est = float(epulet[i].Qsz_cs) / float(epulet[i].esz) * k
         epulet[i].Qbm_real_cs_est = float(epulet[i].Qbm_cs) / float(epulet[i].ebm) * k
         epulet[i].Qth_real_cs_est = float(epulet[i].Qth_cs) / float(epulet[i].eth) * k    
-        # it must be done in order to calc De and De_cs correctly
+        # it must be done in order to calculate De and De_cs correctly
         Qel_real = float(epulet[i].Qel_real_est) if epulet[i].Qel_real == '' else float(epulet[i].Qel_real_est)
         Qel_cs_real = float(epulet[i].Qel_cs_real_est) if epulet[i].Qel_cs_real == '' else float(epulet[i].Qel_cs_real_est)
         Qga_real = float(epulet[i].Qga_real_est) if epulet[i].Qga_real == '' else float(epulet[i].Qga_real_est)
@@ -252,7 +715,7 @@ def calculate(epulet):
             (Qsz_real_cs * fCO2_sz) +
             (Qbm_real_cs * fCO2_bm) +
             (Qth_real_cs * fCO2_th))
-        
+
         epulet[i].deltaTFCO2_e = epulet[i].TFCO2_e - epulet[i].TFCO2_e_cs
     
     print("Epulet done.")
