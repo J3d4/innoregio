@@ -4,11 +4,11 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/input/telek-test.csv')
+inp = read.dataframe('/home/jeda/work/innoregio/kataszteri_szamolhato/szarvasko_telek.csv')
 telek = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-inpep = read.dataframe('/home/jeda/work/innoregio/output/epulet-test-out.csv')
+inpep = read.dataframe('/home/jeda/work/innoregio/output/szarvasko_epulet-out.csv')
 epulet = [csvhandler.Dict(i, inpep[0]) for i in inpep[1:]]
-out = '/home/jeda/work/innoregio/output/telek-test-out.csv'
+out = '/home/jeda/work/innoregio/output/telek-szarvasko-out.csv'
 head = write.header(telek)
 ##############################################################
 
@@ -16,6 +16,21 @@ def calculate(telek, epulet):
     print("Calculations with data in Epulet and Telek::")
     for i in tqdm(range(len(epulet))):
         for j in range(len(telek)):
+            if telek[j].Qt_vil_cs == '':
+                    telek[j].Qt_vil_cs = 0.0
+            if telek[j].Qt_vil == '':
+                    telek[j].Qt_vil = 0.0
+            if telek[j].Qt_vil_real_cs == '':
+                    telek[j].Qt_vil_real_cs = 0
+            if telek[j].Qt_vil_real == '':
+                    telek[j].Qt_vil_real = 0
+            if telek[j].deltaQt == '':
+                    telek[j].deltaQt = 0
+            if telek[j].TFCO2_t == '':
+                    telek[j].TFCO2_t = 0.0
+            if telek[j].TFCO2_t_cs == '':
+                    telek[j].TFCO2_t_cs = 0.0
+
             if epulet[i].Helyrajziszam.strip() == telek[j].Helyrajziszam.strip():
                 # 1
                 Epulet_funkcio = epulet[i].Epulet_funkcio_est if epulet[i].Epulet_funkcio == '' else epulet[i].Epulet_funkcio
@@ -24,12 +39,8 @@ def calculate(telek, epulet):
                 else:
                     telek[j].adat_t = 0
                 # 2
-                if telek[j].Qt_vil_cs == '':
-                    telek[j].Qt_vil_cs = 0.0
                 telek[j].Qt_vil_cs = float(telek[j].Qt_vil_cs) + float(epulet[i].Qe_vil_cs)
                 # 3
-                if telek[j].Qt_vil_real_cs == '':
-                    telek[j].Qt_vil_real_cs = 0
                 telek[j].Qt_vil_real_cs = float(telek[j].Qt_vil_real_cs) + float(epulet[i].Qe_vil_real_cs)
                 # 4
                 Qel_real_cs = float(epulet[i].Qel_real_cs_est) if epulet[i].Qel_real_cs == '' else float(epulet[i].Qel_real_cs_est)
@@ -113,16 +124,12 @@ def calculate(telek, epulet):
                     telek[j].Qt_vil_real = 0
                 telek[j].Qt_vil_real = float(telek[j].Qt_vil_real) + float(epulet[i].Qe_vil_real)
                 # 11
-                if telek[j].deltaQt == '':
-                    telek[j].deltaQt = 0
                 telek[j].deltaQt = float(telek[j].deltaQt) + float(epulet[i].deltaQe)
                 # 12
-                if telek[j].TFCO2_t_cs == '':
-                    telek[j].TFCO2_t_cs = 0.0
+                
                 telek[j].TFCO2_t_cs = float(telek[j].TFCO2_t_cs) + float(epulet[i].TFCO2_e_cs)
                 # 13
-                if telek[j].TFCO2_t == '':
-                    telek[j].TFCO2_t = 0.0
+                
                 telek[j].TFCO2_t = float(telek[j].TFCO2_t) + float(epulet[i].TFCO2_e)
                 
     print("Calculations with data in Telek:")

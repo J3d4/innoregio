@@ -4,9 +4,9 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/input/epulet-test.csv')
+inp = read.dataframe('/home/jeda/work/innoregio/kataszteri_szamolhato/szarvasko_epulet.csv')
 epulet = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-out = '/home/jeda/work/innoregio/output/epulet-test-out.csv'
+out = '/home/jeda/work/innoregio/output/szarvasko_epulet-out.csv'
 head = write.header(epulet)
 ##############################################################
 # epulet szinten a evil* e0 stb szamolasok tipus alapjan, implementalni!!! Epulettipusokhoz rendelt adatok.xlsK
@@ -14,7 +14,30 @@ def calculate(epulet):
     print("Calculations with epulet in Epuletek:")
     for i in tqdm(range(len(epulet))):
         # must be first for declaring the Ee variable correctly
+        # to not broke the calculations, if they got value change it accordingly
+        epulet[i].Etech_est = 0
+        epulet[i].delest_lak = 0
+        epulet[i].delcsest_lak = 0
+        epulet[i].dgaest_lak = 0
+        epulet[i].dolest_lak = 0
+        epulet[i].dszest_lak = 0
+        epulet[i].dbmest_lak = 0
+        epulet[i].dthest_lak = 0
+        epulet[i].fCO2_el_est = 0
+        epulet[i].fCO2_el_cs_est = 0
+        epulet[i].fCO2_ga_est = 0
+        epulet[i].fCO2_ol_est = 0
+        epulet[i].fCO2_sz_est = 0
+        epulet[i].fCO2_bm_est = 0
+        epulet[i].fCO2_th_est = 0
         # setting static data in (like "k" and "a" values)
+        epulet[i].eel = 2.5
+        epulet[i].eelcs = 1.8
+        epulet[i].ega = 1
+        epulet[i].eol = 1
+        epulet[i].esz = 1
+        epulet[i].ebm = 0.6
+        epulet[i].eth = 1.26
         epulet[i].a = 1
         epulet[i].k = 1
         epulet[i].Aga_est = 1
@@ -475,11 +498,21 @@ def calculate(epulet):
             epulet[i].Evil_est = 19.25
             epulet[i].Ee_cs_est = 150
             epulet[i].Evil_cs_est = 15.4
+        else:
+            epulet[i].Tn_Tbr = 0
+            epulet[i].E0 = 0
+            epulet[i].Evil_est = 0
+            epulet[i].Ee_cs_est = 0
+            epulet[i].Evil_cs_est = 0
         # endregion
         # x
         if epulet[i].Sz == '':
             epulet[i].Sz = 0.0
         epulet[i].Tbr = float(epulet[i].Sz) * float(epulet[i].te)
+        if epulet[i].Tbr == '':
+            epulet[i].Tbr = 0.0
+        if epulet[i].Tn_Tbr == '':
+            epulet[i].Tn_Tbr = 0.0
         epulet[i].Ter_est = float(epulet[i].Tbr) * float(epulet[i].Tn_Tbr)
         # -1 epulet tipus declaration sequence
         if "L" in epulet[i].Tipusszam_est:

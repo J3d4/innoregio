@@ -1,0 +1,932 @@
+OBJECTID,Orszag_nev,Telepules_nev,Telepulesresz_nev,Tortenelmi_varosresz_nev,Fekves,Helyrajziszam_teljes,Helyrajziszam_egyedi,Muvelesiag,Utcanev,Utcanev_telek,Kozut_szama,Vasut_szama,Hazszam_telek,Vedett_terulet_nev,Vedett_terulet_kategoria,Natura2000_SCI_kod,Natura2000_SCI_nev,Natura2000_SPA_kod,Natura2000_SPA_nev,Dulo_OEM_borvidek_nev,Dulo_OEM_kod,Dulo_OEM_nev,Epuletenergetikai_tombazonosito,Tortenelmi_varosresz_nev_modositott,Iranyitoszam,KSH_korzet,Postacim_rovid,Shape_Length,Shape_Area
+91310,Magyarország,Szarvaskő,,,belterület,1,HUN_Szarvaskő_1,művelés alól kivett,,Fő utca,,,40,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,75.01094857185363,263.389999987036
+91311,Magyarország,Szarvaskő,,,belterület,10/1,HUN_Szarvaskő_10/1,művelés alól kivett,,Fő utca,,,28,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,125.149716844753,483.7350000142679
+91312,Magyarország,Szarvaskő,,,belterület,10/2,HUN_Szarvaskő_10/2,művelés alól kivett,,Fő utca,,,26,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,127.66175676346955,343.4249999757857
+91313,Magyarország,Szarvaskő,,,belterület,100,HUN_Szarvaskő_100,művelés alól kivett,,Teréz utca,,,15,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,114.62155313684693,565.0550000189617
+91314,Magyarország,Szarvaskő,,,belterület,101,HUN_Szarvaskő_101,művelés alól kivett,,Petőfi Sándor utca,,,20,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,257.0958653045015,3049.9400001550466
+91315,Magyarország,Szarvaskő,,,belterület,102,HUN_Szarvaskő_102,művelés alól kivett,,Petőfi Sándor utca,,,,,,,,,,,,,,,3323,Szarvaskő,,20.359870627406938,24.62999999959022
+91316,Magyarország,Szarvaskő,,,belterület,103,HUN_Szarvaskő_103,művelés alól kivett,,Petőfi Sándor utca,,,,,,,,,,,,,,,3323,Szarvaskő,,273.0450860163741,4129.769999991469
+91317,Magyarország,Szarvaskő,,,belterület,104,HUN_Szarvaskő_104,művelés alól kivett,,Petőfi Sándor utca,,,16-18,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,274.34721216302626,2382.909999802117
+91318,Magyarország,Szarvaskő,,,belterület,105,HUN_Szarvaskő_105,művelés alól kivett,,Petőfi Sándor utca,,,14,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,238.68198448623295,2190.1850000276786
+91319,Magyarország,Szarvaskő,,,belterület,106,HUN_Szarvaskő_106,művelés alól kivett,,Petőfi Sándor utca,,,12,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,121.12901448677496,576.7450000466033
+91320,Magyarország,Szarvaskő,,,belterület,109,HUN_Szarvaskő_109,művelés alól kivett,,Petőfi Sándor utca,,,10/a,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,136.08862910794994,607.9949999672547
+91321,Magyarország,Szarvaskő,,,belterület,11,HUN_Szarvaskő_11,művelés alól kivett,,Fő utca,,,24,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,133.8430151444576,398.1650000043586
+91322,Magyarország,Szarvaskő,,,belterület,110,HUN_Szarvaskő_110,művelés alól kivett,,Petőfi Sándor utca,,,10,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,152.5201732612484,859.5800000770762
+91323,Magyarország,Szarvaskő,,,belterület,111,HUN_Szarvaskő_111,művelés alól kivett,,Petőfi Sándor utca,,,8,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,88.36260378765904,299.9650000160933
+91324,Magyarország,Szarvaskő,,,belterület,112,HUN_Szarvaskő_112,művelés alól kivett,,Petőfi Sándor utca,,,6,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,133.03237616623807,788.1299999876693
+91325,Magyarország,Szarvaskő,,,belterület,113,HUN_Szarvaskő_113,művelés alól kivett,,Petőfi Sándor utca,,,4,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,130.50884411069399,632.7100000209734
+91326,Magyarország,Szarvaskő,,,belterület,114,HUN_Szarvaskő_114,művelés alól kivett,,Petőfi Sándor utca,,,2,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,97.80118813900741,636.0000000001862
+91327,Magyarország,Szarvaskő,,,belterület,115,HUN_Szarvaskő_115,művelés alól kivett,,Fő utca,,,13,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,107.75704760012107,707.1399999667332
+91328,Magyarország,Szarvaskő,,,belterület,116,HUN_Szarvaskő_116,művelés alól kivett,,Fő utca,,,15,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,122.85674189062334,584.800000028126
+91329,Magyarország,Szarvaskő,,,belterület,117,HUN_Szarvaskő_117,művelés alól kivett,,Fő utca,,,17,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,123.739828960154,698.899999932386
+91330,Magyarország,Szarvaskő,,,belterület,118,HUN_Szarvaskő_118,művelés alól kivett,,Fő utca,,,19,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,146.9440853870256,683.8549999507889
+91331,Magyarország,Szarvaskő,,,belterület,119,HUN_Szarvaskő_119,művelés alól kivett,,Fő utca,,,21,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,154.81144755588136,772.1050000517445
+91332,Magyarország,Szarvaskő,,,belterület,12/1,HUN_Szarvaskő_12/1,művelés alól kivett,,Fő utca,,,22,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,165.640900517239,822.739999951832
+91333,Magyarország,Szarvaskő,,,belterület,12/2,HUN_Szarvaskő_12/2,művelés alól kivett,,Fő utca,,,20,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,206.74281819140998,1361.414999962449
+91334,Magyarország,Szarvaskő,,,belterület,120,HUN_Szarvaskő_120,művelés alól kivett,,Fő utca,,,23,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,151.31852196080644,733.8949999672546
+91335,Magyarország,Szarvaskő,,,belterület,121,HUN_Szarvaskő_121,művelés alól kivett,,Kisköz utca,,,1,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,141.39265570049508,619.3050000359118
+91336,Magyarország,Szarvaskő,,,belterület,122,HUN_Szarvaskő_122,művelés alól kivett,,Kisköz utca,,,3,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,151.39600658082227,1253.5200000700727
+91337,Magyarország,Szarvaskő,,,belterület,123,HUN_Szarvaskő_123,művelés alól kivett,,Kisköz utca,,,5,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,115.85528381715815,598.2452949687009
+91338,Magyarország,Szarvaskő,,,belterület,124,HUN_Szarvaskő_124,művelés alól kivett,Kisköz utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,134.02299834973977,288.1650000118092
+91339,Magyarország,Szarvaskő,,,belterület,125,HUN_Szarvaskő_125,művelés alól kivett,,Fő utca,,,25,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,68.15101912777416,274.70500001672656
+91340,Magyarország,Szarvaskő,,,belterület,126,HUN_Szarvaskő_126,művelés alól kivett,,Fő utca,,,27,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,86.40238941979163,402.46500004738573
+91341,Magyarország,Szarvaskő,,,belterület,127,HUN_Szarvaskő_127,művelés alól kivett,,Kisköz utca,,,2,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,82.88561966822115,397.75499992303554
+91342,Magyarország,Szarvaskő,,,belterület,128,HUN_Szarvaskő_128,művelés alól kivett,,Fő utca,,,29,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,93.28294970327475,476.01000000849365
+91343,Magyarország,Szarvaskő,,,belterület,129,HUN_Szarvaskő_129,művelés alól kivett,,Kisköz utca,,,4,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,177.5497215477249,1583.084704960854
+91344,Magyarország,Szarvaskő,,,belterület,13,HUN_Szarvaskő_13,művelés alól kivett,,Fő utca,,,,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,23.14069857683618,33.12000000767409
+91345,Magyarország,Szarvaskő,,,belterület,130,HUN_Szarvaskő_130,művelés alól kivett,,Fő utca,,,31,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,192.30636112196262,1161.7450000073015
+91346,Magyarország,Szarvaskő,,,belterület,131,HUN_Szarvaskő_131,művelés alól kivett,,Fő utca,,,33,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,195.99706463995835,1644.4749999552967
+91347,Magyarország,Szarvaskő,,,belterület,132,HUN_Szarvaskő_132,művelés alól kivett,,Fő utca,,,35,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,140.4962880336963,954.9050000806152
+91348,Magyarország,Szarvaskő,,,belterület,133,HUN_Szarvaskő_133,művelés alól kivett,,Fő utca,,,37,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,146.72982569890007,1254.8899999833104
+91349,Magyarország,Szarvaskő,,,belterület,134,HUN_Szarvaskő_134,művelés alól kivett,,Fő utca,,,39,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,114.34122091617834,518.6249999614433
+91350,Magyarország,Szarvaskő,,,belterület,135,HUN_Szarvaskő_135,művelés alól kivett,,Fő utca,,,41,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,136.90407119690946,965.0549999647586
+91351,Magyarország,Szarvaskő,,,belterület,136,HUN_Szarvaskő_136,művelés alól kivett,,Fő utca,,,43,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,110.3484405163401,668.1200000000373
+91352,Magyarország,Szarvaskő,,,belterület,137,HUN_Szarvaskő_137,művelés alól kivett,,Fő utca,,,45,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,90.23139841250264,403.0400000526011
+91353,Magyarország,Szarvaskő,,,belterület,138,HUN_Szarvaskő_138,művelés alól kivett,,Fő utca,,,47,,,,,,,,,,Szarvaskő_011,,3323,Szarvaskő,,109.4791932676088,643.2950000523775
+91354,Magyarország,Szarvaskő,,,belterület,139,HUN_Szarvaskő_139,művelés alól kivett,Fő utca,,25,,,,,,,,,,,,,,3323,Szarvaskő,,762.3310387731646,4936.974999882464
+91355,Magyarország,Szarvaskő,,,belterület,14,HUN_Szarvaskő_14,művelés alól kivett,,Fő utca,,,18,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,29.935509002192248,53.71000001054257
+91356,Magyarország,Szarvaskő,,,belterület,140,HUN_Szarvaskő_140,művelés alól kivett,,Fő utca,,,54,,,,,,,,,,Szarvaskő_005,,3323,Szarvaskő,,200.04210813556747,1169.6850000373647
+91357,Magyarország,Szarvaskő,,,belterület,141,HUN_Szarvaskő_141,művelés alól kivett,,Fő utca,,,52,,,,,,,,,,Szarvaskő_005,,3323,Szarvaskő,,94.78688264204449,425.6700000151247
+91358,Magyarország,Szarvaskő,,,belterület,142,HUN_Szarvaskő_142,művelés alól kivett,,Fő utca,,,50,,,,,,,,,,Szarvaskő_005,,3323,Szarvaskő,,95.38566182939094,396.31499998126185
+91359,Magyarország,Szarvaskő,,,belterület,143,HUN_Szarvaskő_143,művelés alól kivett,,Fő utca,,,48,,,,,,,,,,Szarvaskő_005,,3323,Szarvaskő,,117.59649289820533,745.8249999856575
+91360,Magyarország,Szarvaskő,,,belterület,144,HUN_Szarvaskő_144,művelés alól kivett,,Fő utca,,,46,,,,,,,,,,Szarvaskő_005,,3323,Szarvaskő,,146.5662482798009,1349.5349999535454
+91361,Magyarország,Szarvaskő,,,belterület,145,HUN_Szarvaskő_145,művelés alól kivett,,Fő utca,,,44,,,,,,,,,,Szarvaskő_005,,3323,Szarvaskő,,113.18142070215983,706.6299999982864
+91362,Magyarország,Szarvaskő,,,belterület,146,HUN_Szarvaskő_146,művelés alól kivett,,Fő utca,,,,,,,,,,,,,Szarvaskő_005,,3323,Szarvaskő,,88.30278713011748,313.31000001557175
+91363,Magyarország,Szarvaskő,,,belterület,147,HUN_Szarvaskő_147,művelés alól kivett,,Fő utca,,,,,,,,,,,,,Szarvaskő_006,,3323,Szarvaskő,,121.56592277246544,885.9350000355021
+91364,Magyarország,Szarvaskő,,,belterület,148,HUN_Szarvaskő_148,művelés alól kivett,,Fő utca,,,42,,,,,,,,,,Szarvaskő_006,,3323,Szarvaskő,,78.59856954511942,372.7900000283867
+91365,Magyarország,Szarvaskő,,,belterület,149,HUN_Szarvaskő_149,művelés alól kivett,,Fő utca,,,,,,,,,,,,,Szarvaskő_006,,3323,Szarvaskő,,81.09781327018486,375.57000001270325
+91366,Magyarország,Szarvaskő,,,belterület,15,HUN_Szarvaskő_15,művelés alól kivett,,Fő utca,,,14,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,76.47652365519014,346.47499999850993
+91367,Magyarország,Szarvaskő,,,belterület,150,HUN_Szarvaskő_150,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,677.7928068913848,3544.861106439528
+91368,Magyarország,Szarvaskő,,,belterület,151,HUN_Szarvaskő_151,művelés alól kivett,,Borsod utca,,,2,,,,,,,,,,Szarvaskő_003,,3323,Szarvaskő,,169.3373617473359,927.5649705291943
+91369,Magyarország,Szarvaskő,,,belterület,152/1,HUN_Szarvaskő_152/1,művelés alól kivett,,Borsod utca,,,2/a,,,,,,,,,,Szarvaskő_003,,3323,Szarvaskő,,139.0692993916745,667.3199999428541
+91370,Magyarország,Szarvaskő,,,belterület,152/2,HUN_Szarvaskő_152/2,művelés alól kivett,Borsod utca,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,32.44591682219511,34.41000001333654
+91371,Magyarország,Szarvaskő,,,belterület,153,HUN_Szarvaskő_153,művelés alól kivett,,Borsod utca,,,4,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,116.67519630829605,816.2400000498072
+91372,Magyarország,Szarvaskő,,,belterület,154,HUN_Szarvaskő_154,művelés alól kivett,,Borsod utca,,,6-8,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,151.6509180252575,841.2999999755991
+91373,Magyarország,Szarvaskő,,,belterület,158,HUN_Szarvaskő_158,művelés alól kivett,,Borsod utca,,,10,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,96.27599899098752,515.5250000152737
+91374,Magyarország,Szarvaskő,,,belterület,159,HUN_Szarvaskő_159,művelés alól kivett,,Borsod utca,,,12,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,113.27583429065713,540.1049999332802
+91375,Magyarország,Szarvaskő,,,belterület,16,HUN_Szarvaskő_16,művelés alól kivett,,Fő utca,,,18,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,160.58922273869882,502.14503994906977
+91376,Magyarország,Szarvaskő,,,belterület,160,HUN_Szarvaskő_160,művelés alól kivett,,Borsod utca,,,14,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,116.3068036106221,599.6400000498071
+91377,Magyarország,Szarvaskő,,,belterület,161,HUN_Szarvaskő_161,művelés alól kivett,,Borsod utca,,,16,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,107.30246561101505,431.28999999579037
+91378,Magyarország,Szarvaskő,,,belterület,162,HUN_Szarvaskő_162,művelés alól kivett,,Borsod utca,,,18,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,106.28410699422852,458.309999966398
+91379,Magyarország,Szarvaskő,,,belterület,163,HUN_Szarvaskő_163,művelés alól kivett,,Borsod utca,,,20,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,109.17456707072166,662.8699854005803
+91380,Magyarország,Szarvaskő,,,belterület,164,HUN_Szarvaskő_164,művelés alól kivett,,Borsod utca,,,22,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,82.10245510167107,333.0800000016391
+91381,Magyarország,Szarvaskő,,,belterület,165,HUN_Szarvaskő_165,művelés alól kivett,,Borsod utca,,,24,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,91.4939103464303,521.7599999690055
+91382,Magyarország,Szarvaskő,,,belterület,166,HUN_Szarvaskő_166,művelés alól kivett,Borsod utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,408.78659982294647,1744.0350146519095
+91383,Magyarország,Szarvaskő,,,belterület,167,HUN_Szarvaskő_167,művelés alól kivett,,Borsod utca,,,1,,,,,,,,,,Szarvaskő_002,,3323,Szarvaskő,,121.72495793532576,711.2499999927358
+91384,Magyarország,Szarvaskő,,,belterület,168,HUN_Szarvaskő_168,művelés alól kivett,,Borsod utca,,,3,,,,,,,,,,Szarvaskő_002,,3323,Szarvaskő,,104.72908758230834,658.3499999435618
+91385,Magyarország,Szarvaskő,,,belterület,169,HUN_Szarvaskő_169,művelés alól kivett,,Borsod utca,,,5,,,,,,,,,,Szarvaskő_002,,3323,Szarvaskő,,101.22468400918133,636.2350000494719
+91386,Magyarország,Szarvaskő,,,belterület,17,HUN_Szarvaskő_17,művelés alól kivett,,Fő utca,,,16,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,152.28907203138164,1080.419960013193
+91387,Magyarország,Szarvaskő,,,belterület,170,HUN_Szarvaskő_170,művelés alól kivett,,Borsod utca,,,7,,,,,,,,,,Szarvaskő_002,,3323,Szarvaskő,,97.76230300503885,600.6700000549854
+91388,Magyarország,Szarvaskő,,,belterület,171,HUN_Szarvaskő_171,művelés alól kivett,,Borsod utca,,,9,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_002,,3323,Szarvaskő,,283.6901618706553,2931.01999988325
+91389,Magyarország,Szarvaskő,,,belterület,172,HUN_Szarvaskő_172,művelés alól kivett,,Borsod utca,,,26,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_004,,3323,Szarvaskő,,177.98734233454724,1483.075000015646
+91390,Magyarország,Szarvaskő,,,belterület,173/2,HUN_Szarvaskő_173/2,művelés alól kivett,Vasút utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,338.0852597713176,3146.0700000143797
+91391,Magyarország,Szarvaskő,,,belterület,173/3,HUN_Szarvaskő_173/3,művelés alól kivett,,Vasút utca,,,1,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,446.6034293169682,4902.585000147446
+91392,Magyarország,Szarvaskő,,,belterület,173/4,HUN_Szarvaskő_173/4,művelés alól kivett,,Vasút utca,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_003,,3323,Szarvaskő,,107.39482819899379,644.3149999998882
+91393,Magyarország,Szarvaskő,,,belterület,173/5,HUN_Szarvaskő_173/5,művelés alól kivett,,,,87,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,1148.5303869568727,9410.464812550206
+91394,Magyarország,Szarvaskő,,,belterület,173/6,HUN_Szarvaskő_173/6,művelés alól kivett,,Vasút utca,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_016,,3323,Szarvaskő,,559.0132079908344,4907.175204811141
+91395,Magyarország,Szarvaskő,,,belterület,173/7,HUN_Szarvaskő_173/7,művelés alól kivett,,Vasút utca,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,Szarvaskő_016,,3323,Szarvaskő,,119.1602717433748,897.9599999490754
+91396,Magyarország,Szarvaskő,,,belterület,174,HUN_Szarvaskő_174,művelés alól kivett,,Vasút utca,,,,,,,,,,,,,,,3323,Szarvaskő,,638.3025027791524,6047.264504996345
+91397,Magyarország,Szarvaskő,,,belterület,175,HUN_Szarvaskő_175,művelés alól kivett,,Egri utca,,,,,,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,168.2529019167137,1750.3699998722598
+91398,Magyarország,Szarvaskő,,,belterület,176,HUN_Szarvaskő_176,művelés alól kivett,,Egri utca,,,,,,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,168.86111664400093,1776.9600000116602
+91399,Magyarország,Szarvaskő,,,belterület,177,HUN_Szarvaskő_177,művelés alól kivett,,Egri utca,,,,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,158.6246432476211,1544.1999999219552
+91400,Magyarország,Szarvaskő,,,belterület,179,HUN_Szarvaskő_179,művelés alól kivett,,Egri utca,,,,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,174.62293086117643,1882.975000044331
+91401,Magyarország,Szarvaskő,,,belterület,18,HUN_Szarvaskő_18,művelés alól kivett,,Fő utca,,,,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,136.44180599545626,819.2000000372528
+91402,Magyarország,Szarvaskő,,,belterület,180,HUN_Szarvaskő_180,művelés alól kivett,,Egri utca,,,,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,176.02669389572816,1855.5750000368803
+91403,Magyarország,Szarvaskő,,,belterület,181,HUN_Szarvaskő_181,művelés alól kivett,,Egri utca,,,,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,186.81083006546316,2061.9350000232084
+91404,Magyarország,Szarvaskő,,,belterület,182,HUN_Szarvaskő_182,művelés alól kivett,,Egri utca,,,1,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,242.46239754665132,3443.954999811463
+91405,Magyarország,Szarvaskő,,,belterület,183,HUN_Szarvaskő_183,művelés alól kivett,,Egri utca,,,3,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,181.02111292588154,1946.255000061244
+91406,Magyarország,Szarvaskő,,,belterület,184,HUN_Szarvaskő_184,művelés alól kivett,Egri utca,,,,,,,,,,,,,,Szarvaskő_017,,3323,Szarvaskő,,55.424954533879195,99.33499999135732
+91407,Magyarország,Szarvaskő,,,belterület,185,HUN_Szarvaskő_185,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1525.8044468515814,12084.170725771697
+91408,Magyarország,Szarvaskő,,,belterület,186,HUN_Szarvaskő_186,művelés alól kivett,,Egri utca,,,5,,,,,,,,,,Szarvaskő_018,,3323,Szarvaskő,,140.71228047234257,1173.9600000012292
+91409,Magyarország,Szarvaskő,,,belterület,187,HUN_Szarvaskő_187,művelés alól kivett,,Egri utca,,,7,,,,,,,,,,Szarvaskő_018,,3323,Szarvaskő,,129.37247988703092,1039.6800000493229
+91410,Magyarország,Szarvaskő,,,belterület,188,HUN_Szarvaskő_188,művelés alól kivett,,Egri utca,,,,,,,,,,,,,Szarvaskő_018,,3323,Szarvaskő,,138.252012678216,1186.3999999687076
+91411,Magyarország,Szarvaskő,,,belterület,189,HUN_Szarvaskő_189,művelés alól kivett,,Egri utca,,,,,,,,,,,,,Szarvaskő_018,,3323,Szarvaskő,,145.3392218657628,1321.1249999068677
+91412,Magyarország,Szarvaskő,,,belterület,19,HUN_Szarvaskő_19,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,202.47582104398677,382.73994495593263
+91413,Magyarország,Szarvaskő,,,belterület,190,HUN_Szarvaskő_190,művelés alól kivett,,Egri utca,,,,,,,,,,,,,Szarvaskő_018,,3323,Szarvaskő,,121.69406815502349,875.1600000621379
+91414,Magyarország,Szarvaskő,,,belterület,191,HUN_Szarvaskő_191,művelés alól kivett,,Egri utca,,,,,,,,,,,,,,,3323,Szarvaskő,,81.09557511809274,257.6550000059232
+91415,Magyarország,Szarvaskő,,,belterület,192,HUN_Szarvaskő_192,művelés alól kivett,,Egri utca,,,,,,,,,,,,,,,3323,Szarvaskő,,119.75232631574661,844.6100000101701
+91416,Magyarország,Szarvaskő,,,belterület,193,HUN_Szarvaskő_193,művelés alól kivett,,Egri utca,,,,,,,,,,,,,,,3323,Szarvaskő,,122.53103391659104,380.04000000752507
+91417,Magyarország,Szarvaskő,,,belterület,194/1,HUN_Szarvaskő_194/1,művelés alól kivett,Egri utca,,25,,,,,,,,,,,,,,3323,Szarvaskő,,1717.6441772117246,12719.046617334076
+91418,Magyarország,Szarvaskő,,,belterület,194/1,HUN_Szarvaskő_194/1,művelés alól kivett,Vasút utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,128.40821283796285,718.2244394428046
+91419,Magyarország,Szarvaskő,,,belterület,194/2,HUN_Szarvaskő_194/2,művelés alól kivett,Egri utca,,25,,,,,,,,,,,,,,3323,Szarvaskő,,212.17772798236052,1251.0437486236542
+91420,Magyarország,Szarvaskő,,,belterület,195,HUN_Szarvaskő_195,művelés alól kivett,,Egri utca,,,8,,,,,,,,,,Szarvaskő_019,,3323,Szarvaskő,,120.98055247443625,697.3749999227002
+91421,Magyarország,Szarvaskő,,,belterület,196,HUN_Szarvaskő_196,művelés alól kivett,,Egri utca,,,6,,,,,,,,,,Szarvaskő_019,,3323,Szarvaskő,,107.71866080141568,720.9250000720845
+91422,Magyarország,Szarvaskő,,,belterület,197,HUN_Szarvaskő_197,művelés alól kivett,,Egri utca,,,4,,,,,,,,,,Szarvaskő_019,,3323,Szarvaskő,,170.16921567061877,1764.6599999932198
+91423,Magyarország,Szarvaskő,,,belterület,198/1,HUN_Szarvaskő_198/1,művelés alól kivett,,Egri utca,,,2,,,,,,,,,,Szarvaskő_019,,3323,Szarvaskő,,130.08659523624917,1003.9750935303698
+91424,Magyarország,Szarvaskő,,,belterület,198/2,HUN_Szarvaskő_198/2,művelés alól kivett,,Egri utca,,,2,,,,,,,,,,Szarvaskő_019,,3323,Szarvaskő,,115.55381863866049,751.6173715141794
+91425,Magyarország,Szarvaskő,,,belterület,199,HUN_Szarvaskő_199,művelés alól kivett,Tölgyfa utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,737.6473261130382,7059.701634674094
+91426,Magyarország,Szarvaskő,,,belterület,2,HUN_Szarvaskő_2,művelés alól kivett,,Fő utca,,,36-38,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,107.71400633307528,607.7149999743701
+91427,Magyarország,Szarvaskő,,,belterület,20,HUN_Szarvaskő_20,művelés alól kivett,,Fő utca,,,12,,,,,,,,,,Szarvaskő_008,,3323,Szarvaskő,,109.56576612687994,482.5699999944494
+91428,Magyarország,Szarvaskő,,,belterület,200/1,HUN_Szarvaskő_200/1,művelés alól kivett,Tölgyfa utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,1161.9604552397313,7678.090065188846
+91429,Magyarország,Szarvaskő,,,belterület,200/12,HUN_Szarvaskő_200/12,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,95.51920925076448,536.1400149762303
+91430,Magyarország,Szarvaskő,,,belterület,200/19,HUN_Szarvaskő_200/19,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,437.2919984594865,3938.210247183292
+91431,Magyarország,Szarvaskő,,,belterület,200/2,HUN_Szarvaskő_200/2,művelés alól kivett,,Tölgyfa utca,,,2,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,119.40024861491978,732.8900000565127
+91432,Magyarország,Szarvaskő,,,belterület,200/20,HUN_Szarvaskő_200/20,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,115.3585737966244,224.8451466745106
+91433,Magyarország,Szarvaskő,,,belterület,200/22,HUN_Szarvaskő_200/22,művelés alól kivett,,Tölgyfa utca,,,28,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,110.0318733489209,597.3999999854714
+91434,Magyarország,Szarvaskő,,,belterület,200/23,HUN_Szarvaskő_200/23,művelés alól kivett,,Tölgyfa utca,,,30,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,110.60291743362367,605.1450000333787
+91435,Magyarország,Szarvaskő,,,belterület,200/24,HUN_Szarvaskő_200/24,művelés alól kivett,,Tölgyfa utca,,,32,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,110.0426019895047,594.7400000021235
+91436,Magyarország,Szarvaskő,,,belterület,200/26,HUN_Szarvaskő_200/26,művelés alól kivett,,Tölgyfa utca,,,36,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,160.05222582568788,1596.4650000054762
+91437,Magyarország,Szarvaskő,,,belterület,200/27,HUN_Szarvaskő_200/27,művelés alól kivett,,Tölgyfa utca,,,38,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,110.48517420100167,605.5899999296664
+91438,Magyarország,Szarvaskő,,,belterület,200/29,HUN_Szarvaskő_200/29,művelés alól kivett,,Tölgyfa utca,,,42,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,109.94845166874717,597.6300000679493
+91439,Magyarország,Szarvaskő,,,belterület,200/3,HUN_Szarvaskő_200/3,művelés alól kivett,,Tölgyfa utca,,,4,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,111.98966181167098,614.9749999526889
+91440,Magyarország,Szarvaskő,,,belterület,200/30,HUN_Szarvaskő_200/30,művelés alól kivett,,Tölgyfa utca,,,44,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,116.81090174417317,736.4949999696762
+91441,Magyarország,Szarvaskő,,,belterület,200/31,HUN_Szarvaskő_200/31,művelés alól kivett,,Tölgyfa utca,,,46,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,109.37279529632416,589.9149999484792
+91442,Magyarország,Szarvaskő,,,belterület,200/32,HUN_Szarvaskő_200/32,művelés alól kivett,,Tölgyfa utca,,,48,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,109.50368361149654,588.1500000329688
+91443,Magyarország,Szarvaskő,,,belterület,200/33,HUN_Szarvaskő_200/33,művelés alól kivett,,Tölgyfa utca,,,50,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,110.80517327374328,606.8450000147521
+91444,Magyarország,Szarvaskő,,,belterület,200/34,HUN_Szarvaskő_200/34,művelés alól kivett,,Tölgyfa utca,,,26,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,110.7098461599503,607.3949999799207
+91445,Magyarország,Szarvaskő,,,belterület,200/36,HUN_Szarvaskő_200/36,művelés alól kivett,,Tölgyfa utca,,,16,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,107.70754400125747,655.3950000683964
+91446,Magyarország,Szarvaskő,,,belterület,200/37,HUN_Szarvaskő_200/37,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,139.80680606168167,653.3249999526888
+91447,Magyarország,Szarvaskő,,,belterület,200/38,HUN_Szarvaskő_200/38,művelés alól kivett,,Tölgyfa utca,,,18,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,105.64739353253653,603.1300000511856
+91448,Magyarország,Szarvaskő,,,belterület,200/39,HUN_Szarvaskő_200/39,művelés alól kivett,,Tölgyfa utca,,,20,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,89.40823005486382,495.1450000145659
+91449,Magyarország,Szarvaskő,,,belterület,200/4,HUN_Szarvaskő_200/4,művelés alól kivett,,Tölgyfa utca,,,6,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,110.96657579536931,601.499999997951
+91450,Magyarország,Szarvaskő,,,belterület,200/40,HUN_Szarvaskő_200/40,művelés alól kivett,,Tölgyfa utca,,,22,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,90.39465024622749,504.039999939166
+91451,Magyarország,Szarvaskő,,,belterület,200/41,HUN_Szarvaskő_200/41,művelés alól kivett,,Tölgyfa utca,,,24/a,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,114.12777732003119,440.36000004798177
+91452,Magyarország,Szarvaskő,,,belterület,200/42,HUN_Szarvaskő_200/42,művelés alól kivett,,Tölgyfa utca,,,24,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,101.6625839906344,465.96499994028363
+91453,Magyarország,Szarvaskő,,,belterület,200/43,HUN_Szarvaskő_200/43,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,31.375532201395437,11.889999999143184
+91454,Magyarország,Szarvaskő,,,belterület,200/44,HUN_Szarvaskő_200/44,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,35.51213562097665,37.3050000232458
+91455,Magyarország,Szarvaskő,,,belterület,200/45,HUN_Szarvaskő_200/45,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,36.92538222599259,58.5549999981001
+91456,Magyarország,Szarvaskő,,,belterület,200/46,HUN_Szarvaskő_200/46,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,64.77473309916292,124.35999996006487
+91457,Magyarország,Szarvaskő,,,belterület,200/47,HUN_Szarvaskő_200/47,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,37.35900701191005,54.26000000793487
+91458,Magyarország,Szarvaskő,,,belterület,200/48,HUN_Szarvaskő_200/48,művelés alól kivett,,Tölgyfa utca,,,40,,,,,,,,,,Szarvaskő_001,,3323,Szarvaskő,,115.09806950005147,639.2799999999628
+91459,Magyarország,Szarvaskő,,,belterület,200/49,HUN_Szarvaskő_200/49,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,33.24448372106226,29.74999999254942
+91460,Magyarország,Szarvaskő,,,belterület,200/5,HUN_Szarvaskő_200/5,művelés alól kivett,,Tölgyfa utca,,,8,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,111.01180317320444,605.6449999789893
+91461,Magyarország,Szarvaskő,,,belterület,200/50,HUN_Szarvaskő_200/50,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,35.16324248694431,39.0149999974668
+91462,Magyarország,Szarvaskő,,,belterület,200/51,HUN_Szarvaskő_200/51,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,36.20722858577145,41.135000005885956
+91463,Magyarország,Szarvaskő,,,belterület,200/52,HUN_Szarvaskő_200/52,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,35.11717568513029,39.21999998830259
+91464,Magyarország,Szarvaskő,,,belterület,200/53,HUN_Szarvaskő_200/53,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,34.43326897540622,34.45000000540168
+91465,Magyarország,Szarvaskő,,,belterület,200/6,HUN_Szarvaskő_200/6,művelés alól kivett,,Tölgyfa utca,,,10,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,110.70612891501764,605.9949999830872
+91466,Magyarország,Szarvaskő,,,belterület,200/7,HUN_Szarvaskő_200/7,művelés alól kivett,,Tölgyfa utca,,,12,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,110.03486316559155,601.8999999780208
+91467,Magyarország,Szarvaskő,,,belterület,200/8,HUN_Szarvaskő_200/8,művelés alól kivett,,Tölgyfa utca,,,14,,,,,,,,,,Szarvaskő_020,,3323,Szarvaskő,,109.42169812010465,590.3399999877811
+91468,Magyarország,Szarvaskő,,,belterület,201,HUN_Szarvaskő_201,művelés alól kivett,utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,179.64806427596338,905.9750000597909
+91469,Magyarország,Szarvaskő,,,belterület,202,HUN_Szarvaskő_202,művelés alól kivett,,Tölgyfa utca,,,1,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,141.37438727476706,1241.755000051558
+91470,Magyarország,Szarvaskő,,,belterület,203,HUN_Szarvaskő_203,művelés alól kivett,,Tölgyfa utca,,,3,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,142.34000453993758,1198.6000000353904
+91471,Magyarország,Szarvaskő,,,belterület,204,HUN_Szarvaskő_204,művelés alól kivett,,Tölgyfa utca,,,5,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,143.60258435016982,1177.320000074543
+91472,Magyarország,Szarvaskő,,,belterület,205,HUN_Szarvaskő_205,művelés alól kivett,,Tölgyfa utca,,,7,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,143.81712368757894,1142.189999953322
+91473,Magyarország,Szarvaskő,,,belterület,206,HUN_Szarvaskő_206,művelés alól kivett,,Tölgyfa utca,,,9,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,142.53825964996858,1070.555000034049
+91474,Magyarország,Szarvaskő,,,belterület,207,HUN_Szarvaskő_207,művelés alól kivett,,Tölgyfa utca,,,11,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,144.1008453121812,1054.659999958016
+91475,Magyarország,Szarvaskő,,,belterület,208,HUN_Szarvaskő_208,művelés alól kivett,,Tölgyfa utca,,,13,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,150.66536156698038,1163.0700001535192
+91476,Magyarország,Szarvaskő,,,belterület,209,HUN_Szarvaskő_209,művelés alól kivett,,Tölgyfa utca,,,15,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,151.09497650077233,1087.1650000125542
+91477,Magyarország,Szarvaskő,,,belterület,21,HUN_Szarvaskő_21,művelés alól kivett,,Fő utca,,,10,,,,,,,,,,Szarvaskő_008,,3323,Szarvaskő,,123.99490754122763,821.5700000549853
+91478,Magyarország,Szarvaskő,,,belterület,210,HUN_Szarvaskő_210,művelés alól kivett,,Tölgyfa utca,,,17,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,160.06551598931406,1168.39999990277
+91479,Magyarország,Szarvaskő,,,belterület,211,HUN_Szarvaskő_211,művelés alól kivett,,Tölgyfa utca,,,19,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,159.6929374927805,1210.6700000307708
+91480,Magyarország,Szarvaskő,,,belterület,212,HUN_Szarvaskő_212,művelés alól kivett,,Tölgyfa utca,,,21,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,151.94759996621502,1144.1099998844415
+91481,Magyarország,Szarvaskő,,,belterület,213,HUN_Szarvaskő_213,művelés alól kivett,,Tölgyfa utca,,,23,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,143.39064218226716,1080.6000000474974
+91482,Magyarország,Szarvaskő,,,belterület,214,HUN_Szarvaskő_214,művelés alól kivett,,Tölgyfa utca,,,23/a,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,128.90727134629518,925.4999999474734
+91483,Magyarország,Szarvaskő,,,belterület,215,HUN_Szarvaskő_215,művelés alól kivett,,Tölgyfa utca,,,25,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,140.91295547334798,1168.7099999563395
+91484,Magyarország,Szarvaskő,,,belterület,216/1,HUN_Szarvaskő_216/1,művelés alól kivett,,Tölgyfa utca,,,27,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,116.46049585461107,639.8100000455603
+91485,Magyarország,Szarvaskő,,,belterület,216/2,HUN_Szarvaskő_216/2,művelés alól kivett,,Tölgyfa utca,,,27/a,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,111.02121342325536,657.8499999891967
+91486,Magyarország,Szarvaskő,,,belterület,217,HUN_Szarvaskő_217,művelés alól kivett,,Tölgyfa utca,,,29,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,108.71209779906513,681.6400000008196
+91487,Magyarország,Szarvaskő,,,belterület,218,HUN_Szarvaskő_218,művelés alól kivett,,Tölgyfa utca,,,31,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,152.42973631280398,1388.0599999833482
+91488,Magyarország,Szarvaskő,,,belterület,219,HUN_Szarvaskő_219,művelés alól kivett,,Rózsa utca,,,25,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,101.88235062785876,640.3850000314042
+91489,Magyarország,Szarvaskő,,,belterület,22,HUN_Szarvaskő_22,művelés alól kivett,,Fő utca,,,8,,,,,,,,,,Szarvaskő_008,,3323,Szarvaskő,,113.83069409512156,587.974999997206
+91490,Magyarország,Szarvaskő,,,belterület,220,HUN_Szarvaskő_220,művelés alól kivett,,Rózsa utca,,,23,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,132.00478831235841,1072.710000001788
+91491,Magyarország,Szarvaskő,,,belterület,221,HUN_Szarvaskő_221,művelés alól kivett,,Rózsa utca,,,21,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,143.24692980559755,1144.450000011176
+91492,Magyarország,Szarvaskő,,,belterület,222,HUN_Szarvaskő_222,művelés alól kivett,,Rózsa utca,,,19,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,153.21967424604674,1141.780000019893
+91493,Magyarország,Szarvaskő,,,belterület,223,HUN_Szarvaskő_223,művelés alól kivett,,Rózsa utca,,,17,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,152.18765444597403,1104.7000000016762
+91494,Magyarország,Szarvaskő,,,belterület,224,HUN_Szarvaskő_224,művelés alól kivett,,Rózsa utca,,,15,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,152.92602971069113,1083.9300001089275
+91495,Magyarország,Szarvaskő,,,belterület,225/1,HUN_Szarvaskő_225/1,művelés alól kivett,,Rózsa utca,,,,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,152.38950152043176,1153.4650000216811
+91496,Magyarország,Szarvaskő,,,belterület,225/2,HUN_Szarvaskő_225/2,művelés alól kivett,,Rózsa utca,,,,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,145.83135503195692,1098.6499999770895
+91497,Magyarország,Szarvaskő,,,belterület,226,HUN_Szarvaskő_226,művelés alól kivett,,Rózsa utca,,,11,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,119.43594072444974,526.4899999352546
+91498,Magyarország,Szarvaskő,,,belterület,227,HUN_Szarvaskő_227,művelés alól kivett,,Rózsa utca,,,9,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,118.04569736358133,544.6700000214577
+91499,Magyarország,Szarvaskő,,,belterület,228,HUN_Szarvaskő_228,művelés alól kivett,,Rózsa utca,,,7,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,136.3701103485754,1028.909999930449
+91500,Magyarország,Szarvaskő,,,belterület,229,HUN_Szarvaskő_229,művelés alól kivett,,Rózsa utca,,,5,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,134.83441123080956,1050.2500001018866
+91501,Magyarország,Szarvaskő,,,belterület,23,HUN_Szarvaskő_23,művelés alól kivett,,Fő utca,,,6,,,,,,,,,,Szarvaskő_008,,3323,Szarvaskő,,115.32747125929127,571.0249999789521
+91502,Magyarország,Szarvaskő,,,belterület,230,HUN_Szarvaskő_230,művelés alól kivett,,Rózsa utca,,,3,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,133.53075789685104,1063.070000032261
+91503,Magyarország,Szarvaskő,,,belterület,231,HUN_Szarvaskő_231,művelés alól kivett,,Rózsa utca,,,1,,,,,,,,,,Szarvaskő_021,,3323,Szarvaskő,,137.6373392941888,1169.5999999398364
+91504,Magyarország,Szarvaskő,,,belterület,232,HUN_Szarvaskő_232,művelés alól kivett,Rózsa utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,807.1415098841294,4025.534999807886
+91505,Magyarország,Szarvaskő,,,belterület,233/1,HUN_Szarvaskő_233/1,művelés alól kivett,,Rózsa utca,,,2,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,113.47416669753785,812.8350799293498
+91506,Magyarország,Szarvaskő,,,belterület,234,HUN_Szarvaskő_234,művelés alól kivett,,Rózsa utca,,,4,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,195.44329380830834,1552.0998400768203
+91507,Magyarország,Szarvaskő,,,belterület,235,HUN_Szarvaskő_235,művelés alól kivett,,Rózsa utca,,,6,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,174.52318135827863,1261.6500998586448
+91508,Magyarország,Szarvaskő,,,belterület,236/1,HUN_Szarvaskő_236/1,művelés alól kivett,,Rózsa utca,,,,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,196.56811056610226,2158.7196242594227
+91509,Magyarország,Szarvaskő,,,belterület,236/2,HUN_Szarvaskő_236/2,művelés alól kivett,,Rózsa utca,,,8,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,195.56872656880714,2263.249770135335
+91510,Magyarország,Szarvaskő,,,belterület,237,HUN_Szarvaskő_237,művelés alól kivett,,Rózsa utca,,,10,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,152.24372039298055,1074.0349999690056
+91511,Magyarország,Szarvaskő,,,belterület,238/1,HUN_Szarvaskő_238/1,művelés alól kivett,utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,120.0145796950268,183.59499996595082
+91512,Magyarország,Szarvaskő,,,belterület,238/2,HUN_Szarvaskő_238/2,művelés alól kivett,utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,170.40531781664185,287.4449999635293
+91513,Magyarország,Szarvaskő,,,belterület,239,HUN_Szarvaskő_239,művelés alól kivett,,Rózsa utca,,,12,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,151.55120505563346,1085.6499999824912
+91514,Magyarország,Szarvaskő,,,belterület,24,HUN_Szarvaskő_24,művelés alól kivett,,Fő utca,,,4,,,,,,,,,,Szarvaskő_008,,3323,Szarvaskő,,137.92429818335273,1092.5150000401213
+91515,Magyarország,Szarvaskő,,,belterület,240,HUN_Szarvaskő_240,művelés alól kivett,,Rózsa utca,,,14,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,151.28146262587498,1077.035000054501
+91516,Magyarország,Szarvaskő,,,belterület,241,HUN_Szarvaskő_241,művelés alól kivett,,Rózsa utca,,,16,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,152.79526667494798,1134.2050000053644
+91517,Magyarország,Szarvaskő,,,belterület,242,HUN_Szarvaskő_242,művelés alól kivett,,Rózsa utca,,,18,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,145.2076577372631,1022.2599999395758
+91518,Magyarország,Szarvaskő,,,belterület,243,HUN_Szarvaskő_243,művelés alól kivett,,Rózsa utca,,,20,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,137.7380099461979,997.9650000395625
+91519,Magyarország,Szarvaskő,,,belterület,244,HUN_Szarvaskő_244,művelés alól kivett,,Rózsa utca,,,22,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,138.06451181238353,1148.8050000429898
+91520,Magyarország,Szarvaskő,,,belterület,245,HUN_Szarvaskő_245,művelés alól kivett,,Rózsa utca,,,24,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,149.06436683583274,1075.6249999618158
+91521,Magyarország,Szarvaskő,,,belterület,246,HUN_Szarvaskő_246,művelés alól kivett,,Rózsa utca,,,26,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,131.71261276395057,782.5999999610708
+91522,Magyarország,Szarvaskő,,,belterület,247,HUN_Szarvaskő_247,művelés alól kivett,,Rózsa utca,,,28,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,134.91271399373383,979.1050000588223
+91523,Magyarország,Szarvaskő,,,belterület,248,HUN_Szarvaskő_248,művelés alól kivett,,Rózsa utca,,,30,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,160.7659163381999,1278.120000064112
+91524,Magyarország,Szarvaskő,,,belterület,249,HUN_Szarvaskő_249,művelés alól kivett,,Rózsa utca,,,36,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,144.6572362634384,1201.1800000502542
+91525,Magyarország,Szarvaskő,,,belterület,25,HUN_Szarvaskő_25,művelés alól kivett,,Fő utca,,,2,,,,,,,,,,Szarvaskő_008,,3323,Szarvaskő,,111.2224808575476,683.574999989383
+91526,Magyarország,Szarvaskő,,,belterület,250,HUN_Szarvaskő_250,művelés alól kivett,,Rózsa utca,,,32,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,136.07970402795027,939.1299999489263
+91527,Magyarország,Szarvaskő,,,belterület,251,HUN_Szarvaskő_251,művelés alól kivett,,Rózsa utca,,,34,,,,,,,,,,Szarvaskő_023,,3323,Szarvaskő,,129.14624330143627,798.6149999589101
+91528,Magyarország,Szarvaskő,,,belterület,252,HUN_Szarvaskő_252,művelés alól kivett,,Rózsa utca,,,40,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,116.49099348205571,836.4649639381582
+91529,Magyarország,Szarvaskő,,,belterület,253,HUN_Szarvaskő_253,művelés alól kivett,,Rózsa utca,,,38,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,144.43365343154352,1110.7145199674462
+91530,Magyarország,Szarvaskő,,,belterület,254,HUN_Szarvaskő_254,művelés alól kivett,,,,,,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,527.1729371207355,15027.411894624074
+91531,Magyarország,Szarvaskő,,,belterület,268,HUN_Szarvaskő_268,művelés alól kivett,utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,554.9562222992736,2095.1349420469737
+91532,Magyarország,Szarvaskő,,,belterület,270,HUN_Szarvaskő_270,művelés alól kivett,,Rózsa utca,,,43,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,158.1379865371509,1013.629999890253
+91533,Magyarország,Szarvaskő,,,belterület,271,HUN_Szarvaskő_271,művelés alól kivett,,Rózsa utca,,,41,,,,,,,,,,Szarvaskő_022,,3323,Szarvaskő,,149.9277924375534,880.6950000680239
+91534,Magyarország,Szarvaskő,,,belterület,272,HUN_Szarvaskő_272,művelés alól kivett,utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,128.6349358362896,218.80000002123413
+91535,Magyarország,Szarvaskő,,,belterület,273,HUN_Szarvaskő_273,művelés alól kivett,,Rózsa utca,,,39,,,,,,,,,,Szarvaskő_024,,3323,Szarvaskő,,147.2278142017576,958.1249999478459
+91536,Magyarország,Szarvaskő,,,belterület,274,HUN_Szarvaskő_274,művelés alól kivett,,Rózsa utca,,,37,,,,,,,,,,Szarvaskő_024,,3323,Szarvaskő,,151.7983603537664,1078.190000040494
+91537,Magyarország,Szarvaskő,,,belterület,275,HUN_Szarvaskő_275,művelés alól kivett,,Rózsa utca,,,35,,,,,,,,,,Szarvaskő_024,,3323,Szarvaskő,,150.43337487728752,1076.324999880977
+91538,Magyarország,Szarvaskő,,,belterület,276,HUN_Szarvaskő_276,művelés alól kivett,,Rózsa utca,,,33,,,,,,,,,,Szarvaskő_024,,3323,Szarvaskő,,148.0789414890466,1053.8900001604484
+91539,Magyarország,Szarvaskő,,,belterület,277,HUN_Szarvaskő_277,művelés alól kivett,,Rózsa utca,,,31,,,,,,,,,,Szarvaskő_024,,3323,Szarvaskő,,146.05774575711467,1036.089999951087
+91540,Magyarország,Szarvaskő,,,belterület,278,HUN_Szarvaskő_278,művelés alól kivett,,Rózsa utca,,,29,,,,,,,,,,Szarvaskő_024,,3323,Szarvaskő,,141.71702314083595,960.3999999787659
+91541,Magyarország,Szarvaskő,,,belterület,279,HUN_Szarvaskő_279,művelés alól kivett,,Rózsa utca,,,27,,,,,,,,,,Szarvaskő_024,,3323,Szarvaskő,,139.69265009093414,948.6449999327958
+91542,Magyarország,Szarvaskő,,,belterület,280,HUN_Szarvaskő_280,művelés alól kivett,Rózsa utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,371.9255153494759,1929.5600079504807
+91543,Magyarország,Szarvaskő,,,belterület,29,HUN_Szarvaskő_29,művelés alól kivett,Fő utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,603.3079453774103,3094.479995051641
+91544,Magyarország,Szarvaskő,,,belterület,30,HUN_Szarvaskő_30,művelés alól kivett,,Fő utca,,,1,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,133.63023786721791,1003.4049999859928
+91545,Magyarország,Szarvaskő,,,belterület,31,HUN_Szarvaskő_31,művelés alól kivett,,Fő utca,,,3,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,137.6960174235749,931.8150000507386
+91546,Magyarország,Szarvaskő,,,belterület,32,HUN_Szarvaskő_32,művelés alól kivett,,Fő utca,,,5,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,143.0447199392057,972.2549999904634
+91547,Magyarország,Szarvaskő,,,belterület,36,HUN_Szarvaskő_36,művelés alól kivett,,Fő utca,,,9,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,127.3802587098175,650.4650000298768
+91548,Magyarország,Szarvaskő,,,belterület,39,HUN_Szarvaskő_39,művelés alól kivett,,Fő utca,,,11,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,143.5574277765828,1037.3650000362097
+91549,Magyarország,Szarvaskő,,,belterület,45,HUN_Szarvaskő_45,művelés alól kivett,,Iskola utca,,,3,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,139.33985335024943,1043.085000037551
+91550,Magyarország,Szarvaskő,,,belterület,46,HUN_Szarvaskő_46,művelés alól kivett,,Iskola utca,,,5,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,142.27294433188717,1075.179999928251
+91551,Magyarország,Szarvaskő,,,belterület,47,HUN_Szarvaskő_47,művelés alól kivett,,Iskola utca,,,7,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,143.96275164306408,1048.625000026636
+91552,Magyarország,Szarvaskő,,,belterület,48,HUN_Szarvaskő_48,művelés alól kivett,,Iskola utca,,,9,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,136.3617617991463,810.3699999571963
+91553,Magyarország,Szarvaskő,,,belterület,49,HUN_Szarvaskő_49,művelés alól kivett,,Iskola utca,,,11,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,138.5104468476499,773.0049999889732
+91554,Magyarország,Szarvaskő,,,belterület,50,HUN_Szarvaskő_50,művelés alól kivett,,Iskola utca,,,15,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,51.81053735339593,117.18999998684973
+91555,Magyarország,Szarvaskő,,,belterület,51/1,HUN_Szarvaskő_51/1,művelés alól kivett,,Iskola utca,,,,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,179.29317918281004,1676.7626614166238
+91556,Magyarország,Szarvaskő,,,belterület,52,HUN_Szarvaskő_52,művelés alól kivett,,Iskola utca,,,19,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,87.09782767485929,391.82459234665254
+91557,Magyarország,Szarvaskő,,,belterület,52,HUN_Szarvaskő_52,művelés alól kivett,,Iskola utca,,,21,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,243.5234828009661,2864.4254661704454
+91558,Magyarország,Szarvaskő,,,belterület,56,HUN_Szarvaskő_56,művelés alól kivett,,Iskola utca,,,17,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,77.29985547834497,392.55000001750886
+91559,Magyarország,Szarvaskő,,,belterület,57/1,HUN_Szarvaskő_57/1,művelés alól kivett,,Iskola utca,,,,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,33.1557043487439,46.09499999593943
+91560,Magyarország,Szarvaskő,,,belterület,57/2,HUN_Szarvaskő_57/2,művelés alól kivett,,Iskola utca,,,,,,,,,,,,,Szarvaskő_009,,3323,Szarvaskő,,85.73709761547518,230.61250000353908
+91561,Magyarország,Szarvaskő,,,belterület,58,HUN_Szarvaskő_58,művelés alól kivett,Iskola utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,305.0329072868658,1076.6748899941235
+91562,Magyarország,Szarvaskő,,,belterület,59,HUN_Szarvaskő_59,művelés alól kivett,,Iskola utca,,,8,,,,,,,,,,Szarvaskő_010,,3323,Szarvaskő,,96.85629921253766,477.94999997876585
+91563,Magyarország,Szarvaskő,,,belterület,6,HUN_Szarvaskő_6,művelés alól kivett,,Fő utca,,,30-34,,,,,,,,,,Szarvaskő_007,,3323,Szarvaskő,,114.60525505037906,630.6300000567734
+91564,Magyarország,Szarvaskő,,,belterület,60,HUN_Szarvaskő_60,művelés alól kivett,,Iskola utca,,,6,,,,,,,,,,Szarvaskő_010,,3323,Szarvaskő,,99.28205590316436,468.1550000320002
+91565,Magyarország,Szarvaskő,,,belterület,61,HUN_Szarvaskő_61,művelés alól kivett,,Iskola utca,,,4,,,,,,,,,,Szarvaskő_010,,3323,Szarvaskő,,82.06231737630473,420.5699999951944
+91566,Magyarország,Szarvaskő,,,belterület,62,HUN_Szarvaskő_62,művelés alól kivett,,Iskola utca,,,4,,,,,,,,,,Szarvaskő_010,,3323,Szarvaskő,,70.89267354879297,311.04000002130863
+91567,Magyarország,Szarvaskő,,,belterület,63,HUN_Szarvaskő_63,művelés alól kivett,,Iskola utca,,,2,,,,,,,,,,Szarvaskő_010,,3323,Szarvaskő,,121.36967670793648,843.3702449455446
+91568,Magyarország,Szarvaskő,,,belterület,65,HUN_Szarvaskő_65,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,633.8832092989389,1549.9648716114152
+91569,Magyarország,Szarvaskő,,,belterület,66,HUN_Szarvaskő_66,művelés alól kivett,,II. Rákóczi Ferenc utca,,,1,,,,,,,,,,Szarvaskő_013,,3323,Szarvaskő,,58.19956726782759,156.86500000268222
+91570,Magyarország,Szarvaskő,,,belterület,67,HUN_Szarvaskő_67,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,Szarvaskő_013,,3323,Szarvaskő,,64.20603374495839,212.55999998353423
+91571,Magyarország,Szarvaskő,,,belterület,68,HUN_Szarvaskő_68,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,Szarvaskő_013,,3323,Szarvaskő,,57.63069184068014,164.8949999976158
+91572,Magyarország,Szarvaskő,,,belterület,69/1,HUN_Szarvaskő_69/1,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,Szarvaskő_013,,3323,Szarvaskő,,435.1851617946823,2422.2195001697223
+91573,Magyarország,Szarvaskő,,,belterület,69/1,HUN_Szarvaskő_69/1,művelés alól kivett,Petőfi Sándor utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,527.9748629328791,1951.320710938458
+91574,Magyarország,Szarvaskő,,,belterület,69/2,HUN_Szarvaskő_69/2,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,Szarvaskő_013,,3323,Szarvaskő,,21.334594097616943,28.419999998733402
+91575,Magyarország,Szarvaskő,,,belterület,70,HUN_Szarvaskő_70,művelés alól kivett,,Petőfi Sándor utca,,,9,,,,,,,,,,Szarvaskő_012,,3323,Szarvaskő,,75.38395111994542,344.9650000241026
+91576,Magyarország,Szarvaskő,,,belterület,71,HUN_Szarvaskő_71,művelés alól kivett,,Petőfi Sándor utca,,,7,,,,,,,,,,Szarvaskő_012,,3323,Szarvaskő,,76.31342419545872,302.4349999794364
+91577,Magyarország,Szarvaskő,,,belterület,72,HUN_Szarvaskő_72,művelés alól kivett,,Petőfi Sándor utca,,,5,,,,,,,,,,Szarvaskő_012,,3323,Szarvaskő,,90.42115959166574,481.70499998804183
+91578,Magyarország,Szarvaskő,,,belterület,73,HUN_Szarvaskő_73,művelés alól kivett,Teréz utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,307.81819803254,842.1298789829639
+91579,Magyarország,Szarvaskő,,,belterület,74,HUN_Szarvaskő_74,művelés alól kivett,,Petőfi Sándor utca,,,,,,,,,,,,,Szarvaskő_014,,3323,Szarvaskő,,47.21878097006469,129.255000009276
+91580,Magyarország,Szarvaskő,,,belterület,75,HUN_Szarvaskő_75,művelés alól kivett,,Teréz utca,,,,,,,,,,,,,Szarvaskő_014,,3323,Szarvaskő,,59.2566065800318,136.25999999769033
+91581,Magyarország,Szarvaskő,,,belterület,77/1,HUN_Szarvaskő_77/1,művelés alól kivett,,II. Rákóczi Ferenc utca,,,2,,,,,,,,,,Szarvaskő_014,,3323,Szarvaskő,,103.37596769326247,544.8849999580159
+91582,Magyarország,Szarvaskő,,,belterület,77/2,HUN_Szarvaskő_77/2,művelés alól kivett,,II. Rákóczi Ferenc utca,,,4,,,,,,,,,,Szarvaskő_014,,3323,Szarvaskő,,110.4153845295516,430.46500001441694
+91583,Magyarország,Szarvaskő,,,belterület,80,HUN_Szarvaskő_80,művelés alól kivett,,II. Rákóczi Ferenc utca,,,6,,,,,,,,,,Szarvaskő_014,,3323,Szarvaskő,,83.29480397519475,384.9700000233203
+91584,Magyarország,Szarvaskő,,,belterület,81,HUN_Szarvaskő_81,művelés alól kivett,II. Rákóczi Ferenc utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,519.8061880570586,2450.059898396625
+91585,Magyarország,Szarvaskő,,,belterület,82,HUN_Szarvaskő_82,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,,,3323,Szarvaskő,,60.76108760758044,146.45499997239563
+91586,Magyarország,Szarvaskő,,,belterület,83,HUN_Szarvaskő_83,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,,,3323,Szarvaskő,,30.78567016598572,58.819999977871774
+91587,Magyarország,Szarvaskő,,,belterület,84,HUN_Szarvaskő_84,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,,,3323,Szarvaskő,,27.951238385887507,47.80000000186265
+91588,Magyarország,Szarvaskő,,,belterület,85,HUN_Szarvaskő_85,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,,,3323,Szarvaskő,,64.58410044321415,137.39499999742952
+91589,Magyarország,Szarvaskő,,,belterület,86,HUN_Szarvaskő_86,művelés alól kivett,,II. Rákóczi Ferenc utca,,,20,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,131.06875377770533,1064.4154150347354
+91590,Magyarország,Szarvaskő,,,belterület,87,HUN_Szarvaskő_87,művelés alól kivett,,II. Rákóczi Ferenc utca,,,18,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,105.01926646909226,629.1399999950454
+91591,Magyarország,Szarvaskő,,,belterület,88,HUN_Szarvaskő_88,művelés alól kivett,,II. Rákóczi Ferenc utca,,,16,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,121.88399970437193,804.2549999826401
+91592,Magyarország,Szarvaskő,,,belterület,89,HUN_Szarvaskő_89,művelés alól kivett,,II. Rákóczi Ferenc utca,,,14,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,111.77453361910796,461.94999995455146
+91593,Magyarország,Szarvaskő,,,belterület,90,HUN_Szarvaskő_90,művelés alól kivett,,II. Rákóczi Ferenc utca,,,12,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,109.32615772559255,453.89499995365736
+91594,Magyarország,Szarvaskő,,,belterület,91,HUN_Szarvaskő_91,művelés alól kivett,,II. Rákóczi Ferenc utca,,,10,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,111.74022676902612,655.3850000725687
+91595,Magyarország,Szarvaskő,,,belterület,92,HUN_Szarvaskő_92,művelés alól kivett,,II. Rákóczi Ferenc utca,,,8,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,96.7417720546315,576.5199999627844
+91596,Magyarország,Szarvaskő,,,belterület,93,HUN_Szarvaskő_93,művelés alól kivett,,II. Rákóczi Ferenc utca,,,,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,214.08257640449548,1376.654999988787
+91597,Magyarország,Szarvaskő,,,belterület,94,HUN_Szarvaskő_94,művelés alól kivett,,Teréz utca,,,1,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,209.11209585215616,1399.3450000508876
+91598,Magyarország,Szarvaskő,,,belterület,95,HUN_Szarvaskő_95,művelés alól kivett,,Teréz utca,,,5,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,166.54094859859092,1175.6399999663604
+91599,Magyarország,Szarvaskő,,,belterület,96,HUN_Szarvaskő_96,művelés alól kivett,,Teréz utca,,,7,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,167.44405836693738,889.769999962412
+91600,Magyarország,Szarvaskő,,,belterület,97,HUN_Szarvaskő_97,művelés alól kivett,,Teréz utca,,,9,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,161.30752850683132,721.235000081137
+91601,Magyarország,Szarvaskő,,,belterület,98,HUN_Szarvaskő_98,művelés alól kivett,,Teréz utca,,,11,Bükki Nemzeti Park,nemzeti park,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,144.26906233219492,759.5049999789147
+91602,Magyarország,Szarvaskő,,,belterület,99,HUN_Szarvaskő_99,művelés alól kivett,,Teréz utca,,,13,,,,,,,,,,Szarvaskő_015,,3323,Szarvaskő,,141.04888328179575,700.6050000292063
+91603,Magyarország,Szarvaskő,,,külterület,0109,HUN_Szarvaskő_0109,művelés alól kivett,,,25,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,2894.8186823814253,31333.495000047897
+91604,Magyarország,Szarvaskő,,,külterület,0117,HUN_Szarvaskő_0117,művelés alól kivett,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,1208.6690539349138,9998.345000031894
+91605,Magyarország,Szarvaskő,,,külterület,0118,HUN_Szarvaskő_0118,fásított terület,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,187.34352486738516,745.8549999634549
+91606,Magyarország,Szarvaskő,,,külterület,0119,HUN_Szarvaskő_0119,fásított terület,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,286.27986431820176,686.4899999309703
+91607,Magyarország,Szarvaskő,,,külterület,0120,HUN_Szarvaskő_0120,művelés alól kivett,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,433.347910905322,2850.190000114813
+91608,Magyarország,Szarvaskő,,,külterület,015,HUN_Szarvaskő_015,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,230.3266719669328,392.7700001587343
+91609,Magyarország,Szarvaskő,,,külterület,016/1,HUN_Szarvaskő_016/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,286.9043105381189,1072.7400000710413
+91610,Magyarország,Szarvaskő,,,külterület,016/2,HUN_Szarvaskő_016/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,289.40252786727547,1171.5550002219898
+91611,Magyarország,Szarvaskő,,,külterület,016/3,HUN_Szarvaskő_016/3,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,302.47416926455094,1962.4649999548124
+91612,Magyarország,Szarvaskő,,,külterület,016/4,HUN_Szarvaskő_016/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,351.74760479296083,4871.114999758117
+91613,Magyarország,Szarvaskő,,,külterület,017,HUN_Szarvaskő_017,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1045.3397222877215,56718.0549997785
+91614,Magyarország,Szarvaskő,,,külterület,018/2,HUN_Szarvaskő_018/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,258.3525475670163,2065.7685350708352
+91615,Magyarország,Szarvaskő,,,külterület,018/3,HUN_Szarvaskő_018/3,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,287.67350139150346,3762.710784793787
+91616,Magyarország,Szarvaskő,,,külterület,018/4,HUN_Szarvaskő_018/4,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,360.05796372387675,7191.725770196761
+91617,Magyarország,Szarvaskő,,,külterület,018/5,HUN_Szarvaskő_018/5,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,2855.34353375455,378719.7246947875
+91618,Magyarország,Szarvaskő,,,külterület,019/a,HUN_Szarvaskő_019/a,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1426.0566345012776,44713.37146488907
+91619,Magyarország,Szarvaskő,,,külterület,019/b,HUN_Szarvaskő_019/b,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1134.4111358289042,21168.471774074376
+91620,Magyarország,Szarvaskő,,,külterület,019/c,HUN_Szarvaskő_019/c,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,922.1469043498315,13452.489999698702
+91621,Magyarország,Szarvaskő,,,külterület,020,HUN_Szarvaskő_020,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,4306.031316278644,9631.788814810949
+91622,Magyarország,Szarvaskő,,,külterület,021,HUN_Szarvaskő_021,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1444.7385621564497,116007.29480498121
+91623,Magyarország,Szarvaskő,,,külterület,022,HUN_Szarvaskő_022,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,2071.6145525765146,111009.9850001573
+91624,Magyarország,Szarvaskő,,,külterület,027/10,HUN_Szarvaskő_027/10,legelő,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,161.64373186433716,1479.5649999261275
+91625,Magyarország,Szarvaskő,,,külterület,027/11,HUN_Szarvaskő_027/11,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,885.2934008582802,1567.9000001300144
+91626,Magyarország,Szarvaskő,,,külterület,027/13,HUN_Szarvaskő_027/13,legelő,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,183.6019075096901,1761.4250000899658
+91627,Magyarország,Szarvaskő,,,külterület,027/14,HUN_Szarvaskő_027/14,legelő,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,170.86715256533896,1486.7950000508874
+91628,Magyarország,Szarvaskő,,,külterület,027/15,HUN_Szarvaskő_027/15,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1161.835143139832,30737.110365343928
+91629,Magyarország,Szarvaskő,,,külterület,027/16/a,HUN_Szarvaskő_027/16/a,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,9071.003605625054,684033.1993399354
+91630,Magyarország,Szarvaskő,,,külterület,027/16/b,HUN_Szarvaskő_027/16/b,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1060.4912147739703,29881.639999831128
+91631,Magyarország,Szarvaskő,,,külterület,027/2,HUN_Szarvaskő_027/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,164.202472247662,716.4314849668706
+91632,Magyarország,Szarvaskő,,,külterület,027/3,HUN_Szarvaskő_027/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,53.322197559051276,174.3600000135228
+91633,Magyarország,Szarvaskő,,,külterület,027/5,HUN_Szarvaskő_027/5,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,917.9329282962622,5150.759999969006
+91634,Magyarország,Szarvaskő,,,külterület,027/9,HUN_Szarvaskő_027/9,legelő,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,202.97619712397602,2151.294999912493
+91635,Magyarország,Szarvaskő,,,külterület,028,HUN_Szarvaskő_028,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,4732.763465988079,38816.28978104762
+91636,Magyarország,Szarvaskő,,,külterület,029,HUN_Szarvaskő_029,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1184.8058383122388,28712.225000421146
+91637,Magyarország,Szarvaskő,,,külterület,03,HUN_Szarvaskő_03,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,37.66289030380189,51.06500003453344
+91638,Magyarország,Szarvaskő,,,külterület,030/1,HUN_Szarvaskő_030/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,630.7137907763212,8502.865105108824
+91639,Magyarország,Szarvaskő,,,külterület,030/10,HUN_Szarvaskő_030/10,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,564.9225354749144,2263.6300000588217
+91640,Magyarország,Szarvaskő,,,külterület,030/11,HUN_Szarvaskő_030/11,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,590.982918458273,4864.305000377333
+91641,Magyarország,Szarvaskő,,,külterület,030/12,HUN_Szarvaskő_030/12,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,621.7077182736028,7763.704999907763
+91642,Magyarország,Szarvaskő,,,külterület,030/13,HUN_Szarvaskő_030/13,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,635.8868278098304,8333.84999951031
+91643,Magyarország,Szarvaskő,,,külterület,030/14,HUN_Szarvaskő_030/14,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,676.7104152079104,12897.890000032856
+91644,Magyarország,Szarvaskő,,,külterület,030/15,HUN_Szarvaskő_030/15,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,599.7029137582576,1500.0400005109982
+91645,Magyarország,Szarvaskő,,,külterület,030/16,HUN_Szarvaskő_030/16,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,709.9014331961066,15904.774999918416
+91646,Magyarország,Szarvaskő,,,külterület,030/17,HUN_Szarvaskő_030/17,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,626.6061632467345,2425.364999745824
+91647,Magyarország,Szarvaskő,,,külterület,030/18,HUN_Szarvaskő_030/18,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,896.6177499136538,14914.854999731928
+91648,Magyarország,Szarvaskő,,,külterület,030/19,HUN_Szarvaskő_030/19,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,853.6744297124346,8613.36000013497
+91649,Magyarország,Szarvaskő,,,külterület,030/2,HUN_Szarvaskő_030/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,587.6155766804019,5576.0049995426825
+91650,Magyarország,Szarvaskő,,,külterület,030/20,HUN_Szarvaskő_030/20,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,861.509062290083,15476.214999711181
+91651,Magyarország,Szarvaskő,,,külterület,030/3,HUN_Szarvaskő_030/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,742.876496661988,19635.63500027094
+91652,Magyarország,Szarvaskő,,,külterület,030/4,HUN_Szarvaskő_030/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,453.05092261507065,2049.6149997344623
+91653,Magyarország,Szarvaskő,,,külterület,030/5,HUN_Szarvaskő_030/5,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,610.2902123363566,9809.149999734016
+91654,Magyarország,Szarvaskő,,,külterület,030/6,HUN_Szarvaskő_030/6,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,734.8189332634504,5263.980000064969
+91655,Magyarország,Szarvaskő,,,külterület,030/7,HUN_Szarvaskő_030/7,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,703.0127636572812,2579.400000301561
+91656,Magyarország,Szarvaskő,,,külterület,030/8,HUN_Szarvaskő_030/8,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,822.5852131095784,17942.199999887496
+91657,Magyarország,Szarvaskő,,,külterület,030/9,HUN_Szarvaskő_030/9,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,557.5933329751998,1761.549999885447
+91658,Magyarország,Szarvaskő,,,külterület,031/1,HUN_Szarvaskő_031/1,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,366.3597942050797,2682.2549998885765
+91659,Magyarország,Szarvaskő,,,külterület,031/2,HUN_Szarvaskő_031/2,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,303.5858634852548,2334.8999999320135
+91660,Magyarország,Szarvaskő,,,külterület,031/3,HUN_Szarvaskő_031/3,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1635.3186996605116,11325.300000127958
+91661,Magyarország,Szarvaskő,,,külterület,031/4/a,HUN_Szarvaskő_031/4/a,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,722.5098408206745,25760.130000503992
+91662,Magyarország,Szarvaskő,,,külterület,031/4/b,HUN_Szarvaskő_031/4/b,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,4321.325523497175,230126.90217541528
+91663,Magyarország,Szarvaskő,,,külterület,031/4/c,HUN_Szarvaskő_031/4/c,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,2246.4269136373973,31998.32659973973
+91664,Magyarország,Szarvaskő,,,külterület,031/4/d,HUN_Szarvaskő_031/4/d,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,675.5427764014751,7842.605000156237
+91665,Magyarország,Szarvaskő,,,külterület,031/4/f,HUN_Szarvaskő_031/4/f,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,234.56059867540296,1431.6200000389665
+91666,Magyarország,Szarvaskő,,,külterület,032,HUN_Szarvaskő_032,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1421.5968503915763,3098.249999644239
+91667,Magyarország,Szarvaskő,,,külterület,033/1,HUN_Szarvaskő_033/1,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,289.4293129914205,4786.328279736664
+91668,Magyarország,Szarvaskő,,,külterület,033/10,HUN_Szarvaskő_033/10,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,268.75998671018806,2337.594999901876
+91669,Magyarország,Szarvaskő,,,külterület,033/11,HUN_Szarvaskő_033/11,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,233.5044260939484,894.9600001074
+91670,Magyarország,Szarvaskő,,,külterület,033/12,HUN_Szarvaskő_033/12,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,265.60007958117274,2827.9949999693035
+91671,Magyarország,Szarvaskő,,,külterület,033/13,HUN_Szarvaskő_033/13,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,236.2089362855181,1456.6449999815968
+91672,Magyarország,Szarvaskő,,,külterület,033/14,HUN_Szarvaskő_033/14,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,234.06768015622768,1253.5200000015275
+91673,Magyarország,Szarvaskő,,,külterület,033/15,HUN_Szarvaskő_033/15,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,237.20702487909602,1330.8750000523403
+91674,Magyarország,Szarvaskő,,,külterület,033/16,HUN_Szarvaskő_033/16,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,233.09447328927854,1027.605000079684
+91675,Magyarország,Szarvaskő,,,külterület,033/17,HUN_Szarvaskő_033/17,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,338.4267662580508,5689.740000097304
+91676,Magyarország,Szarvaskő,,,külterület,033/18,HUN_Szarvaskő_033/18,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,266.8286019105791,1489.8400001127643
+91677,Magyarország,Szarvaskő,,,külterület,033/19,HUN_Szarvaskő_033/19,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,249.42998741057687,800.0649999129027
+91678,Magyarország,Szarvaskő,,,külterület,033/2,HUN_Szarvaskő_033/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,266.15353837402455,2777.016710197482
+91679,Magyarország,Szarvaskő,,,külterület,033/3,HUN_Szarvaskő_033/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,472.0261846458397,14045.760000065864
+91680,Magyarország,Szarvaskő,,,külterület,033/4,HUN_Szarvaskő_033/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,345.35200825826166,5570.549999873154
+91681,Magyarország,Szarvaskő,,,külterület,033/5,HUN_Szarvaskő_033/5,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,314.30152880985816,3421.4900002539534
+91682,Magyarország,Szarvaskő,,,külterület,033/6,HUN_Szarvaskő_033/6,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,274.3540526462443,795.7149999436365
+91683,Magyarország,Szarvaskő,,,külterület,033/7,HUN_Szarvaskő_033/7,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,319.86659730335543,3937.714999812692
+91684,Magyarország,Szarvaskő,,,külterület,033/8,HUN_Szarvaskő_033/8,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,296.08859095433536,2692.1399999540677
+91685,Magyarország,Szarvaskő,,,külterület,034,HUN_Szarvaskő_034,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,380.3071303059121,3649.295509958938
+91686,Magyarország,Szarvaskő,,,külterület,035,HUN_Szarvaskő_035,művelés alól kivett,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,862.1672983309701,26856.43923512329
+91687,Magyarország,Szarvaskő,,,külterület,037,HUN_Szarvaskő_037,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1365.7655826904772,3329.1138699272597
+91688,Magyarország,Szarvaskő,,,külterület,038/1/a,HUN_Szarvaskő_038/1/a,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,627.2430300155382,15655.100000025892
+91689,Magyarország,Szarvaskő,,,külterület,038/1/b,HUN_Szarvaskő_038/1/b,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,647.2075892829172,20441.330000104455
+91690,Magyarország,Szarvaskő,,,külterület,038/2,HUN_Szarvaskő_038/2,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,32.48013458736003,65.9200000018999
+91691,Magyarország,Szarvaskő,,,külterület,038/3,HUN_Szarvaskő_038/3,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,145.3559272297062,1241.9600000049545
+91692,Magyarország,Szarvaskő,,,külterület,039/1,HUN_Szarvaskő_039/1,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,381.4412120777346,743.4650001502032
+91693,Magyarország,Szarvaskő,,,külterület,039/2,HUN_Szarvaskő_039/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,485.30565767653036,4047.49500004921
+91694,Magyarország,Szarvaskő,,,külterület,039/3,HUN_Szarvaskő_039/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,498.91489889084687,5335.484999756291
+91695,Magyarország,Szarvaskő,,,külterület,039/4,HUN_Szarvaskő_039/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,486.9302249921644,3708.0400001705075
+91696,Magyarország,Szarvaskő,,,külterület,039/5,HUN_Szarvaskő_039/5,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,531.0077975884118,8486.02499983497
+91697,Magyarország,Szarvaskő,,,külterület,039/6,HUN_Szarvaskő_039/6,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,673.6475100569361,24643.1000004055
+91698,Magyarország,Szarvaskő,,,külterület,04,HUN_Szarvaskő_04,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,125.01368986516201,973.0949999743327
+91699,Magyarország,Szarvaskő,,,külterület,040/1,HUN_Szarvaskő_040/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,513.0456134215306,8531.340000015349
+91700,Magyarország,Szarvaskő,,,külterület,040/2,HUN_Szarvaskő_040/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,494.17266678689896,6078.359999619387
+91701,Magyarország,Szarvaskő,,,külterület,040/3,HUN_Szarvaskő_040/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,662.4313490265063,13267.629520512852
+91702,Magyarország,Szarvaskő,,,külterület,040/4,HUN_Szarvaskő_040/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,617.3885663068362,11471.933609981794
+91703,Magyarország,Szarvaskő,,,külterület,040/5,HUN_Szarvaskő_040/5,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,542.1761366654583,7106.315104738331
+91704,Magyarország,Szarvaskő,,,külterület,040/6,HUN_Szarvaskő_040/6,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,568.1002352174145,12099.037164977119
+91705,Magyarország,Szarvaskő,,,külterület,041/1,HUN_Szarvaskő_041/1,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1171.5896920869009,40135.69475008801
+91706,Magyarország,Szarvaskő,,,külterület,041/2/a,HUN_Szarvaskő_041/2/a,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,2999.836585906255,108106.2353402907
+91707,Magyarország,Szarvaskő,,,külterület,041/2/b,HUN_Szarvaskő_041/2/b,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,430.1691981457638,3914.574999869056
+91708,Magyarország,Szarvaskő,,,külterület,041/2/c,HUN_Szarvaskő_041/2/c,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,894.6841156660003,12834.830000172627
+91709,Magyarország,Szarvaskő,,,külterület,041/2/d,HUN_Szarvaskő_041/2/d,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1277.5633855729502,45439.55721487151
+91710,Magyarország,Szarvaskő,,,külterület,041/2/d,HUN_Szarvaskő_041/2/d,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1226.0005735080779,40133.854755081535
+91711,Magyarország,Szarvaskő,,,külterület,042,HUN_Szarvaskő_042,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,4297.368659046113,379715.8340505679
+91712,Magyarország,Szarvaskő,,,külterület,043/1,HUN_Szarvaskő_043/1,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,558.937300135288,13437.86000001576
+91713,Magyarország,Szarvaskő,,,külterület,043/2,HUN_Szarvaskő_043/2,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,728.8295981181221,23173.090679956906
+91714,Magyarország,Szarvaskő,,,külterület,044,HUN_Szarvaskő_044,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1686.9483016512047,3605.8451174905313
+91715,Magyarország,Szarvaskő,,,külterület,045,HUN_Szarvaskő_045,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,745.0638075030306,10404.041682614723
+91716,Magyarország,Szarvaskő,,,külterület,046/1,HUN_Szarvaskő_046/1,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,828.5175733767787,20048.34000023477
+91717,Magyarország,Szarvaskő,,,külterület,046/3,HUN_Szarvaskő_046/3,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,2445.2329158324455,219766.87706337858
+91718,Magyarország,Szarvaskő,,,külterület,046/4,HUN_Szarvaskő_046/4,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1194.3014185368786,39872.26526858521
+91719,Magyarország,Szarvaskő,,,külterület,047/1,HUN_Szarvaskő_047/1,erdő,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,,,,,,,,3323,Szarvaskő,,2076.73755425722,36285.47206949486
+91720,Magyarország,Szarvaskő,,,külterület,047/1,HUN_Szarvaskő_047/1,erdő,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,,,,,,,,3323,Szarvaskő,,4882.371246099998,1137383.3956865794
+91721,Magyarország,Szarvaskő,,,külterület,047/1,HUN_Szarvaskő_047/1,művelés alól kivett,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,,,,,,,,3323,Szarvaskő,,2350.5047955706164,18200.84141580203
+91722,Magyarország,Szarvaskő,,,külterület,047/2,HUN_Szarvaskő_047/2,szántó,,,,,,Bükki Nemzeti Park,nemzeti park,,,,,,,,,,3323,Szarvaskő,,89.85883724820224,477.87000002332036
+91723,Magyarország,Szarvaskő,,,külterület,048,HUN_Szarvaskő_048,művelés alól kivett,,,25,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,442.9627420818909,2605.2050000832223
+91724,Magyarország,Szarvaskő,,,külterület,049,HUN_Szarvaskő_049,művelés alól kivett,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,384.9137740861435,1312.5641716473133
+91725,Magyarország,Szarvaskő,,,külterület,05/1,HUN_Szarvaskő_05/1,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,933.7141421548766,27012.919719996225
+91726,Magyarország,Szarvaskő,,,külterület,05/10,HUN_Szarvaskő_05/10,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1033.8197036439476,32917.604895028206
+91727,Magyarország,Szarvaskő,,,külterület,05/14,HUN_Szarvaskő_05/14,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,175.71983233638298,1501.8899999210983
+91728,Magyarország,Szarvaskő,,,külterület,05/15,HUN_Szarvaskő_05/15,fásított terület,,,,,,,,,,,,,,,,,3323,Szarvaskő,,127.31520313319562,743.360000079833
+91729,Magyarország,Szarvaskő,,,külterület,05/16,HUN_Szarvaskő_05/16,fásított terület,,,,,,,,,,,,,,,,,3323,Szarvaskő,,117.52020052904167,612.1199999208749
+91730,Magyarország,Szarvaskő,,,külterület,05/17,HUN_Szarvaskő_05/17,fásított terület,,,,,,,,,,,,,,,,,3323,Szarvaskő,,120.0655230514144,672.9850000202283
+91731,Magyarország,Szarvaskő,,,külterület,05/18,HUN_Szarvaskő_05/18,fásított terület,,,,,,,,,,,,,,,,,3323,Szarvaskő,,135.11954932615726,940.7849999567121
+91732,Magyarország,Szarvaskő,,,külterület,05/19,HUN_Szarvaskő_05/19,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,208.69301317053265,2699.81500006862
+91733,Magyarország,Szarvaskő,,,külterület,05/20,HUN_Szarvaskő_05/20,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,165.44029269141527,1655.9642200529204
+91734,Magyarország,Szarvaskő,,,külterület,05/21,HUN_Szarvaskő_05/21,művelés alól kivett,,Tölgyfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,93.87089126733092,153.11490503060824
+91735,Magyarország,Szarvaskő,,,külterület,05/22/a,HUN_Szarvaskő_05/22/a,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,547.7338844273482,14466.033429972587
+91736,Magyarország,Szarvaskő,,,külterület,05/22/b,HUN_Szarvaskő_05/22/b,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,6212.189797291338,415530.7973730333
+91737,Magyarország,Szarvaskő,,,külterület,05/22/c,HUN_Szarvaskő_05/22/c,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,261.8519729286746,1144.399999968149
+91738,Magyarország,Szarvaskő,,,külterület,05/4,HUN_Szarvaskő_05/4,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,267.90710790046916,930.4846149859986
+91739,Magyarország,Szarvaskő,,,külterület,05/5,HUN_Szarvaskő_05/5,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,192.6460644230527,923.7499999191612
+91740,Magyarország,Szarvaskő,,,külterület,05/6,HUN_Szarvaskő_05/6,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1926.7439124044747,107195.80934011558
+91741,Magyarország,Szarvaskő,,,külterület,05/7,HUN_Szarvaskő_05/7,fásított terület,,,,,,Bükki Nemzeti Park,nemzeti park,,,,,,,,,,3323,Szarvaskő,,243.1489219384834,1197.3450000752885
+91742,Magyarország,Szarvaskő,,,külterület,05/8,HUN_Szarvaskő_05/8,erdő,,,,,,,,HUBN20004,Szarvaskő,,,,,,,,3323,Szarvaskő,,927.560155587805,5667.895000241437
+91743,Magyarország,Szarvaskő,,,külterület,05/9,HUN_Szarvaskő_05/9,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,2827.9451827377775,213042.57161749495
+91744,Magyarország,Szarvaskő,,,külterület,050,HUN_Szarvaskő_050,fásított terület,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,262.8442645800439,2463.3649999458717
+91745,Magyarország,Szarvaskő,,,külterület,051,HUN_Szarvaskő_051,művelés alól kivett,,,,87,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,522.6682541684901,4296.780328169442
+91746,Magyarország,Szarvaskő,,,külterület,052,HUN_Szarvaskő_052,művelés alól kivett,,,,87,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,319.61838337568,2610.599850004551
+91747,Magyarország,Szarvaskő,,,külterület,053,HUN_Szarvaskő_053,művelés alól kivett,,,25,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,473.9760803197005,4455.354999922104
+91748,Magyarország,Szarvaskő,,,külterület,054,HUN_Szarvaskő_054,művelés alól kivett,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,,,,,,,,3323,Szarvaskő,,389.2517443097386,838.9904522579791
+91749,Magyarország,Szarvaskő,,,külterület,055,HUN_Szarvaskő_055,erdő,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,,,,,,,,3323,Szarvaskő,,344.01149426142183,3098.0442000834364
+91750,Magyarország,Szarvaskő,,,külterület,056/1,HUN_Szarvaskő_056/1,rét,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,56.97102626510574,130.0800000096485
+91751,Magyarország,Szarvaskő,,,külterület,056/2,HUN_Szarvaskő_056/2,művelés alól kivett,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,45.04370971247196,115.47000001102687
+91752,Magyarország,Szarvaskő,,,külterület,057,HUN_Szarvaskő_057,rét,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,350.2637283451841,2033.7700001026687
+91753,Magyarország,Szarvaskő,,,külterület,058,HUN_Szarvaskő_058,rét,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,298.9323248850037,1079.0800000044333
+91754,Magyarország,Szarvaskő,,,külterület,059,HUN_Szarvaskő_059,művelés alól kivett,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,1750.9780821610357,7492.9849998347045
+91755,Magyarország,Szarvaskő,,,külterület,06,HUN_Szarvaskő_06,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,4917.7823286811235,17971.665284409304
+91756,Magyarország,Szarvaskő,,,külterület,060,HUN_Szarvaskő_060,művelés alól kivett,,,25,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,1253.4962790136037,11193.060000024328
+91757,Magyarország,Szarvaskő,,,külterület,061,HUN_Szarvaskő_061,művelés alól kivett,,,,87,,,,,,,,,,,,,3323,Szarvaskő,,4108.778579670052,49609.811128643945
+91758,Magyarország,Szarvaskő,,,külterület,062,HUN_Szarvaskő_062,rét,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,278.2482689446643,2796.7450000587105
+91759,Magyarország,Szarvaskő,,,külterület,063,HUN_Szarvaskő_063,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,362.2453339787858,861.8450002632295
+91760,Magyarország,Szarvaskő,,,külterület,064,HUN_Szarvaskő_064,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,672.6710898675221,3783.880000037775
+91761,Magyarország,Szarvaskő,,,külterület,065,HUN_Szarvaskő_065,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,369.2742372806324,784.2449997638544
+91762,Magyarország,Szarvaskő,,,külterület,066,HUN_Szarvaskő_066,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1474.8844555931125,5178.949999816529
+91763,Magyarország,Szarvaskő,,,külterület,067/4,HUN_Szarvaskő_067/4,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,916.4349147833615,6140.018771524736
+91764,Magyarország,Szarvaskő,,,külterület,068/1,HUN_Szarvaskő_068/1,erdő,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,8685.392511741591,2093281.772014372
+91765,Magyarország,Szarvaskő,,,külterület,068/2,HUN_Szarvaskő_068/2,művelés alól kivett,,,,87,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,353.5090055725388,2237.6549999655035
+91766,Magyarország,Szarvaskő,,,külterület,068/3,HUN_Szarvaskő_068/3,erdő,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,558.7577635685637,19933.6405499585
+91767,Magyarország,Szarvaskő,,,külterület,069,HUN_Szarvaskő_069,művelés alól kivett,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,6407.151025289061,14379.02453453024
+91768,Magyarország,Szarvaskő,,,külterület,070/5,HUN_Szarvaskő_070/5,erdő,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,5470.2675851188205,552686.7743459087
+91769,Magyarország,Szarvaskő,,,külterület,070/6/a,HUN_Szarvaskő_070/6/a,erdő,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,8984.074482455184,2975803.860732583
+91770,Magyarország,Szarvaskő,,,külterület,070/6/b,HUN_Szarvaskő_070/6/b,erdő,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,531.6401363264343,16564.60500012122
+91771,Magyarország,Szarvaskő,,,külterület,072,HUN_Szarvaskő_072,művelés alól kivett,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,2120.794362203371,23060.374831763264
+91772,Magyarország,Szarvaskő,,,külterület,073,HUN_Szarvaskő_073,erdő,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,468.8064601433274,7523.534999926352
+91773,Magyarország,Szarvaskő,,,külterület,077/1,HUN_Szarvaskő_077/1,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1085.930552136018,6161.230000013181
+91774,Magyarország,Szarvaskő,,,külterület,077/2,HUN_Szarvaskő_077/2,művelés alól kivett,,,25,,,,,,,,,,,,,,3323,Szarvaskő,,1788.7552230908202,14606.514999917908
+91775,Magyarország,Szarvaskő,,,külterület,077/3,HUN_Szarvaskő_077/3,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,598.0565152995205,2159.615000087992
+91776,Magyarország,Szarvaskő,,,külterület,078/1,HUN_Szarvaskő_078/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,372.9353327831888,4912.580000013746
+91777,Magyarország,Szarvaskő,,,külterület,078/2,HUN_Szarvaskő_078/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,194.14832777396074,1561.8200000354277
+91778,Magyarország,Szarvaskő,,,külterület,078/3,HUN_Szarvaskő_078/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,224.70094242625314,2760.359999970868
+91779,Magyarország,Szarvaskő,,,külterület,078/4,HUN_Szarvaskő_078/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,209.68112541959073,2670.545000023879
+91780,Magyarország,Szarvaskő,,,külterület,078/5,HUN_Szarvaskő_078/5,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,175.04476428474885,1626.594999936335
+91781,Magyarország,Szarvaskő,,,külterület,079,HUN_Szarvaskő_079,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,477.45341231115356,7498.690584913762
+91782,Magyarország,Szarvaskő,,,külterület,080,HUN_Szarvaskő_080,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1310.9291774058536,11232.47000022541
+91783,Magyarország,Szarvaskő,,,külterület,081/1,HUN_Szarvaskő_081/1,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,576.1696027249736,6349.104999861755
+91784,Magyarország,Szarvaskő,,,külterület,081/2,HUN_Szarvaskő_081/2,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,154.11377990830167,1285.3000000037252
+91785,Magyarország,Szarvaskő,,,külterület,083,HUN_Szarvaskő_083,művelés alól kivett,,,,87,,,,,,,,,,,,,3323,Szarvaskő,,6258.996530105494,63124.99193290594
+91786,Magyarország,Szarvaskő,,,külterület,084/1,HUN_Szarvaskő_084/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,198.5734091224143,2394.6299999569355
+91787,Magyarország,Szarvaskő,,,külterület,084/2,HUN_Szarvaskő_084/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,211.12633029741158,2679.254999892302
+91788,Magyarország,Szarvaskő,,,külterület,084/3,HUN_Szarvaskő_084/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,157.53433066388882,1553.3949999719114
+91789,Magyarország,Szarvaskő,,,külterület,084/4,HUN_Szarvaskő_084/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,378.54979368077386,2778.279999986366
+91790,Magyarország,Szarvaskő,,,külterület,085/1,HUN_Szarvaskő_085/1,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,305.66385124039124,2364.190000030808
+91791,Magyarország,Szarvaskő,,,külterület,085/2,HUN_Szarvaskő_085/2,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,444.68106181827125,3163.610000083372
+91792,Magyarország,Szarvaskő,,,külterület,086/1,HUN_Szarvaskő_086/1,rét,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,298.2917980732759,2812.2650000727176
+91793,Magyarország,Szarvaskő,,,külterület,086/2,HUN_Szarvaskő_086/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,381.61408079412615,5126.369999983833
+91794,Magyarország,Szarvaskő,,,külterület,087,HUN_Szarvaskő_087,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,760.3740526853887,3677.8300000731624
+91795,Magyarország,Szarvaskő,,,külterület,088,HUN_Szarvaskő_088,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,249.77265835194314,3647.354999999032
+91796,Magyarország,Szarvaskő,,,külterület,089/10,HUN_Szarvaskő_089/10,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,418.82874649784725,4995.740919967677
+91797,Magyarország,Szarvaskő,,,külterület,089/2,HUN_Szarvaskő_089/2,művelés alól kivett,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,418.9936879051585,9777.529999912605
+91798,Magyarország,Szarvaskő,,,külterület,089/3,HUN_Szarvaskő_089/3,szántó,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,252.30078866443927,3832.680000059567
+91799,Magyarország,Szarvaskő,,,külterület,089/4,HUN_Szarvaskő_089/4,szántó,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,258.6486120389177,4165.379999945015
+91800,Magyarország,Szarvaskő,,,külterület,089/5,HUN_Szarvaskő_089/5,szántó,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,211.78882835638814,2302.1650000198188
+91801,Magyarország,Szarvaskő,,,külterület,089/6,HUN_Szarvaskő_089/6,szántó,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,217.17095653311011,2589.1750000976026
+91802,Magyarország,Szarvaskő,,,külterület,089/7,HUN_Szarvaskő_089/7,gyümölcsös,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,204.9503203411118,2255.6299999364464
+91803,Magyarország,Szarvaskő,,,külterület,089/8,HUN_Szarvaskő_089/8,művelés alól kivett,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,257.5211891952892,853.3049998829886
+91804,Magyarország,Szarvaskő,,,külterület,089/9,HUN_Szarvaskő_089/9,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,108.53287800097885,387.99000004831703
+91805,Magyarország,Szarvaskő,,,külterület,09/1,HUN_Szarvaskő_09/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,264.1491422848548,2003.5994698461216
+91806,Magyarország,Szarvaskő,,,külterület,09/2,HUN_Szarvaskő_09/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,275.9872976125872,1994.5000000623986
+91807,Magyarország,Szarvaskő,,,külterület,09/3,HUN_Szarvaskő_09/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,700.9094687529723,27152.57126501754
+91808,Magyarország,Szarvaskő,,,külterület,090/1,HUN_Szarvaskő_090/1,szántó,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,191.44119727926002,1814.0849999975042
+91809,Magyarország,Szarvaskő,,,külterület,090/2,HUN_Szarvaskő_090/2,szántó,,,,,,Bükki Nemzeti Park,nemzeti park,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,259.5426464595523,1797.779999855049
+91810,Magyarország,Szarvaskő,,,külterület,090/3,HUN_Szarvaskő_090/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,135.60971279827476,987.4449999422951
+91811,Magyarország,Szarvaskő,,,külterület,091,HUN_Szarvaskő_091,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,326.67777338396866,2160.0500001024457
+91812,Magyarország,Szarvaskő,,,külterület,092,HUN_Szarvaskő_092,művelés alól kivett,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,1474.2614869385268,14224.764999624382
+91813,Magyarország,Szarvaskő,,,külterület,093,HUN_Szarvaskő_093,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,396.8336240518907,4774.010000113733
+91814,Magyarország,Szarvaskő,,,külterület,094,HUN_Szarvaskő_094,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,714.8821422682454,4417.61500019379
+91815,Magyarország,Szarvaskő,,,külterület,095/5/a,HUN_Szarvaskő_095/5/a,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,126.51405692011724,545.1449999389424
+91816,Magyarország,Szarvaskő,,,külterület,095/5/b,HUN_Szarvaskő_095/4/b,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,416.7597173936851,3926.235918980081
+91817,Magyarország,Szarvaskő,,,külterület,095/5/c,HUN_Szarvaskő_095/5/c,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,135.01779778817038,945.6249999616296
+91818,Magyarország,Szarvaskő,,,külterület,095/5/c,HUN_Szarvaskő_095/5/c,szántó,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,161.21790449449355,1027.0749999413267
+91819,Magyarország,Szarvaskő,,,külterület,096,HUN_Szarvaskő_096,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,376.31162854729985,358.5588562951192
+91820,Magyarország,Szarvaskő,,,külterület,096,HUN_Szarvaskő_096,művelés alól kivett,,,25,,,,,,,,,,,,,,3323,Szarvaskő,,2313.4538065807697,18533.29193146605
+91821,Magyarország,Szarvaskő,,,zártkert,401/2,HUN_Szarvaskő_401/2,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,163.47372910769639,1660.4650000179558
+91822,Magyarország,Szarvaskő,,,zártkert,402,HUN_Szarvaskő_402,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,265.83126967956105,1455.730000085272
+91823,Magyarország,Szarvaskő,,,zártkert,404,HUN_Szarvaskő_404,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,119.20545912920244,783.784999986887
+91824,Magyarország,Szarvaskő,,,zártkert,405/1,HUN_Szarvaskő_405/1,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,92.77976219398451,511.15499999623745
+91825,Magyarország,Szarvaskő,,,zártkert,405/2,HUN_Szarvaskő_405/2,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,176.78667697510195,1629.029999991767
+91826,Magyarország,Szarvaskő,,,zártkert,406,HUN_Szarvaskő_406,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,184.65799225853556,2149.004940001005
+91827,Magyarország,Szarvaskő,,,zártkert,408,HUN_Szarvaskő_408,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,108.08120192932319,515.4049999306724
+91828,Magyarország,Szarvaskő,,,zártkert,409/1,HUN_Szarvaskő_409/1,művelés alól kivett,Nyírfa utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,450.08718634377834,872.7450601232348
+91829,Magyarország,Szarvaskő,,,zártkert,409/2,HUN_Szarvaskő_409/2,művelés alól kivett,Nyírfa utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,171.14072175364763,503.010000027679
+91830,Magyarország,Szarvaskő,,,zártkert,409/3,HUN_Szarvaskő_409/3,művelés alól kivett,Nyírfa utca,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,171.73875515745507,401.69499994900053
+91831,Magyarország,Szarvaskő,,,zártkert,410,HUN_Szarvaskő_410,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,115.47295833449746,481.2450000214577
+91832,Magyarország,Szarvaskő,,,zártkert,411,HUN_Szarvaskő_411,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,150.47866815114563,830.0549999627098
+91833,Magyarország,Szarvaskő,,,zártkert,412,HUN_Szarvaskő_412,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,189.77099151107706,1422.4450000624358
+91834,Magyarország,Szarvaskő,,,zártkert,414,HUN_Szarvaskő_414,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,198.6371299105598,1530.384999890588
+91835,Magyarország,Szarvaskő,,,zártkert,415,HUN_Szarvaskő_415,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,182.99261485525005,1037.3600000416488
+91836,Magyarország,Szarvaskő,,,zártkert,416,HUN_Szarvaskő_416,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,151.19327436913235,817.2099999971315
+91837,Magyarország,Szarvaskő,,,zártkert,417,HUN_Szarvaskő_417,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,158.55934651831717,1012.6900000280142
+91838,Magyarország,Szarvaskő,,,zártkert,418,HUN_Szarvaskő_418,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,157.56356433240762,765.9599999304488
+91839,Magyarország,Szarvaskő,,,zártkert,419,HUN_Szarvaskő_419,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,153.93541587299902,754.230000012815
+91840,Magyarország,Szarvaskő,,,zártkert,420,HUN_Szarvaskő_420,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,153.34079339086264,807.1949999745191
+91841,Magyarország,Szarvaskő,,,zártkert,421,HUN_Szarvaskő_421,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,151.5846093303105,861.7600000770391
+91842,Magyarország,Szarvaskő,,,zártkert,422,HUN_Szarvaskő_422,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,251.0899137996793,1384.219999844879
+91843,Magyarország,Szarvaskő,,,zártkert,423,HUN_Szarvaskő_423,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,143.47179154987145,774.3800000433623
+91844,Magyarország,Szarvaskő,,,zártkert,424,HUN_Szarvaskő_424,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,142.61004168242016,752.5499999709427
+91845,Magyarország,Szarvaskő,,,zártkert,425,HUN_Szarvaskő_425,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,144.86963269158684,824.9800000051781
+91846,Magyarország,Szarvaskő,,,zártkert,426,HUN_Szarvaskő_426,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,144.18707464249704,801.755000019148
+91847,Magyarország,Szarvaskő,,,zártkert,427,HUN_Szarvaskő_427,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,168.53305562407826,932.7100000353157
+91848,Magyarország,Szarvaskő,,,zártkert,428,HUN_Szarvaskő_428,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,165.515773336824,914.6400001047551
+91849,Magyarország,Szarvaskő,,,zártkert,429,HUN_Szarvaskő_429,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,181.0539917086518,1032.3599999937787
+91850,Magyarország,Szarvaskő,,,zártkert,430,HUN_Szarvaskő_430,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,171.3173941702227,1006.2400000561402
+91851,Magyarország,Szarvaskő,,,zártkert,431,HUN_Szarvaskő_431,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,157.65873305828194,855.834999903813
+91852,Magyarország,Szarvaskő,,,zártkert,432,HUN_Szarvaskő_432,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,147.0859760910328,797.1500000366941
+91853,Magyarország,Szarvaskő,,,zártkert,433,HUN_Szarvaskő_433,művelés alól kivett,Nyírfa utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,959.0121619494153,2382.964999738188
+91854,Magyarország,Szarvaskő,,,zártkert,434/1,HUN_Szarvaskő_434/1,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,301.4768688923444,2306.5249999394637
+91855,Magyarország,Szarvaskő,,,zártkert,434/2,HUN_Szarvaskő_434/2,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,330.4942522511793,1151.2049999314177
+91856,Magyarország,Szarvaskő,,,zártkert,435/1,HUN_Szarvaskő_435/1,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,195.6855953556091,1354.495000016056
+91857,Magyarország,Szarvaskő,,,zártkert,435/2,HUN_Szarvaskő_435/2,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,347.05685608739867,1710.4099998054653
+91858,Magyarország,Szarvaskő,,,zártkert,436,HUN_Szarvaskő_436,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,357.69719275617405,3171.425000266358
+91859,Magyarország,Szarvaskő,,,zártkert,437,HUN_Szarvaskő_437,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,335.9071353598903,2862.149999904819
+91860,Magyarország,Szarvaskő,,,zártkert,438,HUN_Szarvaskő_438,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,300.7005326696193,1383.4999999916186
+91861,Magyarország,Szarvaskő,,,zártkert,439,HUN_Szarvaskő_439,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,301.01298011154756,1323.3499999539927
+91862,Magyarország,Szarvaskő,,,zártkert,440,HUN_Szarvaskő_440,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,304.39072459921806,1419.47500001546
+91863,Magyarország,Szarvaskő,,,zártkert,441,HUN_Szarvaskő_441,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,304.8498936050055,1300.499999856018
+91864,Magyarország,Szarvaskő,,,zártkert,442,HUN_Szarvaskő_442,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,320.9877904699092,2923.6950001619007
+91865,Magyarország,Szarvaskő,,,zártkert,443,HUN_Szarvaskő_443,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,279.89694742192603,1222.015000068434
+91866,Magyarország,Szarvaskő,,,zártkert,444,HUN_Szarvaskő_444,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,48.20751828439962,121.16000002637506
+91867,Magyarország,Szarvaskő,,,zártkert,445,HUN_Szarvaskő_445,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,49.31673724079584,118.21999998923391
+91868,Magyarország,Szarvaskő,,,zártkert,446,HUN_Szarvaskő_446,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,267.9063291797778,1108.0600001407415
+91869,Magyarország,Szarvaskő,,,zártkert,447,HUN_Szarvaskő_447,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,257.9374911857825,1157.4299999196828
+91870,Magyarország,Szarvaskő,,,zártkert,448,HUN_Szarvaskő_448,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,40.98976996181741,76.2650000263378
+91871,Magyarország,Szarvaskő,,,zártkert,449,HUN_Szarvaskő_449,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,62.76105323470715,122.3150000127405
+91872,Magyarország,Szarvaskő,,,zártkert,450,HUN_Szarvaskő_450,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,263.0764370657495,2227.9249999620024
+91873,Magyarország,Szarvaskő,,,zártkert,451,HUN_Szarvaskő_451,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,131.4702271551654,993.0800000366569
+91874,Magyarország,Szarvaskő,,,zártkert,453,HUN_Szarvaskő_453,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,239.5205821778727,1699.870000026673
+91875,Magyarország,Szarvaskő,,,zártkert,454/1,HUN_Szarvaskő_454/1,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,240.76014238417574,1104.5499999858437
+91876,Magyarország,Szarvaskő,,,zártkert,454/2,HUN_Szarvaskő_454/2,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,143.55013703074928,1141.7100000075623
+91877,Magyarország,Szarvaskő,,,zártkert,454/3,HUN_Szarvaskő_454/3,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,84.68705829899588,341.40500004522505
+91878,Magyarország,Szarvaskő,,,zártkert,455,HUN_Szarvaskő_455,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,32.77686291245962,37.92499999664724
+91879,Magyarország,Szarvaskő,,,zártkert,456,HUN_Szarvaskő_456,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,102.50949216845146,636.1200000283494
+91880,Magyarország,Szarvaskő,,,zártkert,457,HUN_Szarvaskő_457,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,102.03799502448052,609.7200000190362
+91881,Magyarország,Szarvaskő,,,zártkert,458,HUN_Szarvaskő_458,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,104.22420301677636,638.3049999940023
+91882,Magyarország,Szarvaskő,,,zártkert,459,HUN_Szarvaskő_459,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,101.442774536853,618.8999999744818
+91883,Magyarország,Szarvaskő,,,zártkert,460,HUN_Szarvaskő_460,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,100.52028336497379,627.6000000439585
+91884,Magyarország,Szarvaskő,,,zártkert,461,HUN_Szarvaskő_461,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,121.79408762503363,869.5349999818578
+91885,Magyarország,Szarvaskő,,,zártkert,462,HUN_Szarvaskő_462,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,134.2546921286438,970.1599999881909
+91886,Magyarország,Szarvaskő,,,zártkert,463,HUN_Szarvaskő_463,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,123.74779161754581,761.5849999807402
+91887,Magyarország,Szarvaskő,,,zártkert,464,HUN_Szarvaskő_464,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,194.44460540788398,1297.8200000194088
+91888,Magyarország,Szarvaskő,,,zártkert,465,HUN_Szarvaskő_465,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,235.52644320928695,1886.3900000716
+91889,Magyarország,Szarvaskő,,,zártkert,466,HUN_Szarvaskő_466,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,153.21999785838165,1062.0000000298023
+91890,Magyarország,Szarvaskő,,,zártkert,467,HUN_Szarvaskő_467,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,166.9697014425166,906.5249998440966
+91891,Magyarország,Szarvaskő,,,zártkert,468,HUN_Szarvaskő_468,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,148.61750856460606,1204.35000006482
+91892,Magyarország,Szarvaskő,,,zártkert,470,HUN_Szarvaskő_470,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,124.0966811073541,632.7199999877438
+91893,Magyarország,Szarvaskő,,,zártkert,471,HUN_Szarvaskő_471,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,125.21430010189209,634.2850000274926
+91894,Magyarország,Szarvaskő,,,zártkert,472,HUN_Szarvaskő_472,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,126.35084139275777,642.200000051409
+91895,Magyarország,Szarvaskő,,,zártkert,473,HUN_Szarvaskő_473,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,126.02201353148499,740.7249999029563
+91896,Magyarország,Szarvaskő,,,zártkert,474,HUN_Szarvaskő_474,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,109.60918471031071,581.7400000444054
+91897,Magyarország,Szarvaskő,,,zártkert,475,HUN_Szarvaskő_475,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,123.79238529751564,713.0499999634922
+91898,Magyarország,Szarvaskő,,,zártkert,476,HUN_Szarvaskő_476,művelés alól kivett,Nyírfa utca,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,397.7620382719845,815.9049999569363
+91899,Magyarország,Szarvaskő,,,zártkert,477,HUN_Szarvaskő_477,gyümölcsös,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,120.73914307007416,718.9399999570473
+91900,Magyarország,Szarvaskő,,,zártkert,478,HUN_Szarvaskő_478,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,128.67064719492504,866.3399999840558
+91901,Magyarország,Szarvaskő,,,zártkert,479,HUN_Szarvaskő_479,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,116.83179711635178,737.2599999663978
+91902,Magyarország,Szarvaskő,,,zártkert,480,HUN_Szarvaskő_480,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,120.85000989117091,753.4399999395386
+91903,Magyarország,Szarvaskő,,,zártkert,481,HUN_Szarvaskő_481,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,136.25730038939543,915.0950000264869
+91904,Magyarország,Szarvaskő,,,zártkert,482,HUN_Szarvaskő_482,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,118.9321237054935,773.9900000945106
+91905,Magyarország,Szarvaskő,,,zártkert,483,HUN_Szarvaskő_483,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,116.8554352717465,745.7900000160934
+91906,Magyarország,Szarvaskő,,,zártkert,484,HUN_Szarvaskő_484,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,144.4897073843281,979.930000067763
+91907,Magyarország,Szarvaskő,,,zártkert,485,HUN_Szarvaskő_485,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,158.0557704482676,677.4399999376759
+91908,Magyarország,Szarvaskő,,,zártkert,486,HUN_Szarvaskő_486,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,162.95515399513172,793.6349999729171
+91909,Magyarország,Szarvaskő,,,zártkert,487,HUN_Szarvaskő_487,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,278.67586686092375,1287.0949999465797
+91910,Magyarország,Szarvaskő,,,zártkert,488,HUN_Szarvaskő_488,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,174.58570043459852,1202.0250000270084
+91911,Magyarország,Szarvaskő,,,zártkert,489/1,HUN_Szarvaskő_489/1,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,166.1716924200244,1263.2200000177322
+91912,Magyarország,Szarvaskő,,,zártkert,489/2,HUN_Szarvaskő_489/2,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,144.68213256495142,1060.1150000352786
+91913,Magyarország,Szarvaskő,,,zártkert,490,HUN_Szarvaskő_490,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,119.34907995228706,798.7500000141561
+91914,Magyarország,Szarvaskő,,,zártkert,491,HUN_Szarvaskő_491,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,136.76931408962957,957.6550000517443
+91915,Magyarország,Szarvaskő,,,zártkert,492,HUN_Szarvaskő_492,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,136.2207452879474,989.1949999322369
+91916,Magyarország,Szarvaskő,,,zártkert,493,HUN_Szarvaskő_493,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,142.73067230898818,1041.589999963194
+91917,Magyarország,Szarvaskő,,,zártkert,494/1,HUN_Szarvaskő_494/1,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,146.12283029220285,1077.7600000125915
+91918,Magyarország,Szarvaskő,,,zártkert,494/2,HUN_Szarvaskő_494/2,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,148.98494134999513,949.9100000233948
+91919,Magyarország,Szarvaskő,,,zártkert,494/3,HUN_Szarvaskő_494/3,művelés alól kivett,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,129.36388123506444,199.7449998731911
+91920,Magyarország,Szarvaskő,,,zártkert,495,HUN_Szarvaskő_495,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,193.74254189320789,1072.419999997802
+91921,Magyarország,Szarvaskő,,,zártkert,496,HUN_Szarvaskő_496,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,155.34526597596303,824.8649999820069
+91922,Magyarország,Szarvaskő,,,zártkert,497,HUN_Szarvaskő_497,kert,,Nyírfa utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,151.79867469616715,820.7400000110642
+91923,Magyarország,Szarvaskő,,,zártkert,498,HUN_Szarvaskő_498,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,450.46245040422355,2914.2649999462446
+91924,Magyarország,Szarvaskő,,,zártkert,499,HUN_Szarvaskő_499,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,449.2242779473513,2730.2900002060833
+91925,Magyarország,Szarvaskő,,,zártkert,500,HUN_Szarvaskő_500,gyümölcsös,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,268.3045841485292,3100.2450001037864
+91926,Magyarország,Szarvaskő,,,zártkert,501,HUN_Szarvaskő_501,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,243.61810039539614,1695.6650000458958
+91927,Magyarország,Szarvaskő,,,zártkert,502/a,HUN_Szarvaskő_502/a,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,198.46262256402824,1694.9093630705204
+91928,Magyarország,Szarvaskő,,,zártkert,502/b,HUN_Szarvaskő_502/b,kert,,Nyírfa utca,,,,,,,,,,,,,,,3323,Szarvaskő,,109.07298543440206,675.9706368785919
+91929,Magyarország,Szarvaskő,,,zártkert,503,HUN_Szarvaskő_503,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,263.78408762617283,4150.885000112057
+91930,Magyarország,Szarvaskő,,,zártkert,504/1,HUN_Szarvaskő_504/1,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,126.71350740214248,934.1749999122694
+91931,Magyarország,Szarvaskő,,,zártkert,504/2,HUN_Szarvaskő_504/2,kert,,Szarvaskői utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,126.29297099183631,962.0600000133365
+91932,Magyarország,Szarvaskő,,,zártkert,504/3,HUN_Szarvaskő_504/3,kert,,Szarvaskői utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,126.64165151166077,978.3499999117107
+91933,Magyarország,Szarvaskő,,,zártkert,504/4,HUN_Szarvaskő_504/4,kert,,Szarvaskői utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,124.63915645754092,969.2400000380725
+91934,Magyarország,Szarvaskő,,,zártkert,504/5,HUN_Szarvaskő_504/5,kert,,Szarvaskői utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,123.62111056862474,946.27499998454
+91935,Magyarország,Szarvaskő,,,zártkert,504/6,HUN_Szarvaskő_504/6,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,169.83973145247873,1127.5599999397618
+91936,Magyarország,Szarvaskő,,,zártkert,505,HUN_Szarvaskő_505,művelés alól kivett,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,208.55933697779324,2303.674999842234
+91937,Magyarország,Szarvaskő,,,zártkert,507,HUN_Szarvaskő_507,kert,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,169.33749820480244,1175.6050000504406
+91938,Magyarország,Szarvaskő,,,zártkert,508,HUN_Szarvaskő_508,művelés alól kivett,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,216.0313616066365,1511.3099999284
+91939,Magyarország,Szarvaskő,,,zártkert,509,HUN_Szarvaskő_509,szántó,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,321.8969436285553,3149.7000001603737
+91940,Magyarország,Szarvaskő,,,zártkert,510/2,HUN_Szarvaskő_510/2,kert,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,163.00535346826697,1206.0800000090899
+91941,Magyarország,Szarvaskő,,,zártkert,510/3,HUN_Szarvaskő_510/3,kert,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,146.8920138231647,1161.5549999915809
+91942,Magyarország,Szarvaskő,,,zártkert,510/5,HUN_Szarvaskő_510/5,kert,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,178.71681843786268,1740.3699999110029
+91943,Magyarország,Szarvaskő,,,zártkert,510/6,HUN_Szarvaskő_510/6,kert,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,149.64797682636512,872.3849999874458
+91944,Magyarország,Szarvaskő,,,zártkert,510/7,HUN_Szarvaskő_510/7,kert,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,150.00460470115354,880.5600000492856
+91945,Magyarország,Szarvaskő,,,zártkert,511,HUN_Szarvaskő_511,művelés alól kivett,Csehi utca,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,557.5424246425818,1361.36499996487
+91946,Magyarország,Szarvaskő,,,zártkert,511,HUN_Szarvaskő_511,művelés alól kivett,Nyugodó utca,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,432.9692197532143,1568.7349998410418
+91947,Magyarország,Szarvaskő,,,zártkert,512,HUN_Szarvaskő_512,szántó,,Nyugodó utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,233.8608439231702,2691.8600001519176
+91948,Magyarország,Szarvaskő,,,zártkert,513,HUN_Szarvaskő_513,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,174.31133641046654,773.5199999789893
+91949,Magyarország,Szarvaskő,,,zártkert,514,HUN_Szarvaskő_514,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,170.24365684735324,811.3349999785053
+91950,Magyarország,Szarvaskő,,,zártkert,515,HUN_Szarvaskő_515,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,162.51605705533007,911.4599999267235
+91951,Magyarország,Szarvaskő,,,zártkert,516,HUN_Szarvaskő_516,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,109.96388796508467,518.8649999900161
+91952,Magyarország,Szarvaskő,,,zártkert,517,HUN_Szarvaskő_517,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,131.17483305432998,449.9000000501051
+91953,Magyarország,Szarvaskő,,,zártkert,518,HUN_Szarvaskő_518,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,143.63912720485345,569.5899999922514
+91954,Magyarország,Szarvaskő,,,zártkert,519,HUN_Szarvaskő_519,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,151.7962160844997,781.0450000173598
+91955,Magyarország,Szarvaskő,,,zártkert,520,HUN_Szarvaskő_520,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,141.93160163872804,693.4999999571592
+91956,Magyarország,Szarvaskő,,,zártkert,521,HUN_Szarvaskő_521,gyümölcsös,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,155.15798589618686,1450.2150000207498
+91957,Magyarország,Szarvaskő,,,zártkert,522,HUN_Szarvaskő_522,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,137.48816572471623,959.7600000081211
+91958,Magyarország,Szarvaskő,,,zártkert,523,HUN_Szarvaskő_523,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,196.10128089260536,1476.2399999494105
+91959,Magyarország,Szarvaskő,,,zártkert,524/1,HUN_Szarvaskő_524/1,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,114.16243271272668,817.9949999642745
+91960,Magyarország,Szarvaskő,,,zártkert,524/2,HUN_Szarvaskő_524/2,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,115.46015547114031,811.6800000329316
+91961,Magyarország,Szarvaskő,,,zártkert,524/3,HUN_Szarvaskő_524/3,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,109.71555994935079,735.3049999658763
+91962,Magyarország,Szarvaskő,,,zártkert,524/4,HUN_Szarvaskő_524/4,művelés alól kivett,Csehi utca,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,102.67520119670625,138.8900000410527
+91963,Magyarország,Szarvaskő,,,zártkert,525/1,HUN_Szarvaskő_525/1,szántó,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,118.58843347903715,815.9350000181794
+91964,Magyarország,Szarvaskő,,,zártkert,525/2,HUN_Szarvaskő_525/2,szántó,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,118.95237317926441,817.2650000179559
+91965,Magyarország,Szarvaskő,,,zártkert,526,HUN_Szarvaskő_526,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,146.89906906644094,1067.394999932237
+91966,Magyarország,Szarvaskő,,,zártkert,527,HUN_Szarvaskő_527,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,123.59727707654727,914.9250000882894
+91967,Magyarország,Szarvaskő,,,zártkert,528,HUN_Szarvaskő_528,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,203.3168674184096,1017.1799998965862
+91968,Magyarország,Szarvaskő,,,zártkert,529,HUN_Szarvaskő_529,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,202.4630418993831,821.5000000800939
+91969,Magyarország,Szarvaskő,,,zártkert,530,HUN_Szarvaskő_530,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,202.6255651792361,944.0199998866021
+91970,Magyarország,Szarvaskő,,,zártkert,531,HUN_Szarvaskő_531,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,235.19633289713124,1153.4850001552702
+91971,Magyarország,Szarvaskő,,,zártkert,532,HUN_Szarvaskő_532,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,161.44529657169636,994.769999917522
+91972,Magyarország,Szarvaskő,,,zártkert,533/1,HUN_Szarvaskő_533/1,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,144.66180215659477,795.3850000261888
+91973,Magyarország,Szarvaskő,,,zártkert,533/2,HUN_Szarvaskő_533/2,kert,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,137.6720727148981,851.2450000404566
+91974,Magyarország,Szarvaskő,,,zártkert,534,HUN_Szarvaskő_534,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,196.65324027048067,1311.5999998502434
+91975,Magyarország,Szarvaskő,,,zártkert,535,HUN_Szarvaskő_535,gyümölcsös,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,151.67056932911441,1197.1149999792128
+91976,Magyarország,Szarvaskő,,,zártkert,536,HUN_Szarvaskő_536,gyümölcsös,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,174.98496780059082,1886.2649999536945
+91977,Magyarország,Szarvaskő,,,zártkert,537,HUN_Szarvaskő_537,gyümölcsös,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,189.37563897554048,1944.0100000606476
+91978,Magyarország,Szarvaskő,,,zártkert,538,HUN_Szarvaskő_538,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,138.10228098721973,1166.5949999268353
+91979,Magyarország,Szarvaskő,,,zártkert,539,HUN_Szarvaskő_539,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,144.45163309717174,1199.4800000271575
+91980,Magyarország,Szarvaskő,,,zártkert,540,HUN_Szarvaskő_540,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,165.45274461666915,1757.3749999614433
+91981,Magyarország,Szarvaskő,,,zártkert,541,HUN_Szarvaskő_541,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,186.95802608544656,1748.4150000794232
+91982,Magyarország,Szarvaskő,,,zártkert,542/1,HUN_Szarvaskő_542/1,gyümölcsös,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,130.14321184261922,824.950000020489
+91983,Magyarország,Szarvaskő,,,zártkert,542/2,HUN_Szarvaskő_542/2,gyümölcsös,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,135.80847057036527,898.3250000216067
+91984,Magyarország,Szarvaskő,,,zártkert,543/1,HUN_Szarvaskő_543/1,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,160.87802401002517,1119.8449999594313
+91985,Magyarország,Szarvaskő,,,zártkert,543/3,HUN_Szarvaskő_543/3,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,135.18205618998525,874.1899999618903
+91986,Magyarország,Szarvaskő,,,zártkert,543/4,HUN_Szarvaskő_543/4,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,122.17026961650281,875.2499999664724
+91987,Magyarország,Szarvaskő,,,zártkert,543/5,HUN_Szarvaskő_543/5,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,118.88077192024389,874.445100000476
+91988,Magyarország,Szarvaskő,,,zártkert,543/6,HUN_Szarvaskő_543/6,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,106.81552994356792,656.6800000184029
+91989,Magyarország,Szarvaskő,,,zártkert,543/7,HUN_Szarvaskő_543/7,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,109.0483889465444,657.3549999796599
+91990,Magyarország,Szarvaskő,,,zártkert,543/8,HUN_Szarvaskő_543/8,művelés alól kivett,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,268.1924231642581,521.114999950714
+91991,Magyarország,Szarvaskő,,,zártkert,544,HUN_Szarvaskő_544,legelő,,Csehi utca,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,200.99476026511294,1887.3651684463857
+91992,Magyarország,Szarvaskő,,,zártkert,545/1,HUN_Szarvaskő_545/1,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,141.23560975020652,848.940000042729
+91993,Magyarország,Szarvaskő,,,zártkert,545/2,HUN_Szarvaskő_545/2,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,150.04344922754893,817.9749999633059
+91994,Magyarország,Szarvaskő,,,zártkert,545/3,HUN_Szarvaskő_545/3,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,138.67786585306655,755.514999954626
+91995,Magyarország,Szarvaskő,,,zártkert,545/4,HUN_Szarvaskő_545/4,kert,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,121.91521252073167,727.3600000647455
+91996,Magyarország,Szarvaskő,,,zártkert,545/5,HUN_Szarvaskő_545/5,művelés alól kivett,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,86.06439797535687,139.93999998107552
+91997,Magyarország,Szarvaskő,,,zártkert,546,HUN_Szarvaskő_546,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,170.89525435504402,1108.750000007823
+91998,Magyarország,Szarvaskő,,,zártkert,601/1,HUN_Szarvaskő_601/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,420.7005597178567,11161.950000085679
+91999,Magyarország,Szarvaskő,,,zártkert,601/10,HUN_Szarvaskő_601/10,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,353.61953025019307,6689.32000000991
+92000,Magyarország,Szarvaskő,,,zártkert,601/11,HUN_Szarvaskő_601/11,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.53739549677096,2233.610000070147
+92001,Magyarország,Szarvaskő,,,zártkert,601/12,HUN_Szarvaskő_601/12,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.4105190910898,2227.5400000227987
+92002,Magyarország,Szarvaskő,,,zártkert,601/13,HUN_Szarvaskő_601/13,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.4118148925372,2230.4099999146165
+92003,Magyarország,Szarvaskő,,,zártkert,601/2,HUN_Szarvaskő_601/2,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.0937820752264,2229.5399999780957
+92004,Magyarország,Szarvaskő,,,zártkert,601/3,HUN_Szarvaskő_601/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.0937820751571,2229.540000096932
+92005,Magyarország,Szarvaskő,,,zártkert,601/4,HUN_Szarvaskő_601/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.0942130377872,2229.7950001291183
+92006,Magyarország,Szarvaskő,,,zártkert,601/5,HUN_Szarvaskő_601/5,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.2811650837755,2234.4499999871477
+92007,Magyarország,Szarvaskő,,,zártkert,601/6,HUN_Szarvaskő_601/6,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.4088657229104,2230.7349999317526
+92008,Magyarország,Szarvaskő,,,zártkert,601/7,HUN_Szarvaskő_601/7,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.423510505266,2220.9049999854337
+92009,Magyarország,Szarvaskő,,,zártkert,601/8,HUN_Szarvaskő_601/8,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.66653331800956,2236.1850001075863
+92010,Magyarország,Szarvaskő,,,zártkert,601/9,HUN_Szarvaskő_601/9,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,280.34966162115865,2222.0999997392296
+92011,Magyarország,Szarvaskő,,,zártkert,612/1,HUN_Szarvaskő_612/1,erdő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,419.88374305645436,10108.43090228664
+92012,Magyarország,Szarvaskő,,,zártkert,612/10,HUN_Szarvaskő_612/10,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,158.73958474112686,939.3849999768286
+92013,Magyarország,Szarvaskő,,,zártkert,612/11,HUN_Szarvaskő_612/11,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,157.9584278787183,1072.2750000840051
+92014,Magyarország,Szarvaskő,,,zártkert,612/12,HUN_Szarvaskő_612/12,művelés alól kivett,Tölgyfakert utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,150.18887464257827,85.17999994706348
+92015,Magyarország,Szarvaskő,,,zártkert,612/13,HUN_Szarvaskő_612/13,művelés alól kivett,Tölgyfakert utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,970.7820298359937,3320.4750000690974
+92016,Magyarország,Szarvaskő,,,zártkert,612/2,HUN_Szarvaskő_612/2,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,181.90525584163913,944.3260950534699
+92017,Magyarország,Szarvaskő,,,zártkert,612/3,HUN_Szarvaskő_612/3,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,178.76935278425353,940.2099999494478
+92018,Magyarország,Szarvaskő,,,zártkert,612/4,HUN_Szarvaskő_612/4,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,173.76646056946862,930.9900000576301
+92019,Magyarország,Szarvaskő,,,zártkert,612/5,HUN_Szarvaskő_612/5,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,169.95007410611444,853.9200001561268
+92020,Magyarország,Szarvaskő,,,zártkert,612/6,HUN_Szarvaskő_612/6,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,168.2374851020515,861.0199999687447
+92021,Magyarország,Szarvaskő,,,zártkert,612/7,HUN_Szarvaskő_612/7,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,165.11235025575075,861.9349998462573
+92022,Magyarország,Szarvaskő,,,zártkert,612/8,HUN_Szarvaskő_612/8,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,161.2371293669522,812.734999990426
+92023,Magyarország,Szarvaskő,,,zártkert,612/9,HUN_Szarvaskő_612/9,kert,,Tölgyfakert utca,,,,,,,,,,,,,,,3323,Szarvaskő,,161.23131288279703,911.2050001363084
+92024,Magyarország,Szarvaskő,,,zártkert,613/1,HUN_Szarvaskő_613/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,301.5531131228796,4372.3649999888985
+92025,Magyarország,Szarvaskő,,,zártkert,613/2,HUN_Szarvaskő_613/2,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,435.14735448499215,1355.195000077151
+92026,Magyarország,Szarvaskő,,,zártkert,613/3,HUN_Szarvaskő_613/3,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,263.0505962177849,2202.175000006706
+92027,Magyarország,Szarvaskő,,,zártkert,613/4,HUN_Szarvaskő_613/4,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,269.12285342180866,2200.9899999542536
+92028,Magyarország,Szarvaskő,,,zártkert,613/5,HUN_Szarvaskő_613/5,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,276.26433876934135,2203.1550000008942
+92029,Magyarország,Szarvaskő,,,zártkert,613/6,HUN_Szarvaskő_613/6,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,286.2214379880694,2268.559999989867
+92030,Magyarország,Szarvaskő,,,zártkert,613/7,HUN_Szarvaskő_613/7,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,187.6656688495771,2033.3499999137598
+92031,Magyarország,Szarvaskő,,,zártkert,614,HUN_Szarvaskő_614,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,373.54645116225936,2462.720000345744
+92032,Magyarország,Szarvaskő,,,zártkert,615,HUN_Szarvaskő_615,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,372.7632767209911,1737.2600000122184
+92033,Magyarország,Szarvaskő,,,zártkert,616,HUN_Szarvaskő_616,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,373.3257750921733,1449.2249998217453
+92034,Magyarország,Szarvaskő,,,zártkert,617,HUN_Szarvaskő_617,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,387.6464342404234,2593.839999967292
+92035,Magyarország,Szarvaskő,,,zártkert,618,HUN_Szarvaskő_618,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,384.134616936613,1286.7299999852476
+92036,Magyarország,Szarvaskő,,,zártkert,619,HUN_Szarvaskő_619,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,380.48779888993187,1242.5849998689819
+92037,Magyarország,Szarvaskő,,,zártkert,620,HUN_Szarvaskő_620,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,380.1852617375317,1493.0600004363432
+92038,Magyarország,Szarvaskő,,,zártkert,621,HUN_Szarvaskő_621,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,377.7996951663494,1500.5249996494495
+92039,Magyarország,Szarvaskő,,,zártkert,622,HUN_Szarvaskő_622,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,381.8803280852528,1965.1000000830738
+92040,Magyarország,Szarvaskő,,,zártkert,623,HUN_Szarvaskő_623,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,380.7454037879637,2104.0699999246003
+92041,Magyarország,Szarvaskő,,,zártkert,624,HUN_Szarvaskő_624,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,367.3934933084566,763.8249999741092
+92042,Magyarország,Szarvaskő,,,zártkert,625,HUN_Szarvaskő_625,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,400.5972480299182,3096.469999848231
+92043,Magyarország,Szarvaskő,,,zártkert,626,HUN_Szarvaskő_626,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,385.44083018393786,1528.4499999914315
+92044,Magyarország,Szarvaskő,,,zártkert,627,HUN_Szarvaskő_627,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,381.82758838910814,1490.4550003382192
+92045,Magyarország,Szarvaskő,,,zártkert,628,HUN_Szarvaskő_628,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,386.2901863505542,1295.4000000320375
+92046,Magyarország,Szarvaskő,,,zártkert,629,HUN_Szarvaskő_629,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,403.72431551688004,1509.454999727084
+92047,Magyarország,Szarvaskő,,,zártkert,630,HUN_Szarvaskő_630,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,434.36484408296667,1195.7149998933437
+92048,Magyarország,Szarvaskő,,,zártkert,631,HUN_Szarvaskő_631,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,451.84279583349377,2415.0050002765656
+92049,Magyarország,Szarvaskő,,,zártkert,632,HUN_Szarvaskő_632,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,450.5523708266777,1319.5300000059233
+92050,Magyarország,Szarvaskő,,,zártkert,633,HUN_Szarvaskő_633,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,454.96690074053055,1329.5050000668311
+92051,Magyarország,Szarvaskő,,,zártkert,634,HUN_Szarvaskő_634,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,463.60782337373905,1541.5699994971237
+92052,Magyarország,Szarvaskő,,,zártkert,635,HUN_Szarvaskő_635,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,492.04964569071495,2511.6150003789344
+92053,Magyarország,Szarvaskő,,,zártkert,636,HUN_Szarvaskő_636,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,471.79300357693006,12848.454999911115
+92054,Magyarország,Szarvaskő,,,zártkert,637,HUN_Szarvaskő_637,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,333.5435918890236,1946.5049999304865
+92055,Magyarország,Szarvaskő,,,zártkert,638,HUN_Szarvaskő_638,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,339.9983085719736,2002.5050001426416
+92056,Magyarország,Szarvaskő,,,zártkert,639,HUN_Szarvaskő_639,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,339.2295305565949,1670.42999999512
+92057,Magyarország,Szarvaskő,,,zártkert,640,HUN_Szarvaskő_640,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,340.1346107669326,1569.2799997866896
+92058,Magyarország,Szarvaskő,,,zártkert,641,HUN_Szarvaskő_641,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,355.9257078273713,2689.350000118278
+92059,Magyarország,Szarvaskő,,,zártkert,642,HUN_Szarvaskő_642,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,341.375115898104,1459.4999999636784
+92060,Magyarország,Szarvaskő,,,zártkert,643,HUN_Szarvaskő_643,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,337.10295982518426,1145.4300001428273
+92061,Magyarország,Szarvaskő,,,zártkert,644,HUN_Szarvaskő_644,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,383.21285887118563,4968.095000098758
+92062,Magyarország,Szarvaskő,,,zártkert,645,HUN_Szarvaskő_645,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,336.7915075720392,1336.8949996850642
+92063,Magyarország,Szarvaskő,,,zártkert,646,HUN_Szarvaskő_646,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,347.67858082707613,2288.9000003736464
+92064,Magyarország,Szarvaskő,,,zártkert,647,HUN_Szarvaskő_647,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,331.46706390350795,1291.2999998312443
+92065,Magyarország,Szarvaskő,,,zártkert,648,HUN_Szarvaskő_648,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,389.6516403032206,6777.949999975972
+92066,Magyarország,Szarvaskő,,,zártkert,649,HUN_Szarvaskő_649,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,297.86394767048796,1319.2249999707565
+92067,Magyarország,Szarvaskő,,,zártkert,650,HUN_Szarvaskő_650,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,289.1615391653723,934.0899996878957
+92068,Magyarország,Szarvaskő,,,zártkert,651,HUN_Szarvaskő_651,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,286.83955515219293,1003.2600002642348
+92069,Magyarország,Szarvaskő,,,zártkert,652,HUN_Szarvaskő_652,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,286.99012035309596,1265.7049998218936
+92070,Magyarország,Szarvaskő,,,zártkert,653,HUN_Szarvaskő_653,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,419.34267211875755,10465.070000247024
+92071,Magyarország,Szarvaskő,,,zártkert,654,HUN_Szarvaskő_654,szőlő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,251.12452233026372,1068.755000032745
+92072,Magyarország,Szarvaskő,,,zártkert,655,HUN_Szarvaskő_655,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,323.65208063067473,5564.999999898859
+92073,Magyarország,Szarvaskő,,,zártkert,656,HUN_Szarvaskő_656,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,260.3649035864697,2298.430000243224
+92074,Magyarország,Szarvaskő,,,zártkert,657,HUN_Szarvaskő_657,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,234.09561786724765,815.8599999140574
+92075,Magyarország,Szarvaskő,,,zártkert,658,HUN_Szarvaskő_658,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,238.21704538504213,902.4699999734012
+92076,Magyarország,Szarvaskő,,,zártkert,659,HUN_Szarvaskő_659,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,236.11284861382353,667.5549999723953
+92077,Magyarország,Szarvaskő,,,zártkert,660,HUN_Szarvaskő_660,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,242.90171665818735,919.9899997642638
+92078,Magyarország,Szarvaskő,,,zártkert,661,HUN_Szarvaskő_661,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,315.9269895302899,2108.465000237189
+92079,Magyarország,Szarvaskő,,,zártkert,662,HUN_Szarvaskő_662,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,1749.9987114539726,3780.352199460352
+92080,Magyarország,Szarvaskő,,,zártkert,663,HUN_Szarvaskő_663,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,192.2304915954255,868.5299999405444
+92081,Magyarország,Szarvaskő,,,zártkert,664,HUN_Szarvaskő_664,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,186.51747753520578,619.67000006374
+92082,Magyarország,Szarvaskő,,,zártkert,665,HUN_Szarvaskő_665,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,201.8995397764226,1251.8199999354035
+92083,Magyarország,Szarvaskő,,,zártkert,666,HUN_Szarvaskő_666,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,196.49066914955745,1003.6350000099837
+92084,Magyarország,Szarvaskő,,,zártkert,667,HUN_Szarvaskő_667,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,195.82835773927738,706.3699999529123
+92085,Magyarország,Szarvaskő,,,zártkert,668,HUN_Szarvaskő_668,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,257.9583288665999,2830.009999979809
+92086,Magyarország,Szarvaskő,,,zártkert,669,HUN_Szarvaskő_669,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,228.73548541325488,934.4100001496822
+92087,Magyarország,Szarvaskő,,,zártkert,670,HUN_Szarvaskő_670,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,237.93011384043356,858.6099999852106
+92088,Magyarország,Szarvaskő,,,zártkert,671,HUN_Szarvaskő_671,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,353.78615902663324,6697.354999969042
+92089,Magyarország,Szarvaskő,,,zártkert,672,HUN_Szarvaskő_672,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,279.5703701690214,949.8700000855329
+92090,Magyarország,Szarvaskő,,,zártkert,673,HUN_Szarvaskő_673,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,285.9114697001142,1257.6699996869265
+92091,Magyarország,Szarvaskő,,,zártkert,674,HUN_Szarvaskő_674,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,293.63375589929467,1633.7000003395601
+92092,Magyarország,Szarvaskő,,,zártkert,675,HUN_Szarvaskő_675,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,290.9098108749497,1306.4799998923017
+92093,Magyarország,Szarvaskő,,,zártkert,676,HUN_Szarvaskő_676,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,345.7074823230937,4211.8499998344105
+92094,Magyarország,Szarvaskő,,,zártkert,677,HUN_Szarvaskő_677,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,316.66169144165474,1321.9650003655252
+92095,Magyarország,Szarvaskő,,,zártkert,678,HUN_Szarvaskő_678,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,323.1941183471105,1592.4299998382849
+92096,Magyarország,Szarvaskő,,,zártkert,679,HUN_Szarvaskő_679,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,323.35066378215026,1444.6099998199934
+92097,Magyarország,Szarvaskő,,,zártkert,680,HUN_Szarvaskő_680,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,327.4464990533466,1712.8000000026077
+92098,Magyarország,Szarvaskő,,,zártkert,681,HUN_Szarvaskő_681,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,319.2058573829444,1086.7650002079454
+92099,Magyarország,Szarvaskő,,,zártkert,682,HUN_Szarvaskő_682,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,324.1281574808455,1460.7699997208265
+92100,Magyarország,Szarvaskő,,,zártkert,683,HUN_Szarvaskő_683,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,317.9097963055949,1009.6700000995024
+92101,Magyarország,Szarvaskő,,,zártkert,684,HUN_Szarvaskő_684,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,362.5457498825257,4515.424320177583
+92102,Magyarország,Szarvaskő,,,zártkert,685,HUN_Szarvaskő_685,gyümölcsös,,,,,,,,,,,,,,,,,3323,Szarvaskő,,361.63394164956253,1973.6699999933317
+92103,Magyarország,Szarvaskő,,,zártkert,686,HUN_Szarvaskő_686,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,432.8918690720062,5143.650000146777
+92104,Magyarország,Szarvaskő,,,zártkert,687,HUN_Szarvaskő_687,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,398.11365774659043,1512.699999938719
+92105,Magyarország,Szarvaskő,,,zártkert,688,HUN_Szarvaskő_688,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,397.64104182303066,1460.9399999106672
+92106,Magyarország,Szarvaskő,,,zártkert,689,HUN_Szarvaskő_689,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,394.05304949644005,1085.3399997545785
+92107,Magyarország,Szarvaskő,,,zártkert,690,HUN_Szarvaskő_690,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,459.0685840743132,3048.9500002022833
+92108,Magyarország,Szarvaskő,,,zártkert,691,HUN_Szarvaskő_691,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,283.06007386287456,3115.2299999167026
+92109,Magyarország,Szarvaskő,,,zártkert,692/1,HUN_Szarvaskő_692/1,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,272.70569702950667,2285.480000035167
+92110,Magyarország,Szarvaskő,,,zártkert,692/2,HUN_Szarvaskő_692/2,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,370.19276960930324,4644.360000172221
+92111,Magyarország,Szarvaskő,,,zártkert,693,HUN_Szarvaskő_693,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,131.45241388238784,885.3750000344589
+92112,Magyarország,Szarvaskő,,,zártkert,694,HUN_Szarvaskő_694,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,123.1093172646085,815.3000000160188
+92113,Magyarország,Szarvaskő,,,zártkert,695,HUN_Szarvaskő_695,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,75.24510472478389,331.1700000371039
+92114,Magyarország,Szarvaskő,,,zártkert,696,HUN_Szarvaskő_696,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,94.78608459014724,543.7700000149384
+92115,Magyarország,Szarvaskő,,,zártkert,697,HUN_Szarvaskő_697,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,117.17112074131258,821.6249999158084
+92116,Magyarország,Szarvaskő,,,zártkert,698,HUN_Szarvaskő_698,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,115.37436662057488,773.1550000074133
+92117,Magyarország,Szarvaskő,,,zártkert,699,HUN_Szarvaskő_699,művelés alól kivett,Újszarvaskői utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,178.33488490479627,511.9650000879917
+92118,Magyarország,Szarvaskő,,,zártkert,700,HUN_Szarvaskő_700,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,114.23073142867747,776.6149999557435
+92119,Magyarország,Szarvaskő,,,zártkert,701,HUN_Szarvaskő_701,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,124.11991917066386,942.0500000791624
+92120,Magyarország,Szarvaskő,,,zártkert,702,HUN_Szarvaskő_702,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,205.1669299946307,2557.430000076145
+92121,Magyarország,Szarvaskő,,,zártkert,704,HUN_Szarvaskő_704,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,88.332837573717,378.2399999766052
+92122,Magyarország,Szarvaskő,,,zártkert,705,HUN_Szarvaskő_705,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,74.3955412022554,230.08999998088925
+92123,Magyarország,Szarvaskő,,,zártkert,706,HUN_Szarvaskő_706,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,173.2845351050717,1400.5548700657234
+92124,Magyarország,Szarvaskő,,,zártkert,707,HUN_Szarvaskő_707,művelés alól kivett,Újszarvaskői utca,,,,,,,,,,,,,,,,3323,Szarvaskő,,782.0835121588585,2907.1501348208817
+92125,Magyarország,Szarvaskő,,,zártkert,708,HUN_Szarvaskő_708,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,82.68849543684044,381.05500001635403
+92126,Magyarország,Szarvaskő,,,zártkert,709,HUN_Szarvaskő_709,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,91.46813460142731,517.6300000075996
+92127,Magyarország,Szarvaskő,,,zártkert,710,HUN_Szarvaskő_710,művelés alól kivett,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,149.86496632197208,1412.1950000339375
+92128,Magyarország,Szarvaskő,,,zártkert,712,HUN_Szarvaskő_712,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,112.51472725576716,699.3150000516698
+92129,Magyarország,Szarvaskő,,,zártkert,713,HUN_Szarvaskő_713,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,100.97232704491734,504.0649999738112
+92130,Magyarország,Szarvaskő,,,zártkert,714,HUN_Szarvaskő_714,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,88.7004383248833,409.67000001605606
+92131,Magyarország,Szarvaskő,,,zártkert,715,HUN_Szarvaskő_715,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,149.17848299847907,1244.3249999960883
+92132,Magyarország,Szarvaskő,,,zártkert,716,HUN_Szarvaskő_716,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,127.5858305307823,733.8300000087172
+92133,Magyarország,Szarvaskő,,,zártkert,717,HUN_Szarvaskő_717,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,82.08167829339266,413.8549999783561
+92134,Magyarország,Szarvaskő,,,zártkert,718,HUN_Szarvaskő_718,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,63.96591325109922,250.359999980554
+92135,Magyarország,Szarvaskő,,,zártkert,719,HUN_Szarvaskő_719,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,182.2402030125401,954.2850000246987
+92136,Magyarország,Szarvaskő,,,zártkert,720,HUN_Szarvaskő_720,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,159.031257038309,822.4050599596469
+92137,Magyarország,Szarvaskő,,,zártkert,721,HUN_Szarvaskő_721,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,151.92112513840368,789.5899999803305
+92138,Magyarország,Szarvaskő,,,zártkert,722,HUN_Szarvaskő_722,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,247.0812246280492,3527.669999973588
+92139,Magyarország,Szarvaskő,,,zártkert,723,HUN_Szarvaskő_723,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,102.63300310110135,575.9100000023469
+92140,Magyarország,Szarvaskő,,,zártkert,724,HUN_Szarvaskő_724,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,94.03191565717573,469.9499999832362
+92141,Magyarország,Szarvaskő,,,zártkert,725,HUN_Szarvaskő_725,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,101.44293513099794,596.8549999887869
+92142,Magyarország,Szarvaskő,,,zártkert,726,HUN_Szarvaskő_726,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,125.31306316455704,923.2000000780448
+92143,Magyarország,Szarvaskő,,,zártkert,727/1,HUN_Szarvaskő_727/1,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,160.53131668098055,848.7350000384823
+92144,Magyarország,Szarvaskő,,,zártkert,727/2,HUN_Szarvaskő_727/2,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,168.17510378185835,797.7751050509138
+92145,Magyarország,Szarvaskő,,,zártkert,728,HUN_Szarvaskő_728,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,144.54547098165943,1220.7399999581648
+92146,Magyarország,Szarvaskő,,,zártkert,729/1,HUN_Szarvaskő_729/1,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,235.4706006669081,1128.7549999563767
+92147,Magyarország,Szarvaskő,,,zártkert,729/2,HUN_Szarvaskő_729/2,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,311.2985855880223,619.3600000391841
+92148,Magyarország,Szarvaskő,,,zártkert,730,HUN_Szarvaskő_730,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,130.434669509855,1061.0050000998006
+92149,Magyarország,Szarvaskő,,,zártkert,731,HUN_Szarvaskő_731,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,153.52717600902176,1300.9899999943004
+92150,Magyarország,Szarvaskő,,,zártkert,732,HUN_Szarvaskő_732,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,193.71300244241837,1275.7549999511614
+92151,Magyarország,Szarvaskő,,,zártkert,733,HUN_Szarvaskő_733,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,252.6689222852032,2408.6500001434238
+92152,Magyarország,Szarvaskő,,,zártkert,734,HUN_Szarvaskő_734,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,120.2000804175818,781.9049999893457
+92153,Magyarország,Szarvaskő,,,zártkert,735,HUN_Szarvaskő_735,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,150.45162148657658,1379.6600000377373
+92154,Magyarország,Szarvaskő,,,zártkert,737,HUN_Szarvaskő_737,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,215.0262902586258,1520.4449999590588
+92155,Magyarország,Szarvaskő,,,zártkert,738,HUN_Szarvaskő_738,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,209.01188940269395,1055.669999952726
+92156,Magyarország,Szarvaskő,,,zártkert,741,HUN_Szarvaskő_741,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,242.55368596056763,2201.5049999371918
+92157,Magyarország,Szarvaskő,,,zártkert,742,HUN_Szarvaskő_742,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,214.599808115649,1160.8399999499693
+92158,Magyarország,Szarvaskő,,,zártkert,743,HUN_Szarvaskő_743,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,200.33255771465045,396.2100000412763
+92159,Magyarország,Szarvaskő,,,zártkert,744,HUN_Szarvaskő_744,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,213.84141632688724,864.4600000595301
+92160,Magyarország,Szarvaskő,,,zártkert,745,HUN_Szarvaskő_745,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,212.07240285291584,542.4299999876695
+92161,Magyarország,Szarvaskő,,,zártkert,746,HUN_Szarvaskő_746,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,213.74355710318287,442.28000010333943
+92162,Magyarország,Szarvaskő,,,zártkert,747,HUN_Szarvaskő_747,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,237.2812517646853,1325.9049998908117
+92163,Magyarország,Szarvaskő,,,zártkert,748,HUN_Szarvaskő_748,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,235.2480659502526,1324.9300000523033
+92164,Magyarország,Szarvaskő,,,zártkert,749,HUN_Szarvaskő_749,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,467.4799750472605,2270.4749996271
+92165,Magyarország,Szarvaskő,,,zártkert,750,HUN_Szarvaskő_750,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,495.7241719376956,2083.29500004772
+92166,Magyarország,Szarvaskő,,,zártkert,751,HUN_Szarvaskő_751,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,515.8500214347582,1670.5750000862406
+92167,Magyarország,Szarvaskő,,,zártkert,752,HUN_Szarvaskő_752,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,543.1021136789064,2132.3900002345813
+92168,Magyarország,Szarvaskő,,,zártkert,753,HUN_Szarvaskő_753,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,559.8616912631774,1683.7799997788668
+92169,Magyarország,Szarvaskő,,,zártkert,754,HUN_Szarvaskő_754,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,577.1392531722208,1926.3800002044813
+92170,Magyarország,Szarvaskő,,,zártkert,755,HUN_Szarvaskő_755,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,590.7814003826227,1791.4399997868009
+92171,Magyarország,Szarvaskő,,,zártkert,756,HUN_Szarvaskő_756,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,607.2123785627102,1904.430000334121
+92172,Magyarország,Szarvaskő,,,zártkert,757,HUN_Szarvaskő_757,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,247.52167116731658,648.7549999899044
+92173,Magyarország,Szarvaskő,,,zártkert,758,HUN_Szarvaskő_758,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,384.34891873918536,1027.0599999222532
+92174,Magyarország,Szarvaskő,,,zártkert,759,HUN_Szarvaskő_759,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,391.4786553804645,1079.3800001452491
+92175,Magyarország,Szarvaskő,,,zártkert,760,HUN_Szarvaskő_760,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,254.60980700089604,627.6200000888853
+92176,Magyarország,Szarvaskő,,,zártkert,761,HUN_Szarvaskő_761,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,707.14939008715,10316.269999951792
+92177,Magyarország,Szarvaskő,,,zártkert,762,HUN_Szarvaskő_762,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,614.930783721027,1986.3800001683467
+92178,Magyarország,Szarvaskő,,,zártkert,763,HUN_Szarvaskő_763,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,632.5090144117293,3879.4150000891104
+92179,Magyarország,Szarvaskő,,,zártkert,764,HUN_Szarvaskő_764,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,620.374070465718,1564.2599994504453
+92180,Magyarország,Szarvaskő,,,zártkert,765,HUN_Szarvaskő_765,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,623.5708024704139,1623.3900002502278
+92181,Magyarország,Szarvaskő,,,zártkert,766/1,HUN_Szarvaskő_766/1,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,180.570227896521,1892.395000028908
+92182,Magyarország,Szarvaskő,,,zártkert,766/2,HUN_Szarvaskő_766/2,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,166.25435410315865,1350.1099999991804
+92183,Magyarország,Szarvaskő,,,zártkert,767,HUN_Szarvaskő_767,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,876.9593451031647,12363.830000089742
+92184,Magyarország,Szarvaskő,,,zártkert,768,HUN_Szarvaskő_768,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,810.5257635313081,2176.035000070335
+92185,Magyarország,Szarvaskő,,,zártkert,769,HUN_Szarvaskő_769,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,818.2104058014563,7143.709999612493
+92186,Magyarország,Szarvaskő,,,zártkert,770,HUN_Szarvaskő_770,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,739.6153261442598,3597.6800006150083
+92187,Magyarország,Szarvaskő,,,zártkert,771,HUN_Szarvaskő_771,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,703.2602116372439,3533.585000050217
+92188,Magyarország,Szarvaskő,,,zártkert,772,HUN_Szarvaskő_772,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,700.4655201055599,8732.784999678806
+92189,Magyarország,Szarvaskő,,,zártkert,773,HUN_Szarvaskő_773,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,598.5676347580866,2834.1999998178344
+92190,Magyarország,Szarvaskő,,,zártkert,774,HUN_Szarvaskő_774,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,771.9879664224725,16112.044999315887
+92191,Magyarország,Szarvaskő,,,zártkert,775,HUN_Szarvaskő_775,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,761.1212591531238,6615.980000434331
+92192,Magyarország,Szarvaskő,,,zártkert,776,HUN_Szarvaskő_776,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,948.1942587694901,30103.499999645726
+92193,Magyarország,Szarvaskő,,,zártkert,777,HUN_Szarvaskő_777,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,563.2180963649005,4693.590000339262
+92194,Magyarország,Szarvaskő,,,zártkert,778,HUN_Szarvaskő_778,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,703.6718828542694,19651.544999650047
+92195,Magyarország,Szarvaskő,,,zártkert,779,HUN_Szarvaskő_779,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,219.8912965901841,1401.179999988228
+92196,Magyarország,Szarvaskő,,,zártkert,780,HUN_Szarvaskő_780,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,221.20856868610008,1535.6399999859184
+92197,Magyarország,Szarvaskő,,,zártkert,781,HUN_Szarvaskő_781,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,482.4391798824954,5043.159580251808
+92198,Magyarország,Szarvaskő,,,zártkert,782,HUN_Szarvaskő_782,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,456.22031417951763,2281.849999964237
+92199,Magyarország,Szarvaskő,,,zártkert,783,HUN_Szarvaskő_783,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,458.65290337054716,2585.5336598515514
+92200,Magyarország,Szarvaskő,,,zártkert,784,HUN_Szarvaskő_784,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,315.01391448061196,1895.9781749560916
+92201,Magyarország,Szarvaskő,,,zártkert,785,HUN_Szarvaskő_785,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,326.4845371001062,2422.1833851257147
+92202,Magyarország,Szarvaskő,,,zártkert,786,HUN_Szarvaskő_786,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,307.47112201144733,2687.8599998963628
+92203,Magyarország,Szarvaskő,,,zártkert,787,HUN_Szarvaskő_784,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,53.826313159073095,174.30477995264818
+92204,Magyarország,Szarvaskő,,,zártkert,787,HUN_Szarvaskő_787,legelő,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,293.9837965636118,4469.269999895171
+92205,Magyarország,Szarvaskő,,,zártkert,788,HUN_Szarvaskő_788,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,111.91341704192516,728.8050000102073
+92206,Magyarország,Szarvaskő,,,zártkert,789,HUN_Szarvaskő_789,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,128.806122451906,969.2349999982492
+92207,Magyarország,Szarvaskő,,,zártkert,790,HUN_Szarvaskő_790,szántó,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,281.2256477450116,2335.930000012443
+92208,Magyarország,Szarvaskő,,,zártkert,791,HUN_Szarvaskő_791,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,144.56130899756516,1158.3599999434873
+92209,Magyarország,Szarvaskő,,,zártkert,792,HUN_Szarvaskő_792,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,94.578693080389,542.1250000279398
+92210,Magyarország,Szarvaskő,,,zártkert,793,HUN_Szarvaskő_793,kert,,Újszarvaskői utca,,,,,,,,,,,,,,,3323,Szarvaskő,,152.39564183169975,1358.890000017397
+92211,Magyarország,Szarvaskő,,,zártkert,801/a,HUN_Szarvaskő_801/a,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,515.1292824792538,8383.664999904708
+92212,Magyarország,Szarvaskő,,,zártkert,801/b,HUN_Szarvaskő_801/b,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,245.70004034307243,3213.129999965131
+92213,Magyarország,Szarvaskő,,,zártkert,802/a,HUN_Szarvaskő_802/a,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,523.6810507740001,9959.589999799653
+92214,Magyarország,Szarvaskő,,,zártkert,802/b,HUN_Szarvaskő_802/b,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,248.87277205360192,3714.1700001099334
+92215,Magyarország,Szarvaskő,,,zártkert,802/c,HUN_Szarvaskő_802/c,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,258.5867811659627,4052.155000001825
+92216,Magyarország,Szarvaskő,,,zártkert,803,HUN_Szarvaskő_803,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,293.4021707480237,1212.9350000945478
+92217,Magyarország,Szarvaskő,,,zártkert,805,HUN_Szarvaskő_805,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,326.50629504639465,3198.7000000644475
+92218,Magyarország,Szarvaskő,,,zártkert,806,HUN_Szarvaskő_806,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,305.65795920580786,1339.6249998370185
+92219,Magyarország,Szarvaskő,,,zártkert,807,HUN_Szarvaskő_807,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,349.9310297663495,3501.3050001869724
+92220,Magyarország,Szarvaskő,,,zártkert,808,HUN_Szarvaskő_808,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,346.2223082244822,2892.6199998016655
+92221,Magyarország,Szarvaskő,,,zártkert,809,HUN_Szarvaskő_809,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,282.1553640711325,579.5800001169368
+92222,Magyarország,Szarvaskő,,,zártkert,810/1,HUN_Szarvaskő_810/1,művelés alól kivett,,Barátkert sportpálya,,,,,,,,,,,,,,,3323,Szarvaskő,,833.7228298163398,28091.78500022623
+92223,Magyarország,Szarvaskő,,,zártkert,810/2,HUN_Szarvaskő_810/2,művelés alól kivett,,Barátkert sportpálya,,,,,,,,,,,,,,,3323,Szarvaskő,,169.0617302964818,1513.175000017695
+92224,Magyarország,Szarvaskő,,,zártkert,811,HUN_Szarvaskő_811,művelés alól kivett,Barátkert sportpálya,,,,,,,,,,,,,,,,3323,Szarvaskő,,367.6135296919706,818.9249997464941
+92225,Magyarország,Szarvaskő,,,zártkert,812,HUN_Szarvaskő_812,művelés alól kivett,,Barátkert sportpálya,,,,,,,,,,,,,,,3323,Szarvaskő,,149.7633803628714,1089.1249999679626
+92226,Magyarország,Szarvaskő,,,zártkert,813,HUN_Szarvaskő_813,legelő,,,,,,,,,,,,,,,,,3323,Szarvaskő,,278.21022631988615,3254.874999923259
+92227,Magyarország,Szarvaskő,,,zártkert,814,HUN_Szarvaskő_814,művelés alól kivett,,Barátkert sportpálya,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,425.385389809029,2465.2450001175703
+92228,Magyarország,Szarvaskő,,,zártkert,815,HUN_Szarvaskő_815,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,293.1012585180153,1982.1950001136586
+92229,Magyarország,Szarvaskő,,,zártkert,816,HUN_Szarvaskő_816,művelés alól kivett,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,517.1224306955188,810.9599998645119
+92230,Magyarország,Szarvaskő,,,zártkert,817,HUN_Szarvaskő_817,fásított terület,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,90.42107683617239,236.36499993097038
+92231,Magyarország,Szarvaskő,,,zártkert,818,HUN_Szarvaskő_818,kert,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,210.65716478857783,1189.5499999135732
+92232,Magyarország,Szarvaskő,,,zártkert,819,HUN_Szarvaskő_819,szántó,,,,,,,,HUBN20004,Szarvaskő,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,184.77553457354978,1772.3799999902772
+92233,Magyarország,Szarvaskő,,,zártkert,820,HUN_Szarvaskő_820,kert,,,,,,,,,,,,,,,,,3323,Szarvaskő,,266.96796163937574,1127.6749999437482
+92234,Magyarország,Szarvaskő,,,zártkert,821,HUN_Szarvaskő_821,szántó,,,,,,,,,,HUBN10003,Bükk-hegység és peremterületei,,,,,,3323,Szarvaskő,,171.38316396058224,816.4650000388176
+92235,Magyarország,Szarvaskő,,,zártkert,822,HUN_Szarvaskő_822,művelés alól kivett,,,,,,,,,,,,,,,,,3323,Szarvaskő,,344.39770741796247,529.094999862947
+92236,Magyarország,Szarvaskő,,,zártkert,823,HUN_Szarvaskő_823,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,176.3138789661952,1649.9350001174585
+92237,Magyarország,Szarvaskő,,,zártkert,824,HUN_Szarvaskő_824,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,182.17161026105572,1409.9100000578537
+92238,Magyarország,Szarvaskő,,,zártkert,825,HUN_Szarvaskő_825,szántó,,,,,,,,,,,,,,,,,3323,Szarvaskő,,188.60571062701518,1501.3999999798834
+92239,Magyarország,Szarvaskő,,,zártkert,826,HUN_Szarvaskő_826,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,217.96943529176932,2458.769999770746
+92240,Magyarország,Szarvaskő,,,zártkert,827,HUN_Szarvaskő_827,rét,,,,,,,,,,,,,,,,,3323,Szarvaskő,,291.6291553269957,2526.0500001413748

@@ -4,13 +4,13 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/input/tomb-test.csv')
+inp = read.dataframe('/home/jeda/work/innoregio/kataszteri_szamolhato/szarvasko_tomb.csv')
 tomb = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-inptel = read.dataframe('/home/jeda/work/innoregio/output/telek-test-out.csv')
+inptel = read.dataframe('/home/jeda/work/innoregio/output/telek-szarvasko-out.csv')
 telek = [csvhandler.Dict(i, inptel[0]) for i in inptel[1:]]
-inpep = read.dataframe('/home/jeda/work/innoregio/output/epulet-test-out.csv')
+inpep = read.dataframe('/home/jeda/work/innoregio/output/szarvasko_epulet-out.csv')
 epulet = [csvhandler.Dict(i, inpep[0]) for i in inpep[1:]]
-out = '/home/jeda/work/innoregio/output/tomb-test-out.csv'
+out = '/home/jeda/work/innoregio/output/tomb-szarvasko-out.csv'
 head = write.header(tomb)
 ##############################################################
 
@@ -262,10 +262,42 @@ def calculate(tomb, telek, epulet):
     print("Calculations with data in Telek and Tomb:")
     for i in tqdm(range(len(telek))):
         for j in range(len(tomb)):
+            # yeah, well it is necessary becaouse of missing data equals missing calculations in other tables, so it needs to be given a value, else the program is broken.
+            if tomb[j].adat_t == '':
+                tomb[j].adat_t = 0.0
+            if telek[i].adat_t == '':
+                telek[i].adat_t = 0.0
+            if telek[i].Qt_el_real_cs == '':
+                telek[i].Qt_el_real_cs = 0.0
+            if telek[i].Qt_el_cs_real_cs == '':
+                telek[i].Qt_el_cs_real_cs = 0.0
+            if telek[i].Qt_ga_real_cs == '':
+                telek[i].Qt_ga_real_cs = 0.0
+            if telek[i].Qt_ol_real_cs == '':
+                telek[i].Qt_ol_real_cs = 0.0
+            if telek[i].Qt_sz_real_cs == '':
+                telek[i].Qt_sz_real_cs = 0.0
+            if telek[i].Qt_bm_real_cs == '':
+                telek[i].Qt_bm_real_cs = 0.0
+            if telek[i].Qt_th_real_cs == '':
+                telek[i].Qt_th_real_cs = 0.0
+            if telek[i].Qt_el_real == '':
+                telek[i].Qt_el_real = 0.0
+            if telek[i].Qt_el_cs_real == '':
+                telek[i].Qt_el_cs_real = 0.0
+            if telek[i].Qt_ga_real == '':
+                telek[i].Qt_ga_real = 0.0
+            if telek[i].Qt_ol_real == '':
+                telek[i].Qt_ol_real = 0.0
+            if telek[i].Qt_sz_real == '':
+                telek[i].Qt_sz_real = 0.0
+            if telek[i].Qt_bm_real == '':
+                telek[i].Qt_bm_real = 0.0
+            if telek[i].Qt_th_real == '':
+                telek[i].Qt_th_real = 0.0
+            # main cycle    
             if telek[i].Tombazonosito.strip() == tomb[j].Tombazonosito.strip():
                 # 1
-                if tomb[j].adat_t == '':
-                    tomb[j].adat_t = 0.0
                 tomb[j].adat_t = float(tomb[j].adat_t) + float(telek[i].adat_t)
                 if tomb[j].adat_t == 0:
                     tomb[j].adat_T = 0

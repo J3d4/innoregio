@@ -1,15 +1,14 @@
 import csvhandler
-import operator as op
 from tqdm import tqdm
 
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/input/telepules-test.csv')
+inp = read.dataframe('/home/jeda/work/innoregio/kataszteri_szamolhato/szarvasko_telepules.csv')
 telepules = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-inptomb = read.dataframe('/home/jeda/work/innoregio/output/tomb-test-out.csv')
+inptomb = read.dataframe('/home/jeda/work/innoregio/output/tomb-szarvasko-out.csv')
 tomb = [csvhandler.Dict(i, inptomb[0]) for i in inptomb[1:]]
-out = '/home/jeda/work/innoregio/output/telepules-test-out.csv'
+out = '/home/jeda/work/innoregio/output/telepules-szarvasko-out.csv'
 head = write.header(telepules)
 ##############################################################
 
@@ -93,6 +92,8 @@ def calculate(telepules, tomb):
 
     print("Calculations with data in Telepules:")
     for i in tqdm(range(len(telepules))):
+        if telepules[i].TK_t == '':
+            telepules[i].TK_t = 0.0
         if float(telepules[i].TK_t) != 0.0:
             telepules[i].EK_vil_t_cs = float(telepules[i].QK_vil_cs) / float(telepules[i].TK_t)
             telepules[i].EK_vil_real_t_cs = float(telepules[i].QK_vil_real_cs) / float(telepules[i].TK_t)
@@ -102,6 +103,8 @@ def calculate(telepules, tomb):
             if float(telepules[i].EK_vil_t) != 0.0:
                 telepules[i].potK = 1 - float(telepules[i].EK_vil_t_cs) / float(telepules[i].EK_vil_t)
 
+        if telepules[i].TK_e == '':
+            telepules[i].TK_e = 0.0
         if float(telepules[i].TK_e) != 0.0:
             telepules[i].EK_vil_e_cs = float(telepules[i].QK_vil_cs) / float(telepules[i].TK_e)
             telepules[i].EK_vil_real_e_cs = float(telepules[i].QK_vil_real_cs) / float(telepules[i].TK_e)
