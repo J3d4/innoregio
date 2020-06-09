@@ -4,11 +4,11 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/kataszteri_szamolhato/szarvasko_telek.csv')
+inp = read.dataframe('/home/jeda/work/innoregio/vegleges/telek.csv')
 telek = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-inpep = read.dataframe('/home/jeda/work/innoregio/output/szarvasko_epulet-out.csv')
+inpep = read.dataframe('/home/jeda/work/innoregio/vegleges/epulet_veg.csv')
 epulet = [csvhandler.Dict(i, inpep[0]) for i in inpep[1:]]
-out = '/home/jeda/work/innoregio/output/telek-szarvasko-out.csv'
+out = '/home/jeda/work/innoregio/vegleges/telek_veg.csv'
 head = write.header(telek)
 ##############################################################
 
@@ -43,13 +43,13 @@ def calculate(telek, epulet):
                 # 3
                 telek[j].Qt_vil_real_cs = float(telek[j].Qt_vil_real_cs) + float(epulet[i].Qe_vil_real_cs)
                 # 4
-                Qel_real_cs = float(epulet[i].Qel_real_cs_est) if epulet[i].Qel_real_cs == '' else float(epulet[i].Qel_real_cs_est)
-                Qel_cs_real_cs = float(epulet[i].Qel_cs_real_cs_est) if epulet[i].Qel_cs_real_cs == '' else float(epulet[i].Qel_cs_real_cs_est)
-                Qga_real_cs = float(epulet[i].Qga_real_cs_est) if epulet[i].Qga_real_cs == '' else float(epulet[i].Qga_real_cs_est)
-                Qol_real_cs = float(epulet[i].Qol_real_cs_est) if epulet[i].Qol_real_cs == '' else float(epulet[i].Qol_real_cs_est)
-                Qsz_real_cs = float(epulet[i].Qsz_real_cs_est) if epulet[i].Qsz_real_cs == '' else float(epulet[i].Qsz_real_cs_est)
-                Qbm_real_cs = float(epulet[i].Qbm_real_cs_est) if epulet[i].Qbm_real_cs == '' else float(epulet[i].Qbm_real_cs_est)
-                Qth_real_cs = float(epulet[i].Qth_real_cs_est) if epulet[i].Qth_real_cs == '' else float(epulet[i].Qth_real_cs_est)
+                Qel_real_cs = float(epulet[i].Qel_real_cs_est) if epulet[i].Qel_real_cs == '' else float(epulet[i].Qel_real_cs)
+                Qel_cs_real_cs = float(epulet[i].Qel_cs_real_cs_est) if epulet[i].Qel_cs_real_cs == '' else float(epulet[i].Qel_cs_real_cs)
+                Qga_real_cs = float(epulet[i].Qga_real_cs_est) if epulet[i].Qga_real_cs == '' else float(epulet[i].Qga_real_cs)
+                Qol_real_cs = float(epulet[i].Qol_real_cs_est) if epulet[i].Qol_real_cs == '' else float(epulet[i].Qol_real_cs)
+                Qsz_real_cs = float(epulet[i].Qsz_real_cs_est) if epulet[i].Qsz_real_cs == '' else float(epulet[i].Qsz_real_cs)
+                Qbm_real_cs = float(epulet[i].Qbm_real_cs_est) if epulet[i].Qbm_real_cs == '' else float(epulet[i].Qbm_real_cs)
+                Qth_real_cs = float(epulet[i].Qth_real_cs_est) if epulet[i].Qth_real_cs == '' else float(epulet[i].Qth_real_cs)
 
                 if telek[j].Qt_el_real_cs == '':
                     telek[j].Qt_el_real_cs = 0.0
@@ -86,13 +86,13 @@ def calculate(telek, epulet):
                     telek[j].Dt = 0
                 telek[j].Dt = float(telek[j].Dt) + float(epulet[i].De)
                 # 8
-                Qel_real = float(epulet[i].Qel_real_est) if epulet[i].Qel_real == '' else float(epulet[i].Qel_real_est)
-                Qel_cs_real = float(epulet[i].Qel_cs_real_est) if epulet[i].Qel_cs_real == '' else float(epulet[i].Qel_cs_real_est)
-                Qga_real = float(epulet[i].Qga_real_est) if epulet[i].Qga_real == '' else float(epulet[i].Qga_real_est)
-                Qol_real = float(epulet[i].Qol_real_est) if epulet[i].Qol_real == '' else float(epulet[i].Qol_real_est)
-                Qsz_real = float(epulet[i].Qsz_real_est) if epulet[i].Qsz_real == '' else float(epulet[i].Qsz_real_est)
-                Qbm_real = float(epulet[i].Qbm_real_est) if epulet[i].Qbm_real == '' else float(epulet[i].Qbm_real_est)
-                Qth_real = float(epulet[i].Qth_real_est) if epulet[i].Qth_real == '' else float(epulet[i].Qth_real_est)
+                Qel_real = float(epulet[i].Qel_real_est) if epulet[i].Qel_real == '' else float(epulet[i].Qel_real)
+                Qel_cs_real = float(epulet[i].Qel_cs_real_est) if epulet[i].Qel_cs_real == '' else float(epulet[i].Qel_cs_real)
+                Qga_real = float(epulet[i].Qga_real_est) if epulet[i].Qga_real == '' else float(epulet[i].Qga_real)
+                Qol_real = float(epulet[i].Qol_real_est) if epulet[i].Qol_real == '' else float(epulet[i].Qol_real)
+                Qsz_real = float(epulet[i].Qsz_real_est) if epulet[i].Qsz_real == '' else float(epulet[i].Qsz_real)
+                Qbm_real = float(epulet[i].Qbm_real_est) if epulet[i].Qbm_real == '' else float(epulet[i].Qbm_real)
+                Qth_real = float(epulet[i].Qth_real_est) if epulet[i].Qth_real == '' else float(epulet[i].Qth_real)
 
                 if telek[j].Qt_el_real == '':
                     telek[j].Qt_el_real = 0.0

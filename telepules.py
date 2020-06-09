@@ -4,11 +4,11 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/kataszteri_szamolhato/szarvasko_telepules.csv')
+inp = read.dataframe('/home/jeda/work/innoregio/vegleges/telepules.csv')
 telepules = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-inptomb = read.dataframe('/home/jeda/work/innoregio/output/tomb-szarvasko-out.csv')
+inptomb = read.dataframe('/home/jeda/work/innoregio/vegleges/tomb_veg.csv')
 tomb = [csvhandler.Dict(i, inptomb[0]) for i in inptomb[1:]]
-out = '/home/jeda/work/innoregio/output/telepules-szarvasko-out.csv'
+out = '/home/jeda/work/innoregio/vegleges/telepules_veg.csv'
 head = write.header(telepules)
 ##############################################################
 
@@ -16,7 +16,93 @@ def calculate(telepules, tomb):
     print("Calculations with data in Tomb and Telepules:")
     for i in tqdm(range(len(tomb))):
         for j in range(len(telepules)):
+            # telepules folyamatabra kiegeszites szamolasai:
+            QK_el_minus = telepules[j].QK_el_minus_est if telepules[j].QK_el_minus == '' else telepules[j].QK_el_minus
+            if QK_el_minus == '':
+                QK_el_minus = 0
+            QK_el_cs_minus = telepules[j].QK_el_cs_minus_est if telepules[j].QK_el_cs_minus == '' else telepules[j].QK_el_cs_minus
+            if QK_el_cs_minus == '':
+                QK_el_cs_minus = 0
+            QK_ga_minus = telepules[j].QK_ga_minus_est if telepules[j].QK_ga_minus == '' else telepules[j].QK_ga_minus
+            if QK_ga_minus == '':
+                QK_ga_minus = 0
+            QK_ol_minus = telepules[j].QK_ol_minus_est if telepules[j].QK_ol_minus == '' else telepules[j].QK_ol_minus
+            if QK_ol_minus == '':
+                QK_ol_minus = 0
+            QK_sz_minus = telepules[j].QK_sz_minus_est if telepules[j].QK_sz_minus == '' else telepules[j].QK_sz_minus
+            if QK_sz_minus == '':
+                QK_sz_minus = 0
+            QK_bm_minus = telepules[j].QK_bm_minus_est if telepules[j].QK_bm_minus == '' else telepules[j].QK_bm_minus
+            if QK_bm_minus == '':
+                QK_bm_minus = 0
+            QK_th_minus = telepules[j].QK_th_minus_est if telepules[j].QK_th_minus == '' else telepules[j].QK_th_minus
+            if QK_th_minus == '':
+                QK_th_minus = 0
+            
+            QK_el_plus = telepules[j].QK_el_plus_est if telepules[j].QK_el_plus == '' else telepules[j].QK_el_plus
+            if QK_el_plus == '':
+                QK_el_plus = 0
+            QK_el_cs_plus = telepules[j].QK_el_cs_plus_est if telepules[j].QK_el_cs_plus == '' else telepules[j].QK_el_cs_plus
+            if QK_el_cs_plus == '':
+                QK_el_cs_plus = 0
+            QK_ga_plus = telepules[j].QK_ga_plus_est if telepules[j].QK_ga_plus == '' else telepules[j].QK_ga_plus
+            if QK_ga_plus == '':
+                QK_ga_plus = 0
+            QK_ol_plus = telepules[j].QK_ol_plus_est if telepules[j].QK_ol_plus == '' else telepules[j].QK_ol_plus
+            if QK_ol_plus == '':
+                QK_ol_plus = 0
+            QK_sz_plus = telepules[j].QK_sz_plus_est if telepules[j].QK_sz_plus == '' else telepules[j].QK_sz_plus
+            if QK_sz_plus == '':
+                QK_sz_plus = 0
+            QK_bm_plus = telepules[j].QK_bm_plus_est if telepules[j].QK_bm_plus == '' else telepules[j].QK_bm_plus
+            if QK_bm_plus == '':
+                QK_bm_plus = 0
+            QK_th_plus = telepules[j].QK_th_plus_est if telepules[j].QK_th_plus == '' else telepules[j].QK_th_plus
+            if QK_th_plus == '':
+                QK_th_plus = 0
+            
+            telepules[j].QK_plus = (
+                QK_el_plus +
+                QK_el_cs_plus +
+                QK_ga_plus +
+                QK_ol_plus +
+                QK_sz_plus +
+                QK_bm_plus +
+                QK_th_plus
+            )
+            telepules[j].QK_minus = (
+                QK_el_minus +
+                QK_el_cs_minus +
+                QK_ga_minus +
+                QK_ol_minus +
+                QK_sz_minus +
+                QK_bm_minus +
+                QK_th_minus
+            )
             if tomb[i].Telepules.strip() == telepules[j].Telepules.strip():
+                # telepules folyamatabra kiegeszites szamolasai:
+                if telepules[j].QK_el_real == '':
+                    telepules[j].QK_el_real = 0
+                telepules[j].QK_el_real = float(telepules[j].QK_el_real) + (float(tomb[i].QT_el_real) + QK_el_plus - QK_el_minus)
+                if telepules[j].QK_el_cs_real == '':
+                    telepules[j].QK_el_cs_real = 0
+                telepules[j].QK_el_cs_real = float(telepules[j].QK_el_cs_real) + (float(tomb[i].QT_el_cs_real) + QK_el_cs_plus - QK_el_cs_minus)
+                if telepules[j].QK_ga_real == '':
+                    telepules[j].QK_ga_real = 0
+                telepules[j].QK_ga_real = float(telepules[j].QK_ga_real) + (float(tomb[i].QT_ga_real) + QK_ga_plus - QK_ga_minus)
+                if telepules[j].QK_ol_real == '':
+                    telepules[j].QK_ol_real = 0
+                telepules[j].QK_ol_real = float(telepules[j].QK_ol_real) + (float(tomb[i].QT_ol_real) + QK_ol_plus - QK_ol_minus)
+                if telepules[j].QK_sz_real == '':
+                    telepules[j].QK_sz_real = 0
+                telepules[j].QK_sz_real = float(telepules[j].QK_sz_real) + (float(tomb[i].QT_sz_real) + QK_sz_plus - QK_sz_minus)
+                if telepules[j].QK_bm_real == '':
+                    telepules[j].QK_bm_real = 0
+                telepules[j].QK_bm_real = float(telepules[j].QK_bm_real) + (float(tomb[i].QT_bm_real) + QK_bm_plus - QK_bm_minus)
+                if telepules[j].QK_th_real == '':
+                    telepules[j].QK_th_real = 0
+                telepules[j].QK_th_real = float(telepules[j].QK_th_real) + (float(tomb[i].QT_th_real) + QK_th_plus - QK_th_minus)
+                # alap telepules szamitasok:
                 if telepules[j].QK_vil_cs == '':
                     telepules[j].QK_vil_cs = 0.0
                 telepules[j].QK_vil_cs = float(telepules[j].QK_vil_cs) + float(tomb[i].QT_vil_cs)
@@ -51,28 +137,7 @@ def calculate(telepules, tomb):
                 if telepules[j].QK_vil_real == '':
                     telepules[j].QK_vil_real = 0.0
                 telepules[j].QK_vil_real = float(telepules[j].QK_vil_real) + float(tomb[i].QT_vil_real)
-                if telepules[j].QK_el_real == '':
-                    telepules[j].QK_el_real = 0.0
-                telepules[j].QK_el_real = float(telepules[j].QK_el_real) + float(tomb[i].QT_el_real)
-                if telepules[j].QK_el_cs_real == '':
-                    telepules[j].QK_el_cs_real = 0.0
-                telepules[j].QK_el_cs_real = float(telepules[j].QK_el_cs_real) + float(tomb[i].QT_el_cs_real)
-                if telepules[j].QK_ga_real == '':
-                    telepules[j].QK_ga_real = 0.0
-                telepules[j].QK_ga_real = float(telepules[j].QK_ga_real) + float(tomb[i].QT_ga_real)
-                if telepules[j].QK_ol_real == '':
-                    telepules[j].QK_ol_real = 0.0
-                telepules[j].QK_ol_real = float(telepules[j].QK_ol_real) + float(tomb[i].QT_ol_real)
-                if telepules[j].QK_sz_real == '':
-                    telepules[j].QK_sz_real = 0.0
-                telepules[j].QK_sz_real = float(telepules[j].QK_sz_real) + float(tomb[i].QT_sz_real)
-                if telepules[j].QK_bm_real == '':
-                    telepules[j].QK_bm_real = 0.0
-                telepules[j].QK_bm_real = float(telepules[j].QK_bm_real) + float(tomb[i].QT_bm_real)
-                if telepules[j].QK_th_real == '':
-                    telepules[j].QK_th_real = 0.0
-                telepules[j].QK_th_real = float(telepules[j].QK_th_real) + float(tomb[i].QT_th_real)
-
+                
                 if telepules[j].deltaQK == '':
                     telepules[j].deltaQK = 0.0
                 telepules[j].deltaQK = float(telepules[j].deltaQK) + float(tomb[i].deltaQT)

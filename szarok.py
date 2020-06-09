@@ -55,3 +55,25 @@
             epulet[i].dthest = 0
             # nem tudom ez kell e a tomb TTTTT szamitasahoz:
             if float(telek[i].adat_t) == 1.0:
+
+        if telepules[j].QK_el_real == '':
+                    telepules[j].QK_el_real = 0.0
+                telepules[j].QK_el_real = float(telepules[j].QK_el_real) + float(tomb[i].QT_el_real)
+                if telepules[j].QK_el_cs_real == '':
+                    telepules[j].QK_el_cs_real = 0.0
+                telepules[j].QK_el_cs_real = float(telepules[j].QK_el_cs_real) + float(tomb[i].QT_el_cs_real)
+                if telepules[j].QK_ga_real == '':
+                    telepules[j].QK_ga_real = 0.0
+                telepules[j].QK_ga_real = float(telepules[j].QK_ga_real) + float(tomb[i].QT_ga_real)
+                if telepules[j].QK_ol_real == '':
+                    telepules[j].QK_ol_real = 0.0
+                telepules[j].QK_ol_real = float(telepules[j].QK_ol_real) + float(tomb[i].QT_ol_real)
+                if telepules[j].QK_sz_real == '':
+                    telepules[j].QK_sz_real = 0.0
+                telepules[j].QK_sz_real = float(telepules[j].QK_sz_real) + float(tomb[i].QT_sz_real)
+                if telepules[j].QK_bm_real == '':
+                    telepules[j].QK_bm_real = 0.0
+                telepules[j].QK_bm_real = float(telepules[j].QK_bm_real) + float(tomb[i].QT_bm_real)
+                if telepules[j].QK_th_real == '':
+                    telepules[j].QK_th_real = 0.0
+                telepules[j].QK_th_real = float(telepules[j].QK_th_real) + float(tomb[i].QT_th_real)
