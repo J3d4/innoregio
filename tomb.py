@@ -4,13 +4,13 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/vegleges/tomb.csv')
+inp = read.dataframe('/home/jeda/Work/innoregio/vegleges/tomb.csv')
 tomb = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-inptel = read.dataframe('/home/jeda/work/innoregio/vegleges/telek_veg.csv')
+inptel = read.dataframe('/home/jeda/Work/innoregio/vegleges/telek_veg.csv')
 telek = [csvhandler.Dict(i, inptel[0]) for i in inptel[1:]]
-inpep = read.dataframe('/home/jeda/work/innoregio/vegleges/epulet_veg.csv')
+inpep = read.dataframe('/home/jeda/Work/innoregio/vegleges/epulet_veg.csv')
 epulet = [csvhandler.Dict(i, inpep[0]) for i in inpep[1:]]
-out = '/home/jeda/work/innoregio/vegleges/tomb_veg.csv'
+out = '/home/jeda/Work/innoregio/vegleges/tomb_veg.csv'
 head = write.header(tomb)
 ##############################################################
 
@@ -24,243 +24,243 @@ def calculate(tomb, telek, epulet):
                 Ter = float(epulet[i].Ter_est) if epulet[i].Ter == '' else float(epulet[i].Ter)
                 if tomb[j].T_L1 == '':
                     tomb[j].T_L1 = 0.0
-                if "L1" in Tipusszam:
+                if Tipusszam == "L1":
                     tomb[j].T_L1 = float(tomb[j].T_L1) + Ter
                 if tomb[j].T_L1_M == '':
                     tomb[j].T_L1_M = 0.0
-                if "L1_M" in Tipusszam:
+                if Tipusszam == "L1_M":
                     tomb[j].T_L1_M = float(tomb[j].T_L1_M) + Ter
                 if tomb[j].T_L2 == '':
                     tomb[j].T_L2 = 0.0
-                if "L2" in Tipusszam:
+                if Tipusszam == "L2":
                     tomb[j].T_L2 = float(tomb[j].T_L2) + Ter
                 if tomb[j].T_L2_M == '':
                     tomb[j].T_L2_M = 0.0
-                if "L2_M" in Tipusszam:
+                if Tipusszam == "L2_M":
                     tomb[j].T_L2_M = float(tomb[j].T_L2_M) + Ter
                 if tomb[j].T_L3 == '':
                     tomb[j].T_L3 = 0.0
-                if "L3" in Tipusszam:
+                if Tipusszam == "L3":
                     tomb[j].T_L3 = float(tomb[j].T_L3) + Ter
                 if tomb[j].T_L3_F == '':
                     tomb[j].T_L3_F = 0.0
-                if "L3_F" in Tipusszam:
+                if Tipusszam == "L3_F":
                     tomb[j].T_L3_F = float(tomb[j].T_L3_F) + Ter
                 if tomb[j].T_L4 == '':
                     tomb[j].T_L4 = 0.0
-                if "L4" in Tipusszam:
+                if Tipusszam == "L4":
                     tomb[j].T_L4 = float(tomb[j].T_L4) + Ter
                 if tomb[j].T_L4_F == '':
                     tomb[j].T_L4_F = 0.0
-                if "L4_F" in Tipusszam:
+                if Tipusszam == "L4_F":
                     tomb[j].T_L4_F = float(tomb[j].T_L4_F) + Ter
                 if tomb[j].T_L5 == '':
                     tomb[j].T_L5 = 0.0
-                if "L5" in Tipusszam:
+                if Tipusszam == "L5":
                     tomb[j].T_L5 = float(tomb[j].T_L5) + Ter
                 if tomb[j].T_L5_F == '':
                     tomb[j].T_L5_F = 0.0
-                if "L5_F" in Tipusszam:
+                if Tipusszam == "L5_F":
                     tomb[j].T_L5_F = float(tomb[j].T_L5_F) + Ter
                 if tomb[j].T_L6 == '':
                     tomb[j].T_L6 = 0.0
-                if "L6" in Tipusszam:
+                if Tipusszam == "L6":
                     tomb[j].T_L6 = float(tomb[j].T_L6) + Ter
                 if tomb[j].T_L6_M == '':
                     tomb[j].T_L6_M = 0.0
-                if "L6_M" in Tipusszam:
+                if Tipusszam == "L6_M":
                     tomb[j].T_L6_M = float(tomb[j].T_L6_M) + Ter
                 if tomb[j].T_L7 == '':
                     tomb[j].T_L7 = 0.0
-                if "L7" in Tipusszam:
+                if Tipusszam == "L7":
                     tomb[j].T_L7 = float(tomb[j].T_L7) + Ter
                 if tomb[j].T_L8 == '':
                     tomb[j].T_L8 = 0.0
-                if "L8" in Tipusszam:
+                if Tipusszam == "L8":
                     tomb[j].T_L8 = float(tomb[j].T_L8) + Ter
                 if tomb[j].T_L8_M == '':
                     tomb[j].T_L8_M = 0.0
-                if "L8_M" in Tipusszam:
+                if Tipusszam == "L8_M":
                     tomb[j].T_L8_M = float(tomb[j].T_L8_M) + Ter
                 if tomb[j].T_L9 == '':
                     tomb[j].T_L9 = 0.0
-                if "L9" in Tipusszam:
+                if Tipusszam == "L9":
                     tomb[j].T_L9 = float(tomb[j].T_L9) + Ter
                 if tomb[j].T_L10_A == '':
                     tomb[j].T_L10_A = 0.0
-                if "L10_A" in Tipusszam:
+                if Tipusszam == "L10_A":
                     tomb[j].T_L10_A = float(tomb[j].T_L10_A) + Ter
                 if tomb[j].T_L10_B == '':
                     tomb[j].T_L10_B = 0.0
-                if "L10_B" in Tipusszam:
+                if Tipusszam == "L10_B":
                     tomb[j].T_L10_B = float(tomb[j].T_L10_B) + Ter
                 if tomb[j].T_L11_A == '':
                     tomb[j].T_L11_A = 0.0
-                if "L11_A" in Tipusszam:
+                if Tipusszam == "L11_A":
                     tomb[j].T_L11_A = float(tomb[j].T_L11_A) + Ter
                 if tomb[j].T_L11_B == '':
                     tomb[j].T_L11_B = 0.0
-                if "L11_B" in Tipusszam:
+                if Tipusszam == "L11_B":
                     tomb[j].T_L11_B = float(tomb[j].T_L11_B) + Ter
                 if tomb[j].T_L12_A == '':
                     tomb[j].T_L12_A = 0.0
-                if "L12_A" in Tipusszam:
+                if Tipusszam == "L12_A":
                     tomb[j].T_L12_A = float(tomb[j].T_L12_A) + Ter
                 if tomb[j].T_L12_B == '':
                     tomb[j].T_L12_B = 0.0
-                if "L12_B" in Tipusszam:
+                if Tipusszam == "L12_B":
                     tomb[j].T_L12_B = float(tomb[j].T_L12_B) + Ter
                 if tomb[j].T_L12_F == '':
                     tomb[j].T_L12_F = 0.0
-                if "L12_F" in Tipusszam:
+                if Tipusszam == "L12_F":
                     tomb[j].T_L12_F = float(tomb[j].T_L12_F) + Ter
                 if tomb[j].T_L13 == '':
                     tomb[j].T_L13 = 0.0
-                if "L13" in Tipusszam:
+                if Tipusszam == "L13":
                     tomb[j].T_L13 = float(tomb[j].T_L13) + Ter
                 if tomb[j].T_L13_F == '':
                     tomb[j].T_L13_F = 0.0
-                if "L13_F" in Tipusszam:
+                if Tipusszam == "L13_F":
                     tomb[j].T_L13_F = float(tomb[j].T_L13_F) + Ter
                 if tomb[j].T_K1 == '':
                     tomb[j].T_K1 = 0.0
-                if "K1" in Tipusszam:
+                if Tipusszam == "K1":
                     tomb[j].T_K1 = float(tomb[j].T_K1) + Ter
                 if tomb[j].T_K1_M == '':
                     tomb[j].T_K1_M = 0.0
-                if "K1_M" in Tipusszam:
+                if Tipusszam == "K1_M":
                     tomb[j].T_K1_M = float(tomb[j].T_K1_M) + Ter
                 if tomb[j].T_K2 == '':
                     tomb[j].T_K2 = 0.0
-                if "K2" in Tipusszam:
+                if Tipusszam == "K2":
                     tomb[j].T_K2 = float(tomb[j].T_K2) + Ter
                 if tomb[j].T_K2_M == '':
                     tomb[j].T_K2_M = 0.0
-                if "K2_M" in Tipusszam:
+                if Tipusszam == "K2_M":
                     tomb[j].T_K2_M = float(tomb[j].T_K2_M) + Ter
                 if tomb[j].T_K2_F == '':
                     tomb[j].T_K2_F = 0.0
-                if "K2_F" in Tipusszam:
+                if Tipusszam == "K2_F":
                     tomb[j].T_K2_F = float(tomb[j].T_K2_F) + Ter
                 if tomb[j].T_K3 == '':
                     tomb[j].T_K3 = 0.0
-                if "K3" in Tipusszam:
+                if Tipusszam == "K3":
                     tomb[j].T_K3 = float(tomb[j].T_K3) + Ter
                 if tomb[j].T_K3_M == '':
                     tomb[j].T_K3_M = 0.0
-                if "K3_M" in Tipusszam:
+                if Tipusszam == "K3_M":
                     tomb[j].T_K3_M = float(tomb[j].T_K3_M) + Ter
                 if tomb[j].T_K4 == '':
                     tomb[j].T_K4 = 0.0
-                if "K4" in Tipusszam:
+                if Tipusszam == "K4":
                     tomb[j].T_K4 = float(tomb[j].T_K4) + Ter
                 if tomb[j].T_K4_F == '':
                     tomb[j].T_K4_F = 0.0
-                if "K4_F" in Tipusszam:
+                if Tipusszam == "K4_F":
                     tomb[j].T_K4_F = float(tomb[j].T_K4_F) + Ter
                 if tomb[j].T_K5 == '':
                     tomb[j].T_K5 = 0.0
-                if "K5" in Tipusszam:
+                if Tipusszam == "K5":
                     tomb[j].T_K5 = float(tomb[j].T_K5) + Ter
                 if tomb[j].T_K5_F == '':
                     tomb[j].T_K5_F = 0.0
-                if "K5_F" in Tipusszam:
+                if Tipusszam == "K5_F":
                     tomb[j].T_K5_F = float(tomb[j].T_K5_F) + Ter
                 if tomb[j].T_K6 == '':
                     tomb[j].T_K6 = 0.0
-                if "K6" in Tipusszam:
+                if Tipusszam == "K6":
                     tomb[j].T_K6 = float(tomb[j].T_K6) + Ter
                 if tomb[j].T_K6_M == '':
                     tomb[j].T_K6_M = 0.0
-                if "K6_M" in Tipusszam:
+                if Tipusszam == "K6_M":
                     tomb[j].T_K6_M = float(tomb[j].T_K6_M) + Ter
                 if tomb[j].T_K7 == '':
                     tomb[j].T_K7 = 0.0
-                if "K7" in Tipusszam:
+                if Tipusszam == "K7":
                     tomb[j].T_K7 = float(tomb[j].T_K7) + Ter
                 if tomb[j].T_K7_F == '':
                     tomb[j].T_K7_F = 0.0
-                if "K7_F" in Tipusszam:
+                if Tipusszam == "K7_F":
                     tomb[j].T_K7_F = float(tomb[j].T_K7_F) + Ter
                 if tomb[j].T_K8 == '':
                     tomb[j].T_K8 = 0.0
-                if "K8" in Tipusszam:
+                if Tipusszam == "K8":
                     tomb[j].T_K8 = float(tomb[j].T_K8) + Ter
                 if tomb[j].T_K8_M == '':
                     tomb[j].T_K8_M = 0.0
-                if "K8_M" in Tipusszam:
+                if Tipusszam == "K8_M":
                     tomb[j].T_K8_M = float(tomb[j].T_K8_M) + Ter
                 if tomb[j].T_K9 == '':
                     tomb[j].T_K9 = 0.0
-                if "K9" in Tipusszam:
+                if Tipusszam == "K9":
                     tomb[j].T_K9 = float(tomb[j].T_K9) + Ter
                 if tomb[j].T_K10 == '':
                     tomb[j].T_K10 = 0.0
-                if "K10" in Tipusszam:
+                if Tipusszam == "K10":
                     tomb[j].T_K10 = float(tomb[j].T_K10) + Ter
                 if tomb[j].T_K10_F == '':
                     tomb[j].T_K10_F = 0.0
-                if "K10_F" in Tipusszam:
+                if Tipusszam == "K10_F":
                     tomb[j].T_K10_F = float(tomb[j].T_K10_F) + Ter
                 if tomb[j].T_K11 == '':
                     tomb[j].T_K11 = 0.0
-                if "K11" in Tipusszam:
+                if Tipusszam == "K11":
                     tomb[j].T_K11 = float(tomb[j].T_K11) + Ter
                 if tomb[j].T_K11_F == '':
                     tomb[j].T_K11_F = 0.0
-                if "K11_F" in Tipusszam:
+                if Tipusszam == "K11_F":
                     tomb[j].T_K11_F = float(tomb[j].T_K11_F) + Ter
                 if tomb[j].T_K12 == '':
                     tomb[j].T_K12 = 0.0
-                if "K12" in Tipusszam:
+                if Tipusszam == "K12":
                     tomb[j].T_K12 = float(tomb[j].T_K12) + Ter
                 if tomb[j].T_K12_M == '':
                     tomb[j].T_K12_M = 0.0
-                if "K12_M" in Tipusszam:
+                if Tipusszam == "K12_M":
                     tomb[j].T_K12_M = float(tomb[j].T_K12_M) + Ter
                 if tomb[j].T_K13 == '':
                     tomb[j].T_K13 = 0.0
-                if "K13" in Tipusszam:
+                if Tipusszam == "K13":
                     tomb[j].T_K13 = float(tomb[j].T_K13) + Ter
                 if tomb[j].T_K13_F == '':
                     tomb[j].T_K13_F = 0.0
-                if "K13_F" in Tipusszam:
+                if Tipusszam == "K13_F":
                     tomb[j].T_K13_F = float(tomb[j].T_K13_F) + Ter
                 if tomb[j].T_K14 == '':
                     tomb[j].T_K14 = 0.0
-                if "K14" in Tipusszam:
+                if Tipusszam == "K14":
                     tomb[j].T_K14 = float(tomb[j].T_K14) + Ter
                 if tomb[j].T_K14_F == '':
                     tomb[j].T_K14_F = 0.0
-                if "K14_F" in Tipusszam:
+                if Tipusszam == "K14_F":
                     tomb[j].T_K14_F = float(tomb[j].T_K14_F) + Ter
                 if tomb[j].T_I1A == '':
                     tomb[j].T_I1A = 0.0
-                if "I1A" in Tipusszam:
+                if Tipusszam == "I1A":
                     tomb[j].T_I1A = float(tomb[j].T_I1A) + Ter
                 if tomb[j].T_I1B == '':
                     tomb[j].T_I1B = 0.0
-                if "I1B" in Tipusszam:
+                if Tipusszam == "I1B":
                     tomb[j].T_I1B = float(tomb[j].T_I1B) + Ter
                 if tomb[j].T_I2A == '':
                     tomb[j].T_I2A = 0.0
-                if "I2A" in Tipusszam:
+                if Tipusszam == "I2A":
                     tomb[j].T_I2A = float(tomb[j].T_I2A) + Ter
                 if tomb[j].T_I2B == '':
                     tomb[j].T_I2B = 0.0
-                if "I2B" in Tipusszam:
+                if Tipusszam == "I2B":
                     tomb[j].T_I2B = float(tomb[j].T_I2B) + Ter
                 if tomb[j].T_I3A == '':
                     tomb[j].T_I3A = 0.0
-                if "I3A" in Tipusszam:
+                if Tipusszam == "I3A":
                     tomb[j].T_I3A = float(tomb[j].T_I3A) + Ter
                 if tomb[j].T_I3B == '':
                     tomb[j].T_I3B = 0.0
-                if "I3B" in Tipusszam:
+                if Tipusszam == "I3B":
                     tomb[j].T_I3B = float(tomb[j].T_I3B) + Ter
                 if tomb[j].T_E == '':
                     tomb[j].T_E = 0.0
-                if "E" in Tipusszam:
+                if Tipusszam == "E":
                     tomb[j].T_E = float(tomb[j].T_E) + Ter
 
     print("Calculations with data in Telek and Tomb:")

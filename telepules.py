@@ -4,11 +4,11 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/vegleges/telepules.csv')
+inp = read.dataframe('/home/jeda/Work/innoregio/vegleges/telepules.csv')
 telepules = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-inptomb = read.dataframe('/home/jeda/work/innoregio/vegleges/tomb_veg.csv')
+inptomb = read.dataframe('/home/jeda/Work/innoregio/vegleges/tomb_veg.csv')
 tomb = [csvhandler.Dict(i, inptomb[0]) for i in inptomb[1:]]
-out = '/home/jeda/work/innoregio/vegleges/telepules_veg.csv'
+out = '/home/jeda/Work/innoregio/vegleges/telepules_veg.csv'
 head = write.header(telepules)
 ##############################################################
 

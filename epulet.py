@@ -4,9 +4,9 @@ from tqdm import tqdm
 write = csvhandler.Write()
 # only for debugging purposes, use main.py to run the program.
 read = csvhandler.Read()
-inp = read.dataframe('/home/jeda/work/innoregio/vegleges/epulet.csv')
+inp = read.dataframe('/home/jeda/Work/innoregio/vegleges/epulet.csv')
 epulet = [csvhandler.Dict(i, inp[0]) for i in inp[1:]]
-out = '/home/jeda/work/innoregio/vegleges/epulet_veg.csv'
+out = '/home/jeda/Work/innoregio/vegleges/epulet_veg.csv'
 head = write.header(epulet)
 ##############################################################
 # epulet szinten a evil* e0 stb szamolasok tipus alapjan, implementalni!!! Epulettipusokhoz rendelt adatok.xlsK
